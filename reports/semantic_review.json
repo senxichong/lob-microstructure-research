@@ -1,0 +1,27 @@
+{
+  "review_date": "2026-10-10",
+  "review_timezone": "Asia/Shanghai",
+  "reviewer": "Codex: direct source-document and real-trace inspection",
+  "scope": "This pinned Phase-1 methodological sample only; not a reusable automatic semantic approval",
+  "raw_sha256": "eb67a239cf09b7de1843f6b0ede3c473616cc5cac777b293bbe15608bf51794d",
+  "specification_sha256": "fd14e9e2ceb5a980e48f0c8173d12ca9b10b9c6aeb07abaae6c193a0629329ae",
+  "config_sha256": "9303585dcf0420e5a057703cc3363ae83c18f4570f883564d028bcf84411798e",
+  "reviewed": {
+    "schema": "Official ITCH 2.0 pages 2-5; all observed message types and lengths match. No invented replace event.",
+    "timestamp": "Official integer milliseconds since Eastern midnight; date corroborated by filename and ZIP date. File order retained; no exchange sequence claimed.",
+    "scaling": "Official implied four-decimal USD field and integer shares; source trace additions and decrements agree with those units.",
+    "venue": "Protocol history supports legacy Island/INET lineage; Nasdaq is the hosting source, not proof of contemporary venue identity in 2003.",
+    "day_end": "Preserve outstanding IDs through explicit trailing X messages; specification page-2 and revision-history wording conflict. EOF exhaustion supplies a real consistency check.",
+    "real_traces": "Twelve compact transitions reviewed: three each A/X/E/P. All show expected order quantity and top-book effects; P leaves visible depth unchanged.",
+    "licensing": "No redistribution grant established. Raw, row-level derivatives and traces stay local and are ignored by Git. No publication occurred."
+  },
+  "qualified_for_phase1": true,
+  "unresolved": [
+    "Single legacy day cannot establish modern-market generalization.",
+    "No original transport sequence, independent exchange snapshot or receive timestamps.",
+    "No explicit auction/halt state; output uses documented time-of-day proxy.",
+    "Instrument/venue legal minimum tick not independently established; encoding quantum and empirical grid distinguished.",
+    "Data redistribution permission remains unestablished."
+  ],
+  "decision_basis": "These limitations restrict later research claims but do not prevent interpreting and validating this sample's observable order book. The numerical, lineage, trace and test gates must still pass separately."
+}

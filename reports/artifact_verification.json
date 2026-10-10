@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "book_rows_independently_checked": 162879,
+  "real_traces_crosschecked_to_raw": 12,
+  "raw_and_output_hashes": "verified",
+  "event_snapshot_alignment": "one-to-one",
+  "source_code_sha256": "758613c4903385441fd9370d8c79b7be712c349ff60677f7585bcf7af8b2f2a8",
+  "requirements_sha256": "d8603a0acea458ad507a590699092dba2335ccb963d7f2ac680f589859a51d02",
+  "quality_sha256": "031da6ebb2be83eb06d29aa71dd4d876f5c99234a9cccf37429c72e6cbeb5e2d"
+}

@@ -1,0 +1,16 @@
+{
+  "captured_at_utc": "2026-10-10T10:19:35.680395+00:00",
+  "cwd": "D:\\quanDemo\\lob-microstructure-research",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "git_status": "## No commits yet on master\n?? .gitignore\n?? DATA_MANIFEST.json\n?? config.yaml\n?? pyproject.toml\n?? reports/\n?? scripts/\n?? src/\n?? tests/\n",
+  "disk_free_bytes": 72761008128,
+  "host_timezone_names": [
+    "\u4e2d\u56fd\u6807\u51c6\u65f6\u95f4",
+    "\u4e2d\u56fd\u590f\u4ee4\u65f6"
+  ],
+  "client_timezone": "Asia/Shanghai",
+  "network": "See reports/source_access_checks.json",
+  "summer_ny_open_utc": "2012-06-21T13:30:00+00:00",
+  "winter_ny_open_utc": "2003-01-03T14:30:00+00:00"
+}

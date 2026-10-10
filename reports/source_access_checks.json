@@ -1,0 +1,74 @@
+[
+  {
+    "name": "nasdaq_itch2_selected",
+    "url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/S010303-v2.zip",
+    "checked_at_utc": "2026-10-10T10:22:02.787707+00:00",
+    "method": "streaming GET; read first 64 bytes only; close response",
+    "status": 200,
+    "final_url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/S010303-v2.zip",
+    "content_type": "application/x-zip-compressed",
+    "content_length": "58907174",
+    "first_16_bytes_hex": "504b0304140008000800c03b232e0000",
+    "is_zip": true,
+    "is_gzip": false
+  },
+  {
+    "name": "nasdaq_itch5_sample",
+    "url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/12302019.NASDAQ_ITCH50.gz",
+    "checked_at_utc": "2026-10-10T10:22:02.789663+00:00",
+    "method": "streaming GET; read first 64 bytes only; close response",
+    "status": 200,
+    "final_url": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/12302019.NASDAQ_ITCH50.gz",
+    "content_type": "application/x-gzip",
+    "content_length": "3524013057",
+    "first_16_bytes_hex": "1f8b08000000000000007c9d779c13c5",
+    "is_zip": false,
+    "is_gzip": true
+  },
+  {
+    "name": "lobster_legacy_sample",
+    "url": "https://data.lobsterdata.com/info/sample/LOBSTER_SampleFile_AAPL_2012-06-21_10.zip",
+    "checked_at_utc": "2026-10-10T10:22:02.789663+00:00",
+    "method": "streaming GET; read first 64 bytes only; close response",
+    "error": "HTTPSConnectionPool(host='data.lobsterdata.com', port=443): Max retries exceeded with url: /info/sample/LOBSTER_SampleFile_AAPL_2012-06-21_10.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "name": "lobster_main_legacy_path",
+    "url": "https://lobsterdata.com/info/sample/LOBSTER_SampleFile_AAPL_2012-06-21_10.zip",
+    "checked_at_utc": "2026-10-10T10:22:02.789663+00:00",
+    "method": "streaming GET; read first 64 bytes only; close response",
+    "status": 200,
+    "final_url": "https://lobsterdata.com/info/sample/LOBSTER_SampleFile_AAPL_2012-06-21_10.zip",
+    "content_type": "text/html",
+    "content_length": null,
+    "first_16_bytes_hex": "3c21646f63747970652068746d",
+    "is_zip": false,
+    "is_gzip": false
+  },
+  {
+    "name": "fi2010_catalog",
+    "url": "https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649",
+    "checked_at_utc": "2026-10-10T10:22:03.411039+00:00",
+    "method": "streaming GET; read first 64 bytes only; close response",
+    "status": 200,
+    "final_url": "https://etsin.fairdata.fi/dataset/73eb48d7-4dbc-4a10-a52a-da745b47a649",
+    "content_type": "text/html; charset=utf-8",
+    "content_length": "17716",
+    "first_16_bytes_hex": "3c21444f43545950452068746d6c3e0a",
+    "is_zip": false,
+    "is_gzip": false
+  },
+  {
+    "name": "tardis_crypto_free_day",
+    "url": "https://datasets.tardis.dev/v1/binance/book_snapshot_5/2020/01/01/BTCUSDT.csv.gz",
+    "checked_at_utc": "2026-10-10T10:22:04.368970+00:00",
+    "method": "streaming GET; read first 64 bytes only; close response",
+    "status": 200,
+    "final_url": "https://datasets.tardis.dev/v1/binance/book_snapshot_5/2020/01/01/BTCUSDT.csv.gz",
+    "content_type": "text/csv",
+    "content_length": "11689629",
+    "first_16_bytes_hex": "1f8b0800000000000203d4bdebae74ad",
+    "is_zip": false,
+    "is_gzip": true
+  }
+]

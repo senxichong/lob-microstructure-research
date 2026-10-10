@@ -1,0 +1,18 @@
+{
+  "artifacts": [
+    {
+      "filename": "data/raw/S010303-v2.zip",
+      "source": "https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/S010303-v2.zip",
+      "downloaded_at_utc": "2026-10-10T10:11:26.411507+00:00",
+      "size_bytes": 58907174,
+      "sha256": "eb67a239cf09b7de1843f6b0ede3c473616cc5cac777b293bbe15608bf51794d"
+    },
+    {
+      "filename": "data/raw/tv-itch2.pdf",
+      "source": "https://www.nasdaqtrader.com/content/technicalsupport/specifications/dataproducts/tv-itch2.pdf",
+      "downloaded_at_utc": "2026-10-10T10:18:12.332245+00:00",
+      "size_bytes": 185213,
+      "sha256": "fd14e9e2ceb5a980e48f0c8173d12ca9b10b9c6aeb07abaae6c193a0629329ae"
+    }
+  ]
+}
