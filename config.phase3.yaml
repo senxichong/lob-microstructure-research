@@ -1,0 +1,26 @@
+version: '3.0.0'
+input_matrix: data/processed/phase2/msft_20030103_phase2_v2.0.0.parquet
+input_sha256: a5a493636d9f6d592e2d229921533940ec7cfffcdc5da8f1c9fb636445d34e96
+output_dir: data/processed/phase3
+reports_dir: reports/phase3
+session_start_utc: '2003-01-03T14:30:00Z'
+session_end_utc: '2003-01-03T21:00:00Z'
+grid_seconds: 1
+primary_horizon_ms: 1000
+secondary_horizons_ms: [100, 5000, 10000]
+features: [OBI_L1, OBI_L5, OBI_L10, WOBI_L10, MICROPRICE_MINUS_MID, OFI_100MS, OFI_1S, RELATIVE_SPREAD, EVENT_RATE_1S, TIME_SINCE_PREVIOUS_TRADE]
+directional_features: [OBI_L1, OBI_L5, OBI_L10, WOBI_L10, MICROPRICE_MINUS_MID, OFI_100MS, OFI_1S]
+bootstrap_primary_block_seconds: 60
+bootstrap_robustness_block_seconds: [30, 300]
+bootstrap_replicates: 1000
+bootstrap_seed: 314159
+permutation_replicates: 1000
+permutation_seed: 271828
+minimum_circular_shift_seconds: 600
+random_feature_seed: 161803
+placebo_lag_seconds: 600
+alpha: 0.05
+time_blocks: 5
+interior_exclusion_seconds: 1800
+quintile_method: linear_empirical_edges_ties_lower_bin
+staleness_limit_ms: null

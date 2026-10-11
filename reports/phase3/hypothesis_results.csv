@@ -1,0 +1,6 @@
+hypothesis,verdict,evidence
+1,SUPPORTED,4/4 imbalance columns satisfy the predeclared consistency rubric; all four have positive full-day rho and positive point estimates in all five time blocks.
+2,SUPPORTED,"Microprice has positive 1s association and monotonic mean returns; its 100ms rank association is approximately zero and slightly negative. Support is limited to the primary 1s result, not all horizons."
+3,PARTIALLY SUPPORTED,"At 1s, |OFI_1S rho| is smaller than |OBI_L1 rho|. At 100ms, |OFI_100MS rho| is larger but NEGATIVE, contrary to the directional hypothesis. Magnitude-only partial support is not positive-flow confirmation or a formal dominance test."
+4,NOT SUPPORTED,0/7 signed features show nonincreasing absolute rho across all four horizons. Static imbalance and microprice generally strengthen over longer horizons; OFI changes sign.
+5,INCONCLUSIVE,"Event/grid magnitudes differ in both directions. No naive event-level standard errors were computed, so excess statistical confidence is not directly measured. Dependence remains a design constraint rather than a demonstrated iid comparison."

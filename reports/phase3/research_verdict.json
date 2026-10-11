@@ -1,0 +1,155 @@
+{
+  "phase_decision": "PASS",
+  "overall_research_verdict": "MODEST WITHIN-DAY MICROSTRUCTURE ASSOCIATION",
+  "primary_feature_verdicts": [
+    {
+      "feature": "OBI_L1",
+      "verdict": "CONSISTENT EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 5,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "OBI_L5",
+      "verdict": "CONSISTENT EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 5,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "OBI_L10",
+      "verdict": "CONSISTENT EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 5,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "WOBI_L10",
+      "verdict": "CONSISTENT EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 5,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "MICROPRICE_MINUS_MID",
+      "verdict": "CONSISTENT EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 5,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "OFI_100MS",
+      "verdict": "WEAK EVIDENCE",
+      "expected_direction_met": false,
+      "same_sign_time_blocks": 5,
+      "nonempty_quintiles": 2,
+      "monotonicity_requirement_met": false,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "OFI_1S",
+      "verdict": "WEAK EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 4,
+      "nonempty_quintiles": 4,
+      "monotonicity_requirement_met": false,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "RELATIVE_SPREAD",
+      "verdict": "NO EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 4,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": true
+    },
+    {
+      "feature": "EVENT_RATE_1S",
+      "verdict": "NO EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 3,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": false
+    },
+    {
+      "feature": "TIME_SINCE_PREVIOUS_TRADE",
+      "verdict": "NO EVIDENCE",
+      "expected_direction_met": true,
+      "same_sign_time_blocks": 3,
+      "nonempty_quintiles": 5,
+      "monotonicity_requirement_met": true,
+      "placebo_weakened": false
+    }
+  ],
+  "family_verdicts": [
+    {
+      "family": "Imbalance",
+      "verdict": "CONSISTENT WITH SHORT-HORIZON PREDICTIVE INFORMATION",
+      "features": "OBI_L1;OBI_L5;OBI_L10;WOBI_L10"
+    },
+    {
+      "family": "Microprice",
+      "verdict": "CONSISTENT WITH SHORT-HORIZON PREDICTIVE INFORMATION",
+      "features": "MICROPRICE_MINUS_MID"
+    },
+    {
+      "family": "Order flow",
+      "verdict": "WEAK / FRAGILE ASSOCIATION",
+      "features": "OFI_100MS;OFI_1S"
+    },
+    {
+      "family": "Context",
+      "verdict": "NO RELIABLE ASSOCIATION",
+      "features": "RELATIVE_SPREAD;EVENT_RATE_1S;TIME_SINCE_PREVIOUS_TRADE"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": 1,
+      "verdict": "SUPPORTED",
+      "evidence": "4/4 imbalance columns satisfy the predeclared consistency rubric; all four have positive full-day rho and positive point estimates in all five time blocks."
+    },
+    {
+      "hypothesis": 2,
+      "verdict": "SUPPORTED",
+      "evidence": "Microprice has positive 1s association and monotonic mean returns; its 100ms rank association is approximately zero and slightly negative. Support is limited to the primary 1s result, not all horizons."
+    },
+    {
+      "hypothesis": 3,
+      "verdict": "PARTIALLY SUPPORTED",
+      "evidence": "At 1s, |OFI_1S rho| is smaller than |OBI_L1 rho|. At 100ms, |OFI_100MS rho| is larger but NEGATIVE, contrary to the directional hypothesis. Magnitude-only partial support is not positive-flow confirmation or a formal dominance test."
+    },
+    {
+      "hypothesis": 4,
+      "verdict": "NOT SUPPORTED",
+      "evidence": "0/7 signed features show nonincreasing absolute rho across all four horizons. Static imbalance and microprice generally strengthen over longer horizons; OFI changes sign."
+    },
+    {
+      "hypothesis": 5,
+      "verdict": "INCONCLUSIVE",
+      "evidence": "Event/grid magnitudes differ in both directions. No naive event-level standard errors were computed, so excess statistical confidence is not directly measured. Dependence remains a design constraint rather than a demonstrated iid comparison."
+    }
+  ],
+  "tests": {
+    "passed": 101,
+    "failed_errors": 0,
+    "skipped": 0,
+    "warnings": 0,
+    "runtime_seconds": 5.97
+  },
+  "report_sha256": "da588546d11274f3010597126eada35909a768411c5027ec882c07653b55a166",
+  "report_builder_sha256": "e380e7a505aea9dba7233ac04502a103008f28895c4451d74967f678f085f34e",
+  "source_sha256": "a5a493636d9f6d592e2d229921533940ec7cfffcdc5da8f1c9fb636445d34e96"
+}

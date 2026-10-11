@@ -1,0 +1,2 @@
+feature,seed,n,spearman_rho,pearson_r,bootstrap_ci_low,bootstrap_ci_high,permutation_p,passed,redraws
+RANDOM_CONTROL,161803,23398,-0.0011689888557013953,0.004498542063231738,-0.013650212614185493,0.011711191577002554,0.8561438561438561,True,0

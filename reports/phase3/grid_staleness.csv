@@ -1,0 +1,2 @@
+name,count,non_null_count,availability_rate,mean,std,min,p01,p05,p25,median,p75,p95,p99,max,infinite_count
+grid_state_age_ms,23400,23399,0.999957264957265,340.61741954784395,545.3502582222551,0.0,1.0,7.0,53.0,148.0,381.0,1381.0,2759.0,7359.0,0

@@ -1,0 +1,11 @@
+feature,verdict,expected_direction_met,same_sign_time_blocks,nonempty_quintiles,monotonicity_requirement_met,placebo_weakened
+OBI_L1,CONSISTENT EVIDENCE,True,5,5,True,True
+OBI_L5,CONSISTENT EVIDENCE,True,5,5,True,True
+OBI_L10,CONSISTENT EVIDENCE,True,5,5,True,True
+WOBI_L10,CONSISTENT EVIDENCE,True,5,5,True,True
+MICROPRICE_MINUS_MID,CONSISTENT EVIDENCE,True,5,5,True,True
+OFI_100MS,WEAK EVIDENCE,False,5,2,False,True
+OFI_1S,WEAK EVIDENCE,True,4,4,False,True
+RELATIVE_SPREAD,NO EVIDENCE,True,4,5,True,True
+EVENT_RATE_1S,NO EVIDENCE,True,3,5,True,False
+TIME_SINCE_PREVIOUS_TRADE,NO EVIDENCE,True,3,5,True,False

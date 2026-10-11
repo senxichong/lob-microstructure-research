@@ -69,3 +69,20 @@ To audit the existing frozen Phase-2 output:
 ```
 
 On a fresh local copy containing the verified Phase-1 input files, run `scripts/build_phase2.py` once before those audit commands. It creates the protocol freeze, versioned matrix, metadata and descriptive summaries and refuses to overwrite an existing matrix/manifest. Existing saved outputs should be verified, not rebuilt. The same fixed definitions are documented in [CAUSAL_ORDERING.md](CAUSAL_ORDERING.md), [FEATURE_DEFINITIONS.md](FEATURE_DEFINITIONS.md), [LABEL_DEFINITIONS.md](LABEL_DEFINITIONS.md), and [DEPENDENCE_NOTES.md](DEPENDENCE_NOTES.md). Production uses no network and no predictive evaluation.
+
+## Phase 3 — univariate statistical research
+
+The separately authorized Phase 3 is recorded in [PHASE3_REPORT.md](PHASE3_REPORT.md): a fixed 1-second grid, ten preregistered existing features, 1,000 paired block-bootstrap draws at 60 seconds (30/300-second robustness), 1,000 circular-shift null draws, BH/BY adjustment, time/state diagnostics and controls. [PHASE3_PROTOCOL.md](PHASE3_PROTOCOL.md), [PHASE3_FEATURE_SET.md](PHASE3_FEATURE_SET.md) and [RESEARCH_LOG.md](RESEARCH_LOG.md) preserve the hypotheses and actual results. The current stop is **after Phase 3**. No model or trading strategy was built.
+
+Root config and all Phase-2 artifacts remain unchanged. `config.phase3.yaml` is separate; `requirements.phase3.txt` pins the research environment. The grid is `data/processed/phase3/msft_20030103_grid_v3.0.0.parquet`. Aggregate CSVs and eight PNG/SVG figures are under `reports/phase3/`; real grid rows, traces and row-level manual comparisons remain excluded from Git.
+
+To audit the frozen study:
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest -q --junitxml=reports/phase3/test_results.xml 2>&1 | Tee-Object -FilePath reports/phase3/pytest_output.txt
+.\.venv\Scripts\python.exe scripts/verify_phase3.py
+.\.venv\Scripts\python.exe scripts/build_phase3_report.py
+.\.venv\Scripts\python.exe scripts/verify_phase3.py --report-only
+```
+
+`scripts/run_phase3.py` is the one-time numerical study entry point and refuses to overwrite existing outputs. `scripts/plot_phase3.py` regenerates figures from frozen aggregate CSVs. A final-console NumPy serialization fix after the successful numerical study is documented in `reports/phase3/console_fix_audit.json`; original executed source is archived and the verifier proves analytic modules and saved outputs were unchanged. Do not rebuild upstream phases or rerun research with altered features, seeds or definitions to improve the results. Statistical associations here concern one historical session and do not establish tradable alpha.

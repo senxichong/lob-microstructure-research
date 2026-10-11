@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-10-11T06:18:19.652115+00:00",
+  "documents": {
+    "PHASE3_PROTOCOL.md": "f9801056301efdfd7a9efc35898f940c388afaf8c4215d6788bc9511b225323e",
+    "PHASE3_FEATURE_SET.md": "bca5e9a78b5fa8cee819f44014c27c6d9b85d2036b072e0b768d945271447b62",
+    "config.phase3.yaml": "d04516eb788f717a2c38f6d1ec99a7a9c66fb5aea76ef2abc99cc1c860179d84"
+  },
+  "research_log_prefix": "# Research log\n\n## 2026-10-11 \u2014 Phase 3 preregistration, before predictive results\n\nThe frozen Phase-2 matrix hash was verified as `a5a493636d9f6d592e2d229921533940ec7cfffcdc5da8f1c9fb636445d34e96`. No predictive results have been calculated at this entry. PHASE3_PROTOCOL.md and PHASE3_FEATURE_SET.md govern the new work; the following hypotheses will not be rewritten afterward.\n\n1. Positive order-book imbalance should be associated with positive future mid-price movement.\n2. Microprice deviation should provide directional information at very short horizons.\n3. Order-flow imbalance should contain stronger or more immediate information than static imbalance.\n4. Predictive association should decay as horizon increases.\n5. Full event-level estimates may overstate statistical confidence relative to fixed-time sampling.\n\nPrimary horizon is 1s, primary sample a 1s clock grid, primary statistic Spearman, primary block length 60s. Exactly ten existing core features; fixed seeds; no models or PnL. Results will be appended below this immutable preregistration entry after analysis.\n",
+  "predictive_results_exist": false
+}

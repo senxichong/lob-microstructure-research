@@ -1,0 +1,16 @@
+{
+  "reason": "All outputs and complete run status were saved successfully. Only final console json.dumps failed on numpy.bool_. Added NumPy scalar conversion to that final print; numerical study was not rerun.",
+  "original_code_sha256": "e73d19bf457f5c65aed2621e2ea21833d17e0829a22afdd0d9260a1376d4cf5d",
+  "current_code_sha256": "59828b4f143f06039e5fc610d3b27a328cbc5807f03df355df97eea625c6e7a9",
+  "original_runner_path": "reports/phase3/run_phase3_at_execution.py",
+  "original_runner_sha256": "0441d257d620d3a1ee676be18af7155caa4980c3d751a68fbd8cc332291be84b",
+  "current_runner_sha256": "7ffd825a586ae9c5b0267d575e7e64d9f444457c5ce492b0121f1645b86e0cf0",
+  "unchanged_analytic_modules": {
+    "src/lob_research/phase3/__init__.py": "d33de2f7c765073a0e277fa106f1decd52758b20ec87c02b5632a100e34ff081",
+    "src/lob_research/phase3/artifacts.py": "a3497ec2fcc74da21b96f887ba7add6d8bb0cc310c445294c6c9263901d9df6a",
+    "src/lob_research/phase3/grid.py": "b1ab845f2838ecf3d2f1cb230f2181da0b91316cb1e0dac65b65277aeaae89c2",
+    "src/lob_research/phase3/inference.py": "cce060c7d7aee2dd7806436548d989812dbc894da264306ec9bd36dae19d1114",
+    "src/lob_research/phase3/statistics.py": "3ce5b61c9bb1ada3d0c68a0d7be1f0365371c142040ea5995e5ecce8510d7c66",
+    "src/lob_research/phase3/study.py": "fef412a43b022be033570f3be1f456a51e566b050fe3bd66861894a3cdc7aafc"
+  }
+}

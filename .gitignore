@@ -18,3 +18,5 @@ tmp/
 reports/phase2_alignment_traces.md
 reports/phase2/manual_verification.csv
 reports/phase2/trace_indices.json
+reports/phase3_signal_traces.md
+reports/phase3/manual_verification.csv
