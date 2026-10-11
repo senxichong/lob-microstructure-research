@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-10-11T11:56:43.560534+00:00",
+  "code_sha256": {
+    "src/lob_research/phase5/audits.py": "dbb3c0bc376e3661e23d41c05f9413d109e2461d1615b8c0ed7668b55e40cb2d",
+    "src/lob_research/phase5/core.py": "a74813be23083bf369cd77c86d212bd37daea4527f986dc4630235e73f5a742a",
+    "src/lob_research/phase5/storage.py": "99a3acfcd1b925e78cdb7c066e6a14f8b7ff2c209625ff88b08f8aac984ef0c9",
+    "src/lob_research/phase5/__init__.py": "9c420e9f63c1573a259a16ad32e01d92c6808a4f47d9afa629859f414b63b559",
+    "D:/quanDemo/lob-microstructure-research/scripts/run_phase5.py": "3176d0517b6a8bc96caf1d3d8da6cae19e67af0d35c184427e74c047b7779587"
+  },
+  "protocol_freeze_sha256": "3695ae0e63997e4c1ef6ee3ceb75f7ab3b256162bb5325ffc8923b8c7c1b7b47"
+}

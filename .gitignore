@@ -20,3 +20,10 @@ reports/phase2/manual_verification.csv
 reports/phase2/trace_indices.json
 reports/phase3_signal_traces.md
 reports/phase3/manual_verification.csv
+
+# Phase 4 row-level predictions remain local-only
+reports/phase4/*.parquet
+
+# Phase 5 local-only row predictions and fitted tree artifacts
+reports/phase5/*.parquet
+artifacts/phase5/

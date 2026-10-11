@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T06:55:00.023761+00:00",
+  "documents": {
+    "PHASE4_PROTOCOL.md": "a1ff2109ca886ed753da043cf8dcba6ea599a485e2eb6f0b5fe5390aba968b44",
+    "PHASE4_FEATURE_SET.md": "28def9d098fd2879cfeeb24d3c7ac851529922fddfca3013252fc6b40cdfc3dd",
+    "reports/phase4/fold_manifest.csv": "0630e22474e3438f80a5b6eece0e2307b46decfb708e5bb5f3f4da2276a3d756",
+    "reports/phase4/ofi_semantic_audit.md": "c8d20061e330f0d2689833ed2be7390014da2066f981bb2e98e258395cda3d84"
+  },
+  "log_bytes": 3693,
+  "log_sha256": "9d4a1675bb1d24e6ee846c09573a8d2a8ed8a9ac0807d7947fef06c67ec76dda"
+}

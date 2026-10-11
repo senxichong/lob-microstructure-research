@@ -1,0 +1,2 @@
+model_name,n,clock_seconds,block_seconds,replicates,spearman,ci_lower,ci_upper,shift_p,full_ridge_spearman,control_minus_full,difference_ci_lower,difference_ci_upper,material_improvement,seed
+RandomFeature,11695,11700,60,1000,0.05050105056907135,0.030255874557566308,0.07175824682589992,0.000999000999000999,0.050746888793196276,-0.0002458382241249252,-0.001520460265883345,0.0010701392423133227,False,161803

@@ -1,0 +1,176 @@
+task,model_name,fold_id,candidate_id,validation_score,hyperparameters,selected,selected_family
+regression,RF,1,0,0.04014768430437488,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+regression,RF,1,1,0.05760124300178146,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+regression,RF,1,2,0.056943169953617506,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+regression,RF,1,3,0.06127495260108985,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+regression,LightGBM,1,0,0.054035025928584814,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,1,1,0.05858222308980941,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,1,2,0.057382709372136714,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,LightGBM,1,3,0.06434401005448055,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,ValidationSelected,1,0,0.054035025928584814,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,1,1,0.05858222308980941,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,1,2,0.057382709372136714,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,ValidationSelected,1,3,0.06434401005448055,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,Static,1,0,0.02105852462446636,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",True,LightGBM
+regression,Static,1,1,0.006855947974083907,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Static,1,2,0.012649483362363025,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Static,1,3,0.010857111770371833,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,1,0,0.039079643765109515,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,1,1,0.028823088225222317,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,1,2,0.04213319493057298,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,1,3,0.046796662510480314,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RandomLabel,1,3,0.020973105727973944,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,TemporalPlacebo,1,3,-0.017371318940735035,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RandomFeature,1,3,0.07178056745378421,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,RF,1,0,0.29380151079523803,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+classification,RF,1,1,0.37522738410258677,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+classification,RF,1,2,0.35801674077889506,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+classification,RF,1,3,0.3763344518427825,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+classification,LightGBM,1,0,0.3763418831200385,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,1,1,0.4048902572461997,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,1,2,0.40510495080871006,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,LightGBM,1,3,0.4073630734349524,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,ValidationSelected,1,0,0.3763418831200385,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,1,1,0.4048902572461997,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,1,2,0.40510495080871006,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,ValidationSelected,1,3,0.4073630734349524,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RF,2,0,-0.02154755014874678,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+regression,RF,2,1,0.05423949484067943,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+regression,RF,2,2,0.000636272846235863,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+regression,RF,2,3,0.07983509623075125,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+regression,LightGBM,2,0,0.022514671880005367,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,2,1,0.05279748457716317,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,2,2,0.06782791814016068,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,LightGBM,2,3,0.08962800027272062,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,ValidationSelected,2,0,0.022514671880005367,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,2,1,0.05279748457716317,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,2,2,0.06782791814016068,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,ValidationSelected,2,3,0.08962800027272062,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,Static,2,0,0.01985917323975878,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,Static,2,1,0.0433695369277665,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Static,2,2,0.04418403470188001,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+regression,Static,2,3,0.03530649139033508,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,2,0,0.04546813070399204,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,2,1,0.03301883969487679,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,2,2,0.032747819400403076,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,2,3,0.04778193325928057,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RandomLabel,2,3,0.05324733578347158,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,TemporalPlacebo,2,3,-0.018407532994119128,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RandomFeature,2,3,0.0695290543752812,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,RF,2,0,0.2857608341479309,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+classification,RF,2,1,0.37396752661031396,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+classification,RF,2,2,0.3332539921248885,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+classification,RF,2,3,0.37343646373981537,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+classification,LightGBM,2,0,0.36431320920313065,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,2,1,0.4258848913633921,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,2,2,0.4299761367910413,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+classification,LightGBM,2,3,0.41776340207597196,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+classification,ValidationSelected,2,0,0.36431320920313065,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,2,1,0.4258848913633921,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,2,2,0.4299761367910413,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+classification,ValidationSelected,2,3,0.41776340207597196,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,RF,3,0,0.04936581766993508,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+regression,RF,3,1,0.09341374979758534,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+regression,RF,3,2,0.05724957742307495,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+regression,RF,3,3,0.11638185699925074,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+regression,LightGBM,3,0,0.07797292643971886,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,3,1,0.08926591726734268,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,3,2,0.0908285087580638,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,LightGBM,3,3,0.10738701309842634,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,ValidationSelected,3,0,0.04936581766993508,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+regression,ValidationSelected,3,1,0.09341374979758534,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+regression,ValidationSelected,3,2,0.05724957742307495,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+regression,ValidationSelected,3,3,0.11638185699925074,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+regression,Static,3,0,0.046787960592184874,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,Static,3,1,0.030538756192536563,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Static,3,2,0.037777359049927385,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Static,3,3,0.05158086770480133,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,Flow,3,0,0.10486220610510993,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",True,LightGBM
+regression,Flow,3,1,0.09345461358615974,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,3,2,0.0906888210021349,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,3,3,0.10170580882313854,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,RandomLabel,3,3,0.011849785854147261,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,TemporalPlacebo,3,3,-0.02389510849829628,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RandomFeature,3,3,0.1047614306882349,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,RF,3,0,0.2539776331388422,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+classification,RF,3,1,0.3317965111370995,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+classification,RF,3,2,0.3034247848920217,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+classification,RF,3,3,0.3317872418359771,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+classification,LightGBM,3,0,0.3245355583576837,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,3,1,0.39702966133055745,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",True,LightGBM
+classification,LightGBM,3,2,0.3968744988258483,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,LightGBM,3,3,0.3868717453541129,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+classification,ValidationSelected,3,0,0.3245355583576837,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,3,1,0.39702966133055745,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",True,LightGBM
+classification,ValidationSelected,3,2,0.3968744988258483,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,ValidationSelected,3,3,0.3868717453541129,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,RF,4,0,0.030932312277472354,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+regression,RF,4,1,0.07678067411041942,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+regression,RF,4,2,0.054650408556093856,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+regression,RF,4,3,0.08326218676973693,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+regression,LightGBM,4,0,0.07687125796083179,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,4,1,0.07107172141994786,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,4,2,0.09121098592201987,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+regression,LightGBM,4,3,0.07610363421111309,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,ValidationSelected,4,0,0.07687125796083179,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,4,1,0.07107172141994786,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,4,2,0.09121098592201987,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+regression,ValidationSelected,4,3,0.07610363421111309,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,Static,4,0,0.02408129028171167,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",True,LightGBM
+regression,Static,4,1,0.01731711824395391,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Static,4,2,0.017957829477673864,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Static,4,3,0.010522730200478569,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,4,0,0.09597993585845097,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",True,LightGBM
+regression,Flow,4,1,0.08056751602560241,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,4,2,0.08034223284660771,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,4,3,0.07937057648366061,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,RandomLabel,4,2,0.012293205472954045,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+regression,TemporalPlacebo,4,2,0.00037244852038937753,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+regression,RandomFeature,4,2,0.09352234627450129,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",True,LightGBM
+classification,RF,4,0,0.2583724277357685,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+classification,RF,4,1,0.34514039622650955,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+classification,RF,4,2,0.3153262005808907,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+classification,RF,4,3,0.34414398594902157,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+classification,LightGBM,4,0,0.3275605451808238,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,4,1,0.3693348162921508,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,4,2,0.36166321419406233,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,LightGBM,4,3,0.3718956892839725,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,ValidationSelected,4,0,0.3275605451808238,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,4,1,0.3693348162921508,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,4,2,0.36166321419406233,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,ValidationSelected,4,3,0.3718956892839725,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RF,5,0,0.09245795084500397,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+regression,RF,5,1,0.12820747168336466,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+regression,RF,5,2,0.11096151365575824,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+regression,RF,5,3,0.13620959405367217,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+regression,LightGBM,5,0,0.1211473537040263,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,5,1,0.1361997709174391,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,LightGBM,5,2,0.1278026661312186,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,LightGBM,5,3,0.13781561081704802,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,ValidationSelected,5,0,0.1211473537040263,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,5,1,0.1361997709174391,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+regression,ValidationSelected,5,2,0.1278026661312186,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,ValidationSelected,5,3,0.13781561081704802,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,Static,5,0,0.07730714853207245,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,Static,5,1,0.07759461368836301,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",True,LightGBM
+regression,Static,5,2,0.07390809887968428,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Static,5,3,0.06302691376468472,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,5,0,0.08864099417137532,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+regression,Flow,5,1,0.10161416579201564,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",True,LightGBM
+regression,Flow,5,2,0.08710521098883299,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+regression,Flow,5,3,0.09077955478405111,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",False,LightGBM
+regression,RandomLabel,5,3,-0.011713654265993018,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,TemporalPlacebo,5,3,-0.034608846206959185,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+regression,RandomFeature,5,3,0.14251273582647683,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,RF,5,0,0.2471527217289929,"{""max_depth"": 3, ""max_features"": ""sqrt"", ""min_samples_leaf"": 100}",False,RF
+classification,RF,5,1,0.33403620391011296,"{""max_depth"": 6, ""max_features"": 1.0, ""min_samples_leaf"": 100}",False,RF
+classification,RF,5,2,0.2910230048293175,"{""max_depth"": 6, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20}",False,RF
+classification,RF,5,3,0.33436763311667134,"{""max_depth"": null, ""max_features"": 1.0, ""min_samples_leaf"": 100}",True,RF
+classification,LightGBM,5,0,0.303623357653962,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,5,1,0.3538737432766183,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,LightGBM,5,2,0.34945312890544006,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,LightGBM,5,3,0.35673563350727044,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM
+classification,ValidationSelected,5,0,0.303623357653962,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,5,1,0.3538737432766183,"{""learning_rate"": 0.08, ""max_depth"": 3, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 7}",False,LightGBM
+classification,ValidationSelected,5,2,0.34945312890544006,"{""learning_rate"": 0.03, ""max_depth"": 4, ""min_child_samples"": 100, ""n_estimators"": 200, ""num_leaves"": 15}",False,LightGBM
+classification,ValidationSelected,5,3,0.35673563350727044,"{""learning_rate"": 0.08, ""max_depth"": 4, ""min_child_samples"": 200, ""n_estimators"": 100, ""num_leaves"": 15}",True,LightGBM

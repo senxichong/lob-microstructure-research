@@ -1,0 +1,3121 @@
+check,passed
+upstream CAUSAL_ORDERING.md,True
+upstream config.phase3.yaml,True
+upstream config.yaml,True
+upstream DATA_LICENSE.md,True
+upstream DATA_LIMITATIONS.md,True
+upstream DATA_MANIFEST.json,True
+upstream DATA_SOURCE_EVALUATION.md,True
+upstream DEPENDENCE_NOTES.md,True
+upstream FEATURE_DEFINITIONS.md,True
+upstream LABEL_DEFINITIONS.md,True
+upstream MARKET_DATA_SCHEMA.md,True
+upstream PHASE1_REPORT.md,True
+upstream PHASE2_MANIFEST.json,True
+upstream PHASE2_PROTOCOL.md,True
+upstream PHASE2_REPORT.md,True
+upstream PHASE3_FEATURE_SET.md,True
+upstream PHASE3_MANIFEST.json,True
+upstream PHASE3_PROTOCOL.md,True
+upstream PHASE3_REPORT.md,True
+upstream PHASE4_FEATURE_SET.md,True
+upstream PHASE4_MANIFEST.json,True
+upstream PHASE4_PROTOCOL.md,True
+upstream PHASE4_REPORT.md,True
+upstream README.md,True
+upstream reports/phase3/activity_conditioning.csv,True
+upstream reports/phase3/bootstrap_draws.csv,True
+upstream reports/phase3/bootstrap_intervals.csv,True
+upstream reports/phase3/conditioning_edges.csv,True
+upstream reports/phase3/console_fix_audit.json,True
+upstream reports/phase3/event_level_secondary.csv,True
+upstream reports/phase3/extreme_imbalance.csv,True
+upstream reports/phase3/family_verdicts.csv,True
+upstream reports/phase3/feature_correlation.csv,True
+upstream reports/phase3/feature_verdicts.csv,True
+upstream reports/phase3/figures/01_obi_quintile_return.png,True
+upstream reports/phase3/figures/01_obi_quintile_return.svg,True
+upstream reports/phase3/figures/02_ofi_quintile_return.png,True
+upstream reports/phase3/figures/02_ofi_quintile_return.svg,True
+upstream reports/phase3/figures/03_microprice_direction_edge.png,True
+upstream reports/phase3/figures/03_microprice_direction_edge.svg,True
+upstream reports/phase3/figures/04_primary_spearman.png,True
+upstream reports/phase3/figures/04_primary_spearman.svg,True
+upstream reports/phase3/figures/05_horizon_decay.png,True
+upstream reports/phase3/figures/05_horizon_decay.svg,True
+upstream reports/phase3/figures/06_direction_probabilities.png,True
+upstream reports/phase3/figures/06_direction_probabilities.svg,True
+upstream reports/phase3/figures/07_time_of_day.png,True
+upstream reports/phase3/figures/07_time_of_day.svg,True
+upstream reports/phase3/figures/08_feature_correlation.png,True
+upstream reports/phase3/figures/08_feature_correlation.svg,True
+upstream reports/phase3/figures/contact_sheet.png,True
+upstream reports/phase3/final_evidence.json,True
+upstream reports/phase3/grid_label_summary.csv,True
+upstream reports/phase3/grid_staleness.csv,True
+upstream reports/phase3/horizon_decay.csv,True
+upstream reports/phase3/horizon_quintiles.csv,True
+upstream reports/phase3/hypothesis_results.csv,True
+upstream reports/phase3/independent_verification.json,True
+upstream reports/phase3/interior_session_robustness.csv,True
+upstream reports/phase3/invariant_checks.csv,True
+upstream reports/phase3/manual_statistics.csv,True
+upstream reports/phase3/manual_verification.csv,True
+upstream reports/phase3/multiple_testing.csv,True
+upstream reports/phase3/permutation_draws.csv,True
+upstream reports/phase3/permutation_results.csv,True
+upstream reports/phase3/placebo_results.csv,True
+upstream reports/phase3/price_scale_context.csv,True
+upstream reports/phase3/primary_direction_statistics.csv,True
+upstream reports/phase3/primary_feature_quintiles.csv,True
+upstream reports/phase3/primary_feature_statistics.csv,True
+upstream reports/phase3/protocol_freeze.json,True
+upstream reports/phase3/pytest_output.txt,True
+upstream reports/phase3/quintile_edges.csv,True
+upstream reports/phase3/random_control.csv,True
+upstream reports/phase3/research_verdict.json,True
+upstream reports/phase3/run_phase3_at_execution.py,True
+upstream reports/phase3/run_status.json,True
+upstream reports/phase3/sign_inversion.csv,True
+upstream reports/phase3/spread_conditioning.csv,True
+upstream reports/phase3/test_results.xml,True
+upstream reports/phase3/time_of_day_stability.csv,True
+upstream reports/phase3/upstream_freeze.json,True
+upstream reports/phase4/bootstrap_draws.csv,True
+upstream reports/phase4/calibration.csv,True
+upstream reports/phase4/classification_fold_metrics.csv,True
+upstream reports/phase4/classification_inference.json,True
+upstream reports/phase4/classification_metrics.csv,True
+upstream reports/phase4/classification_oos_predictions.parquet,True
+upstream reports/phase4/coefficient_stability.csv,True
+upstream reports/phase4/confusion_matrix.csv,True
+upstream reports/phase4/core_at_execution.py,True
+upstream reports/phase4/execution_manifest.json,True
+upstream reports/phase4/extreme_probability.csv,True
+upstream reports/phase4/feature_ablation.csv,True
+upstream reports/phase4/figures/01_prediction_realized.png,True
+upstream reports/phase4/figures/01_prediction_realized.svg,True
+upstream reports/phase4/figures/02_fold_spearman.png,True
+upstream reports/phase4/figures/02_fold_spearman.svg,True
+upstream reports/phase4/figures/03_ridge_coefficients.png,True
+upstream reports/phase4/figures/03_ridge_coefficients.svg,True
+upstream reports/phase4/figures/04_logistic_confusion.png,True
+upstream reports/phase4/figures/04_logistic_confusion.svg,True
+upstream reports/phase4/figures/05_calibration.png,True
+upstream reports/phase4/figures/05_calibration.svg,True
+upstream reports/phase4/figures/06_static_flow_full.png,True
+upstream reports/phase4/figures/06_static_flow_full.svg,True
+upstream reports/phase4/figures/07_intraday_stability.png,True
+upstream reports/phase4/figures/07_intraday_stability.svg,True
+upstream reports/phase4/fitted_models.json,True
+upstream reports/phase4/fold_manifest.csv,True
+upstream reports/phase4/hyperparameter_selection.csv,True
+upstream reports/phase4/independent_verification.json,True
+upstream reports/phase4/isolation_audit.json,True
+upstream reports/phase4/metric_correction_audit.json,True
+upstream reports/phase4/model_coefficients.csv,True
+upstream reports/phase4/ofi_semantic_audit.md,True
+upstream reports/phase4/prediction_hashes.json,True
+upstream reports/phase4/preprocessing_parameters.csv,True
+upstream reports/phase4/protocol_freeze.json,True
+upstream reports/phase4/purge_summary.csv,True
+upstream reports/phase4/random_feature_control.csv,True
+upstream reports/phase4/random_label_control.csv,True
+upstream reports/phase4/regression_fold_metrics.csv,True
+upstream reports/phase4/regression_inference.csv,True
+upstream reports/phase4/regression_metrics.csv,True
+upstream reports/phase4/regression_oos_predictions.parquet,True
+upstream reports/phase4/reproducibility_audit.json,True
+upstream reports/phase4/research_verdict.json,True
+upstream reports/phase4/shift_draws.csv,True
+upstream reports/phase4/single_feature_comparison.csv,True
+upstream reports/phase4/static_vs_flow.csv,True
+upstream reports/phase4/test_results.xml,True
+upstream reports/phase4/time_of_day_model_stability.csv,True
+upstream reports/phase4/upstream_freeze.json,True
+upstream reports/phase4/verification_checks.csv,True
+upstream RESEARCH_LOG.md,True
+upstream RESEARCH_PROTOCOL.md,True
+upstream RESEARCH_QUESTIONS.md,True
+upstream scripts/build_phase1_report.py,True
+upstream scripts/build_phase2.py,True
+upstream scripts/build_phase2_report.py,True
+upstream scripts/build_phase3_report.py,True
+upstream scripts/build_phase4_report.py,True
+upstream scripts/inspect_environment.py,True
+upstream scripts/plot_phase3.py,True
+upstream scripts/plot_phase4.py,True
+upstream scripts/probe_sources.py,True
+upstream scripts/run_phase1.py,True
+upstream scripts/run_phase3.py,True
+upstream scripts/run_phase4.py,True
+upstream scripts/verify_artifacts.py,True
+upstream scripts/verify_phase2.py,True
+upstream scripts/verify_phase3.py,True
+upstream scripts/verify_phase4.py,True
+upstream src/lob_research/__init__.py,True
+upstream src/lob_research/download.py,True
+upstream src/lob_research/orderbook.py,True
+upstream src/lob_research/phase2/__init__.py,True
+upstream src/lob_research/phase2/artifacts.py,True
+upstream src/lob_research/phase2/common.py,True
+upstream src/lob_research/phase2/features.py,True
+upstream src/lob_research/phase2/labels.py,True
+upstream src/lob_research/phase2/order_flow.py,True
+upstream src/lob_research/phase2/static_book.py,True
+upstream src/lob_research/phase3/__init__.py,True
+upstream src/lob_research/phase3/artifacts.py,True
+upstream src/lob_research/phase3/grid.py,True
+upstream src/lob_research/phase3/inference.py,True
+upstream src/lob_research/phase3/statistics.py,True
+upstream src/lob_research/phase3/study.py,True
+upstream src/lob_research/phase4/__init__.py,True
+upstream src/lob_research/phase4/audits.py,True
+upstream src/lob_research/phase4/core.py,True
+upstream src/lob_research/phase4/evaluate.py,True
+upstream src/lob_research/phase4/storage.py,True
+upstream src/lob_research/pipeline.py,True
+upstream src/lob_research/schemas.py,True
+upstream src/lob_research/storage.py,True
+upstream src/lob_research/timestamps.py,True
+upstream src/lob_research/validation.py,True
+upstream tests/phase2_helpers.py,True
+upstream tests/test_core.py,True
+upstream tests/test_phase2_causality.py,True
+upstream tests/test_phase2_features.py,True
+upstream tests/test_phase2_labels.py,True
+upstream tests/test_phase3.py,True
+upstream tests/test_phase4.py,True
+upstream tests/test_pipeline.py,True
+upstream TIMESTAMP_CONVENTION.md,True
+phase2 exact hash,True
+protocol PHASE5_PROTOCOL.md,True
+protocol PHASE5_FEATURE_SET.md,True
+protocol requirements.phase5.txt,True
+protocol reports/phase4/fold_manifest.csv,True
+hypotheses prefix,True
+executed code src/lob_research/phase5/audits.py,True
+executed code src/lob_research/phase5/core.py,True
+executed code src/lob_research/phase5/evaluate.py,True
+executed code src/lob_research/phase5/interpret.py,True
+executed code src/lob_research/phase5/storage.py,True
+executed code src/lob_research/phase5/__init__.py,True
+executed code D:/quanDemo/lob-microstructure-research/scripts/run_phase5.py,True
+executed code D:/quanDemo/lob-microstructure-research/scripts/evaluate_phase5.py,True
+executed code src/lob_research/phase5/evaluate.py,True
+executed code src/lob_research/phase5/interpret.py,True
+"identical OOS ('regression', 'Flow')",True
+"unique OOS ('regression', 'Flow')",True
+"aggregate ('regression', 'Flow', 'n')",True
+"aggregate ('regression', 'Flow', 'spearman')",True
+"aggregate ('regression', 'Flow', 'pearson')",True
+"aggregate ('regression', 'Flow', 'mae')",True
+"aggregate ('regression', 'Flow', 'mse')",True
+"aggregate ('regression', 'Flow', 'r2')",True
+"test-only membership ('regression', 'Flow', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Flow', 1, 'n')",True
+"fold metrics ('regression', 'Flow', 1, 'spearman')",True
+"fold metrics ('regression', 'Flow', 1, 'pearson')",True
+"fold metrics ('regression', 'Flow', 1, 'mae')",True
+"fold metrics ('regression', 'Flow', 1, 'mse')",True
+"fold metrics ('regression', 'Flow', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Flow', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Flow', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Flow', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Flow', 2, 'n')",True
+"fold metrics ('regression', 'Flow', 2, 'spearman')",True
+"fold metrics ('regression', 'Flow', 2, 'pearson')",True
+"fold metrics ('regression', 'Flow', 2, 'mae')",True
+"fold metrics ('regression', 'Flow', 2, 'mse')",True
+"fold metrics ('regression', 'Flow', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Flow', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Flow', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Flow', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Flow', 3, 'n')",True
+"fold metrics ('regression', 'Flow', 3, 'spearman')",True
+"fold metrics ('regression', 'Flow', 3, 'pearson')",True
+"fold metrics ('regression', 'Flow', 3, 'mae')",True
+"fold metrics ('regression', 'Flow', 3, 'mse')",True
+"fold metrics ('regression', 'Flow', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Flow', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Flow', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Flow', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Flow', 4, 'n')",True
+"fold metrics ('regression', 'Flow', 4, 'spearman')",True
+"fold metrics ('regression', 'Flow', 4, 'pearson')",True
+"fold metrics ('regression', 'Flow', 4, 'mae')",True
+"fold metrics ('regression', 'Flow', 4, 'mse')",True
+"fold metrics ('regression', 'Flow', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Flow', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Flow', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Flow', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Flow', 5, 'n')",True
+"fold metrics ('regression', 'Flow', 5, 'spearman')",True
+"fold metrics ('regression', 'Flow', 5, 'pearson')",True
+"fold metrics ('regression', 'Flow', 5, 'mae')",True
+"fold metrics ('regression', 'Flow', 5, 'mse')",True
+"fold metrics ('regression', 'Flow', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Flow', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Flow', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'LightGBM')",True
+"unique OOS ('regression', 'LightGBM')",True
+"aggregate ('regression', 'LightGBM', 'n')",True
+"aggregate ('regression', 'LightGBM', 'spearman')",True
+"aggregate ('regression', 'LightGBM', 'pearson')",True
+"aggregate ('regression', 'LightGBM', 'mae')",True
+"aggregate ('regression', 'LightGBM', 'mse')",True
+"aggregate ('regression', 'LightGBM', 'r2')",True
+"test-only membership ('regression', 'LightGBM', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'LightGBM', 1, 'n')",True
+"fold metrics ('regression', 'LightGBM', 1, 'spearman')",True
+"fold metrics ('regression', 'LightGBM', 1, 'pearson')",True
+"fold metrics ('regression', 'LightGBM', 1, 'mae')",True
+"fold metrics ('regression', 'LightGBM', 1, 'mse')",True
+"fold metrics ('regression', 'LightGBM', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'LightGBM', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'LightGBM', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'LightGBM', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'LightGBM', 2, 'n')",True
+"fold metrics ('regression', 'LightGBM', 2, 'spearman')",True
+"fold metrics ('regression', 'LightGBM', 2, 'pearson')",True
+"fold metrics ('regression', 'LightGBM', 2, 'mae')",True
+"fold metrics ('regression', 'LightGBM', 2, 'mse')",True
+"fold metrics ('regression', 'LightGBM', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'LightGBM', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'LightGBM', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'LightGBM', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'LightGBM', 3, 'n')",True
+"fold metrics ('regression', 'LightGBM', 3, 'spearman')",True
+"fold metrics ('regression', 'LightGBM', 3, 'pearson')",True
+"fold metrics ('regression', 'LightGBM', 3, 'mae')",True
+"fold metrics ('regression', 'LightGBM', 3, 'mse')",True
+"fold metrics ('regression', 'LightGBM', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'LightGBM', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'LightGBM', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'LightGBM', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'LightGBM', 4, 'n')",True
+"fold metrics ('regression', 'LightGBM', 4, 'spearman')",True
+"fold metrics ('regression', 'LightGBM', 4, 'pearson')",True
+"fold metrics ('regression', 'LightGBM', 4, 'mae')",True
+"fold metrics ('regression', 'LightGBM', 4, 'mse')",True
+"fold metrics ('regression', 'LightGBM', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'LightGBM', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'LightGBM', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'LightGBM', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'LightGBM', 5, 'n')",True
+"fold metrics ('regression', 'LightGBM', 5, 'spearman')",True
+"fold metrics ('regression', 'LightGBM', 5, 'pearson')",True
+"fold metrics ('regression', 'LightGBM', 5, 'mae')",True
+"fold metrics ('regression', 'LightGBM', 5, 'mse')",True
+"fold metrics ('regression', 'LightGBM', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'LightGBM', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'LightGBM', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'RF')",True
+"unique OOS ('regression', 'RF')",True
+"aggregate ('regression', 'RF', 'n')",True
+"aggregate ('regression', 'RF', 'spearman')",True
+"aggregate ('regression', 'RF', 'pearson')",True
+"aggregate ('regression', 'RF', 'mae')",True
+"aggregate ('regression', 'RF', 'mse')",True
+"aggregate ('regression', 'RF', 'r2')",True
+"test-only membership ('regression', 'RF', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RF', 1, 'n')",True
+"fold metrics ('regression', 'RF', 1, 'spearman')",True
+"fold metrics ('regression', 'RF', 1, 'pearson')",True
+"fold metrics ('regression', 'RF', 1, 'mae')",True
+"fold metrics ('regression', 'RF', 1, 'mse')",True
+"fold metrics ('regression', 'RF', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RF', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RF', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RF', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RF', 2, 'n')",True
+"fold metrics ('regression', 'RF', 2, 'spearman')",True
+"fold metrics ('regression', 'RF', 2, 'pearson')",True
+"fold metrics ('regression', 'RF', 2, 'mae')",True
+"fold metrics ('regression', 'RF', 2, 'mse')",True
+"fold metrics ('regression', 'RF', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RF', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RF', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RF', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RF', 3, 'n')",True
+"fold metrics ('regression', 'RF', 3, 'spearman')",True
+"fold metrics ('regression', 'RF', 3, 'pearson')",True
+"fold metrics ('regression', 'RF', 3, 'mae')",True
+"fold metrics ('regression', 'RF', 3, 'mse')",True
+"fold metrics ('regression', 'RF', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RF', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RF', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RF', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RF', 4, 'n')",True
+"fold metrics ('regression', 'RF', 4, 'spearman')",True
+"fold metrics ('regression', 'RF', 4, 'pearson')",True
+"fold metrics ('regression', 'RF', 4, 'mae')",True
+"fold metrics ('regression', 'RF', 4, 'mse')",True
+"fold metrics ('regression', 'RF', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RF', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RF', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RF', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RF', 5, 'n')",True
+"fold metrics ('regression', 'RF', 5, 'spearman')",True
+"fold metrics ('regression', 'RF', 5, 'pearson')",True
+"fold metrics ('regression', 'RF', 5, 'mae')",True
+"fold metrics ('regression', 'RF', 5, 'mse')",True
+"fold metrics ('regression', 'RF', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RF', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RF', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'RandomFeature')",True
+"unique OOS ('regression', 'RandomFeature')",True
+"aggregate ('regression', 'RandomFeature', 'n')",True
+"aggregate ('regression', 'RandomFeature', 'spearman')",True
+"aggregate ('regression', 'RandomFeature', 'pearson')",True
+"aggregate ('regression', 'RandomFeature', 'mae')",True
+"aggregate ('regression', 'RandomFeature', 'mse')",True
+"aggregate ('regression', 'RandomFeature', 'r2')",True
+"test-only membership ('regression', 'RandomFeature', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomFeature', 1, 'n')",True
+"fold metrics ('regression', 'RandomFeature', 1, 'spearman')",True
+"fold metrics ('regression', 'RandomFeature', 1, 'pearson')",True
+"fold metrics ('regression', 'RandomFeature', 1, 'mae')",True
+"fold metrics ('regression', 'RandomFeature', 1, 'mse')",True
+"fold metrics ('regression', 'RandomFeature', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomFeature', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomFeature', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomFeature', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomFeature', 2, 'n')",True
+"fold metrics ('regression', 'RandomFeature', 2, 'spearman')",True
+"fold metrics ('regression', 'RandomFeature', 2, 'pearson')",True
+"fold metrics ('regression', 'RandomFeature', 2, 'mae')",True
+"fold metrics ('regression', 'RandomFeature', 2, 'mse')",True
+"fold metrics ('regression', 'RandomFeature', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomFeature', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomFeature', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomFeature', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomFeature', 3, 'n')",True
+"fold metrics ('regression', 'RandomFeature', 3, 'spearman')",True
+"fold metrics ('regression', 'RandomFeature', 3, 'pearson')",True
+"fold metrics ('regression', 'RandomFeature', 3, 'mae')",True
+"fold metrics ('regression', 'RandomFeature', 3, 'mse')",True
+"fold metrics ('regression', 'RandomFeature', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomFeature', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomFeature', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomFeature', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomFeature', 4, 'n')",True
+"fold metrics ('regression', 'RandomFeature', 4, 'spearman')",True
+"fold metrics ('regression', 'RandomFeature', 4, 'pearson')",True
+"fold metrics ('regression', 'RandomFeature', 4, 'mae')",True
+"fold metrics ('regression', 'RandomFeature', 4, 'mse')",True
+"fold metrics ('regression', 'RandomFeature', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomFeature', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomFeature', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomFeature', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomFeature', 5, 'n')",True
+"fold metrics ('regression', 'RandomFeature', 5, 'spearman')",True
+"fold metrics ('regression', 'RandomFeature', 5, 'pearson')",True
+"fold metrics ('regression', 'RandomFeature', 5, 'mae')",True
+"fold metrics ('regression', 'RandomFeature', 5, 'mse')",True
+"fold metrics ('regression', 'RandomFeature', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomFeature', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomFeature', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'RandomLabel')",True
+"unique OOS ('regression', 'RandomLabel')",True
+"aggregate ('regression', 'RandomLabel', 'n')",True
+"aggregate ('regression', 'RandomLabel', 'spearman')",True
+"aggregate ('regression', 'RandomLabel', 'pearson')",True
+"aggregate ('regression', 'RandomLabel', 'mae')",True
+"aggregate ('regression', 'RandomLabel', 'mse')",True
+"aggregate ('regression', 'RandomLabel', 'r2')",True
+"test-only membership ('regression', 'RandomLabel', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomLabel', 1, 'n')",True
+"fold metrics ('regression', 'RandomLabel', 1, 'spearman')",True
+"fold metrics ('regression', 'RandomLabel', 1, 'pearson')",True
+"fold metrics ('regression', 'RandomLabel', 1, 'mae')",True
+"fold metrics ('regression', 'RandomLabel', 1, 'mse')",True
+"fold metrics ('regression', 'RandomLabel', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomLabel', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomLabel', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomLabel', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomLabel', 2, 'n')",True
+"fold metrics ('regression', 'RandomLabel', 2, 'spearman')",True
+"fold metrics ('regression', 'RandomLabel', 2, 'pearson')",True
+"fold metrics ('regression', 'RandomLabel', 2, 'mae')",True
+"fold metrics ('regression', 'RandomLabel', 2, 'mse')",True
+"fold metrics ('regression', 'RandomLabel', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomLabel', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomLabel', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomLabel', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomLabel', 3, 'n')",True
+"fold metrics ('regression', 'RandomLabel', 3, 'spearman')",True
+"fold metrics ('regression', 'RandomLabel', 3, 'pearson')",True
+"fold metrics ('regression', 'RandomLabel', 3, 'mae')",True
+"fold metrics ('regression', 'RandomLabel', 3, 'mse')",True
+"fold metrics ('regression', 'RandomLabel', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomLabel', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomLabel', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomLabel', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomLabel', 4, 'n')",True
+"fold metrics ('regression', 'RandomLabel', 4, 'spearman')",True
+"fold metrics ('regression', 'RandomLabel', 4, 'pearson')",True
+"fold metrics ('regression', 'RandomLabel', 4, 'mae')",True
+"fold metrics ('regression', 'RandomLabel', 4, 'mse')",True
+"fold metrics ('regression', 'RandomLabel', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomLabel', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomLabel', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'RandomLabel', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'RandomLabel', 5, 'n')",True
+"fold metrics ('regression', 'RandomLabel', 5, 'spearman')",True
+"fold metrics ('regression', 'RandomLabel', 5, 'pearson')",True
+"fold metrics ('regression', 'RandomLabel', 5, 'mae')",True
+"fold metrics ('regression', 'RandomLabel', 5, 'mse')",True
+"fold metrics ('regression', 'RandomLabel', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'RandomLabel', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'RandomLabel', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'Static')",True
+"unique OOS ('regression', 'Static')",True
+"aggregate ('regression', 'Static', 'n')",True
+"aggregate ('regression', 'Static', 'spearman')",True
+"aggregate ('regression', 'Static', 'pearson')",True
+"aggregate ('regression', 'Static', 'mae')",True
+"aggregate ('regression', 'Static', 'mse')",True
+"aggregate ('regression', 'Static', 'r2')",True
+"test-only membership ('regression', 'Static', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Static', 1, 'n')",True
+"fold metrics ('regression', 'Static', 1, 'spearman')",True
+"fold metrics ('regression', 'Static', 1, 'pearson')",True
+"fold metrics ('regression', 'Static', 1, 'mae')",True
+"fold metrics ('regression', 'Static', 1, 'mse')",True
+"fold metrics ('regression', 'Static', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Static', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Static', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Static', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Static', 2, 'n')",True
+"fold metrics ('regression', 'Static', 2, 'spearman')",True
+"fold metrics ('regression', 'Static', 2, 'pearson')",True
+"fold metrics ('regression', 'Static', 2, 'mae')",True
+"fold metrics ('regression', 'Static', 2, 'mse')",True
+"fold metrics ('regression', 'Static', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Static', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Static', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Static', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Static', 3, 'n')",True
+"fold metrics ('regression', 'Static', 3, 'spearman')",True
+"fold metrics ('regression', 'Static', 3, 'pearson')",True
+"fold metrics ('regression', 'Static', 3, 'mae')",True
+"fold metrics ('regression', 'Static', 3, 'mse')",True
+"fold metrics ('regression', 'Static', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Static', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Static', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Static', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Static', 4, 'n')",True
+"fold metrics ('regression', 'Static', 4, 'spearman')",True
+"fold metrics ('regression', 'Static', 4, 'pearson')",True
+"fold metrics ('regression', 'Static', 4, 'mae')",True
+"fold metrics ('regression', 'Static', 4, 'mse')",True
+"fold metrics ('regression', 'Static', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Static', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Static', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'Static', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Static', 5, 'n')",True
+"fold metrics ('regression', 'Static', 5, 'spearman')",True
+"fold metrics ('regression', 'Static', 5, 'pearson')",True
+"fold metrics ('regression', 'Static', 5, 'mae')",True
+"fold metrics ('regression', 'Static', 5, 'mse')",True
+"fold metrics ('regression', 'Static', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'Static', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'Static', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'TemporalPlacebo')",True
+"unique OOS ('regression', 'TemporalPlacebo')",True
+"aggregate ('regression', 'TemporalPlacebo', 'n')",True
+"aggregate ('regression', 'TemporalPlacebo', 'spearman')",True
+"aggregate ('regression', 'TemporalPlacebo', 'pearson')",True
+"aggregate ('regression', 'TemporalPlacebo', 'mae')",True
+"aggregate ('regression', 'TemporalPlacebo', 'mse')",True
+"aggregate ('regression', 'TemporalPlacebo', 'r2')",True
+"test-only membership ('regression', 'TemporalPlacebo', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'TemporalPlacebo', 1, 'n')",True
+"fold metrics ('regression', 'TemporalPlacebo', 1, 'spearman')",True
+"fold metrics ('regression', 'TemporalPlacebo', 1, 'pearson')",True
+"fold metrics ('regression', 'TemporalPlacebo', 1, 'mae')",True
+"fold metrics ('regression', 'TemporalPlacebo', 1, 'mse')",True
+"fold metrics ('regression', 'TemporalPlacebo', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'TemporalPlacebo', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'TemporalPlacebo', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'TemporalPlacebo', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'TemporalPlacebo', 2, 'n')",True
+"fold metrics ('regression', 'TemporalPlacebo', 2, 'spearman')",True
+"fold metrics ('regression', 'TemporalPlacebo', 2, 'pearson')",True
+"fold metrics ('regression', 'TemporalPlacebo', 2, 'mae')",True
+"fold metrics ('regression', 'TemporalPlacebo', 2, 'mse')",True
+"fold metrics ('regression', 'TemporalPlacebo', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'TemporalPlacebo', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'TemporalPlacebo', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'TemporalPlacebo', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'TemporalPlacebo', 3, 'n')",True
+"fold metrics ('regression', 'TemporalPlacebo', 3, 'spearman')",True
+"fold metrics ('regression', 'TemporalPlacebo', 3, 'pearson')",True
+"fold metrics ('regression', 'TemporalPlacebo', 3, 'mae')",True
+"fold metrics ('regression', 'TemporalPlacebo', 3, 'mse')",True
+"fold metrics ('regression', 'TemporalPlacebo', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'TemporalPlacebo', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'TemporalPlacebo', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'TemporalPlacebo', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'TemporalPlacebo', 4, 'n')",True
+"fold metrics ('regression', 'TemporalPlacebo', 4, 'spearman')",True
+"fold metrics ('regression', 'TemporalPlacebo', 4, 'pearson')",True
+"fold metrics ('regression', 'TemporalPlacebo', 4, 'mae')",True
+"fold metrics ('regression', 'TemporalPlacebo', 4, 'mse')",True
+"fold metrics ('regression', 'TemporalPlacebo', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'TemporalPlacebo', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'TemporalPlacebo', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('regression', 'TemporalPlacebo', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'TemporalPlacebo', 5, 'n')",True
+"fold metrics ('regression', 'TemporalPlacebo', 5, 'spearman')",True
+"fold metrics ('regression', 'TemporalPlacebo', 5, 'pearson')",True
+"fold metrics ('regression', 'TemporalPlacebo', 5, 'mae')",True
+"fold metrics ('regression', 'TemporalPlacebo', 5, 'mse')",True
+"fold metrics ('regression', 'TemporalPlacebo', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'TemporalPlacebo', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'TemporalPlacebo', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('regression', 'ValidationSelected')",True
+"unique OOS ('regression', 'ValidationSelected')",True
+"aggregate ('regression', 'ValidationSelected', 'n')",True
+"aggregate ('regression', 'ValidationSelected', 'spearman')",True
+"aggregate ('regression', 'ValidationSelected', 'pearson')",True
+"aggregate ('regression', 'ValidationSelected', 'mae')",True
+"aggregate ('regression', 'ValidationSelected', 'mse')",True
+"aggregate ('regression', 'ValidationSelected', 'r2')",True
+"test-only membership ('regression', 'ValidationSelected', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'ValidationSelected', 1, 'n')",True
+"fold metrics ('regression', 'ValidationSelected', 1, 'spearman')",True
+"fold metrics ('regression', 'ValidationSelected', 1, 'pearson')",True
+"fold metrics ('regression', 'ValidationSelected', 1, 'mae')",True
+"fold metrics ('regression', 'ValidationSelected', 1, 'mse')",True
+"fold metrics ('regression', 'ValidationSelected', 1, 'r2')",True
+feature version,True
+"whitelist ('regression', 'ValidationSelected', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'ValidationSelected', 1)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('regression', 'ValidationSelected', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'ValidationSelected', 2, 'n')",True
+"fold metrics ('regression', 'ValidationSelected', 2, 'spearman')",True
+"fold metrics ('regression', 'ValidationSelected', 2, 'pearson')",True
+"fold metrics ('regression', 'ValidationSelected', 2, 'mae')",True
+"fold metrics ('regression', 'ValidationSelected', 2, 'mse')",True
+"fold metrics ('regression', 'ValidationSelected', 2, 'r2')",True
+feature version,True
+"whitelist ('regression', 'ValidationSelected', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'ValidationSelected', 2)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('regression', 'ValidationSelected', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'ValidationSelected', 3, 'n')",True
+"fold metrics ('regression', 'ValidationSelected', 3, 'spearman')",True
+"fold metrics ('regression', 'ValidationSelected', 3, 'pearson')",True
+"fold metrics ('regression', 'ValidationSelected', 3, 'mae')",True
+"fold metrics ('regression', 'ValidationSelected', 3, 'mse')",True
+"fold metrics ('regression', 'ValidationSelected', 3, 'r2')",True
+feature version,True
+"whitelist ('regression', 'ValidationSelected', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'ValidationSelected', 3)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('regression', 'ValidationSelected', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'ValidationSelected', 4, 'n')",True
+"fold metrics ('regression', 'ValidationSelected', 4, 'spearman')",True
+"fold metrics ('regression', 'ValidationSelected', 4, 'pearson')",True
+"fold metrics ('regression', 'ValidationSelected', 4, 'mae')",True
+"fold metrics ('regression', 'ValidationSelected', 4, 'mse')",True
+"fold metrics ('regression', 'ValidationSelected', 4, 'r2')",True
+feature version,True
+"whitelist ('regression', 'ValidationSelected', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'ValidationSelected', 4)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('regression', 'ValidationSelected', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'ValidationSelected', 5, 'n')",True
+"fold metrics ('regression', 'ValidationSelected', 5, 'spearman')",True
+"fold metrics ('regression', 'ValidationSelected', 5, 'pearson')",True
+"fold metrics ('regression', 'ValidationSelected', 5, 'mae')",True
+"fold metrics ('regression', 'ValidationSelected', 5, 'mse')",True
+"fold metrics ('regression', 'ValidationSelected', 5, 'r2')",True
+feature version,True
+"whitelist ('regression', 'ValidationSelected', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('regression', 'ValidationSelected', 5)",True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"identical OOS ('regression', 'Ridge')",True
+"unique OOS ('regression', 'Ridge')",True
+"aggregate ('regression', 'Ridge', 'n')",True
+"aggregate ('regression', 'Ridge', 'spearman')",True
+"aggregate ('regression', 'Ridge', 'pearson')",True
+"aggregate ('regression', 'Ridge', 'mae')",True
+"aggregate ('regression', 'Ridge', 'mse')",True
+"aggregate ('regression', 'Ridge', 'r2')",True
+"test-only membership ('regression', 'Ridge', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Ridge', 1, 'n')",True
+"fold metrics ('regression', 'Ridge', 1, 'spearman')",True
+"fold metrics ('regression', 'Ridge', 1, 'pearson')",True
+"fold metrics ('regression', 'Ridge', 1, 'mae')",True
+"fold metrics ('regression', 'Ridge', 1, 'mse')",True
+"fold metrics ('regression', 'Ridge', 1, 'r2')",True
+"test-only membership ('regression', 'Ridge', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Ridge', 2, 'n')",True
+"fold metrics ('regression', 'Ridge', 2, 'spearman')",True
+"fold metrics ('regression', 'Ridge', 2, 'pearson')",True
+"fold metrics ('regression', 'Ridge', 2, 'mae')",True
+"fold metrics ('regression', 'Ridge', 2, 'mse')",True
+"fold metrics ('regression', 'Ridge', 2, 'r2')",True
+"test-only membership ('regression', 'Ridge', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Ridge', 3, 'n')",True
+"fold metrics ('regression', 'Ridge', 3, 'spearman')",True
+"fold metrics ('regression', 'Ridge', 3, 'pearson')",True
+"fold metrics ('regression', 'Ridge', 3, 'mae')",True
+"fold metrics ('regression', 'Ridge', 3, 'mse')",True
+"fold metrics ('regression', 'Ridge', 3, 'r2')",True
+"test-only membership ('regression', 'Ridge', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Ridge', 4, 'n')",True
+"fold metrics ('regression', 'Ridge', 4, 'spearman')",True
+"fold metrics ('regression', 'Ridge', 4, 'pearson')",True
+"fold metrics ('regression', 'Ridge', 4, 'mae')",True
+"fold metrics ('regression', 'Ridge', 4, 'mse')",True
+"fold metrics ('regression', 'Ridge', 4, 'r2')",True
+"test-only membership ('regression', 'Ridge', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'Ridge', 5, 'n')",True
+"fold metrics ('regression', 'Ridge', 5, 'spearman')",True
+"fold metrics ('regression', 'Ridge', 5, 'pearson')",True
+"fold metrics ('regression', 'Ridge', 5, 'mae')",True
+"fold metrics ('regression', 'Ridge', 5, 'mse')",True
+"fold metrics ('regression', 'Ridge', 5, 'r2')",True
+"identical OOS ('regression', 'OBI_L1')",True
+"unique OOS ('regression', 'OBI_L1')",True
+"aggregate ('regression', 'OBI_L1', 'n')",True
+"aggregate ('regression', 'OBI_L1', 'spearman')",True
+"aggregate ('regression', 'OBI_L1', 'pearson')",True
+"aggregate ('regression', 'OBI_L1', 'mae')",True
+"aggregate ('regression', 'OBI_L1', 'mse')",True
+"aggregate ('regression', 'OBI_L1', 'r2')",True
+"test-only membership ('regression', 'OBI_L1', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OBI_L1', 1, 'n')",True
+"fold metrics ('regression', 'OBI_L1', 1, 'spearman')",True
+"fold metrics ('regression', 'OBI_L1', 1, 'pearson')",True
+"fold metrics ('regression', 'OBI_L1', 1, 'mae')",True
+"fold metrics ('regression', 'OBI_L1', 1, 'mse')",True
+"fold metrics ('regression', 'OBI_L1', 1, 'r2')",True
+"test-only membership ('regression', 'OBI_L1', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OBI_L1', 2, 'n')",True
+"fold metrics ('regression', 'OBI_L1', 2, 'spearman')",True
+"fold metrics ('regression', 'OBI_L1', 2, 'pearson')",True
+"fold metrics ('regression', 'OBI_L1', 2, 'mae')",True
+"fold metrics ('regression', 'OBI_L1', 2, 'mse')",True
+"fold metrics ('regression', 'OBI_L1', 2, 'r2')",True
+"test-only membership ('regression', 'OBI_L1', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OBI_L1', 3, 'n')",True
+"fold metrics ('regression', 'OBI_L1', 3, 'spearman')",True
+"fold metrics ('regression', 'OBI_L1', 3, 'pearson')",True
+"fold metrics ('regression', 'OBI_L1', 3, 'mae')",True
+"fold metrics ('regression', 'OBI_L1', 3, 'mse')",True
+"fold metrics ('regression', 'OBI_L1', 3, 'r2')",True
+"test-only membership ('regression', 'OBI_L1', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OBI_L1', 4, 'n')",True
+"fold metrics ('regression', 'OBI_L1', 4, 'spearman')",True
+"fold metrics ('regression', 'OBI_L1', 4, 'pearson')",True
+"fold metrics ('regression', 'OBI_L1', 4, 'mae')",True
+"fold metrics ('regression', 'OBI_L1', 4, 'mse')",True
+"fold metrics ('regression', 'OBI_L1', 4, 'r2')",True
+"test-only membership ('regression', 'OBI_L1', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OBI_L1', 5, 'n')",True
+"fold metrics ('regression', 'OBI_L1', 5, 'spearman')",True
+"fold metrics ('regression', 'OBI_L1', 5, 'pearson')",True
+"fold metrics ('regression', 'OBI_L1', 5, 'mae')",True
+"fold metrics ('regression', 'OBI_L1', 5, 'mse')",True
+"fold metrics ('regression', 'OBI_L1', 5, 'r2')",True
+"identical OOS ('regression', 'MICROPRICE_MINUS_MID')",True
+"unique OOS ('regression', 'MICROPRICE_MINUS_MID')",True
+"aggregate ('regression', 'MICROPRICE_MINUS_MID', 'n')",True
+"aggregate ('regression', 'MICROPRICE_MINUS_MID', 'spearman')",True
+"aggregate ('regression', 'MICROPRICE_MINUS_MID', 'pearson')",True
+"aggregate ('regression', 'MICROPRICE_MINUS_MID', 'mae')",True
+"aggregate ('regression', 'MICROPRICE_MINUS_MID', 'mse')",True
+"aggregate ('regression', 'MICROPRICE_MINUS_MID', 'r2')",True
+"test-only membership ('regression', 'MICROPRICE_MINUS_MID', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 1, 'n')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 1, 'spearman')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 1, 'pearson')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 1, 'mae')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 1, 'mse')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 1, 'r2')",True
+"test-only membership ('regression', 'MICROPRICE_MINUS_MID', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 2, 'n')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 2, 'spearman')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 2, 'pearson')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 2, 'mae')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 2, 'mse')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 2, 'r2')",True
+"test-only membership ('regression', 'MICROPRICE_MINUS_MID', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 3, 'n')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 3, 'spearman')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 3, 'pearson')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 3, 'mae')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 3, 'mse')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 3, 'r2')",True
+"test-only membership ('regression', 'MICROPRICE_MINUS_MID', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 4, 'n')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 4, 'spearman')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 4, 'pearson')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 4, 'mae')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 4, 'mse')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 4, 'r2')",True
+"test-only membership ('regression', 'MICROPRICE_MINUS_MID', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 5, 'n')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 5, 'spearman')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 5, 'pearson')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 5, 'mae')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 5, 'mse')",True
+"fold metrics ('regression', 'MICROPRICE_MINUS_MID', 5, 'r2')",True
+"identical OOS ('regression', 'OFI_1S')",True
+"unique OOS ('regression', 'OFI_1S')",True
+"aggregate ('regression', 'OFI_1S', 'n')",True
+"aggregate ('regression', 'OFI_1S', 'spearman')",True
+"aggregate ('regression', 'OFI_1S', 'pearson')",True
+"aggregate ('regression', 'OFI_1S', 'mae')",True
+"aggregate ('regression', 'OFI_1S', 'mse')",True
+"aggregate ('regression', 'OFI_1S', 'r2')",True
+"test-only membership ('regression', 'OFI_1S', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OFI_1S', 1, 'n')",True
+"fold metrics ('regression', 'OFI_1S', 1, 'spearman')",True
+"fold metrics ('regression', 'OFI_1S', 1, 'pearson')",True
+"fold metrics ('regression', 'OFI_1S', 1, 'mae')",True
+"fold metrics ('regression', 'OFI_1S', 1, 'mse')",True
+"fold metrics ('regression', 'OFI_1S', 1, 'r2')",True
+"test-only membership ('regression', 'OFI_1S', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OFI_1S', 2, 'n')",True
+"fold metrics ('regression', 'OFI_1S', 2, 'spearman')",True
+"fold metrics ('regression', 'OFI_1S', 2, 'pearson')",True
+"fold metrics ('regression', 'OFI_1S', 2, 'mae')",True
+"fold metrics ('regression', 'OFI_1S', 2, 'mse')",True
+"fold metrics ('regression', 'OFI_1S', 2, 'r2')",True
+"test-only membership ('regression', 'OFI_1S', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OFI_1S', 3, 'n')",True
+"fold metrics ('regression', 'OFI_1S', 3, 'spearman')",True
+"fold metrics ('regression', 'OFI_1S', 3, 'pearson')",True
+"fold metrics ('regression', 'OFI_1S', 3, 'mae')",True
+"fold metrics ('regression', 'OFI_1S', 3, 'mse')",True
+"fold metrics ('regression', 'OFI_1S', 3, 'r2')",True
+"test-only membership ('regression', 'OFI_1S', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OFI_1S', 4, 'n')",True
+"fold metrics ('regression', 'OFI_1S', 4, 'spearman')",True
+"fold metrics ('regression', 'OFI_1S', 4, 'pearson')",True
+"fold metrics ('regression', 'OFI_1S', 4, 'mae')",True
+"fold metrics ('regression', 'OFI_1S', 4, 'mse')",True
+"fold metrics ('regression', 'OFI_1S', 4, 'r2')",True
+"test-only membership ('regression', 'OFI_1S', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+"fold metrics ('regression', 'OFI_1S', 5, 'n')",True
+"fold metrics ('regression', 'OFI_1S', 5, 'spearman')",True
+"fold metrics ('regression', 'OFI_1S', 5, 'pearson')",True
+"fold metrics ('regression', 'OFI_1S', 5, 'mae')",True
+"fold metrics ('regression', 'OFI_1S', 5, 'mse')",True
+"fold metrics ('regression', 'OFI_1S', 5, 'r2')",True
+"identical OOS ('classification', 'LightGBM')",True
+"unique OOS ('classification', 'LightGBM')",True
+"aggregate ('classification', 'LightGBM', 'n')",True
+"aggregate ('classification', 'LightGBM', 'macro_f1')",True
+"aggregate ('classification', 'LightGBM', 'balanced_accuracy')",True
+"aggregate ('classification', 'LightGBM', 'accuracy')",True
+"aggregate ('classification', 'LightGBM', 'log_loss')",True
+"aggregate ('classification', 'LightGBM', 'DOWN_precision')",True
+"aggregate ('classification', 'LightGBM', 'DOWN_recall')",True
+"aggregate ('classification', 'LightGBM', 'DOWN_f1')",True
+"aggregate ('classification', 'LightGBM', 'FLAT_precision')",True
+"aggregate ('classification', 'LightGBM', 'FLAT_recall')",True
+"aggregate ('classification', 'LightGBM', 'FLAT_f1')",True
+"aggregate ('classification', 'LightGBM', 'UP_precision')",True
+"aggregate ('classification', 'LightGBM', 'UP_recall')",True
+"aggregate ('classification', 'LightGBM', 'UP_f1')",True
+"test-only membership ('classification', 'LightGBM', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'LightGBM', 1, 'n')",True
+"fold metrics ('classification', 'LightGBM', 1, 'macro_f1')",True
+"fold metrics ('classification', 'LightGBM', 1, 'balanced_accuracy')",True
+"fold metrics ('classification', 'LightGBM', 1, 'accuracy')",True
+"fold metrics ('classification', 'LightGBM', 1, 'log_loss')",True
+"fold metrics ('classification', 'LightGBM', 1, 'DOWN_precision')",True
+"fold metrics ('classification', 'LightGBM', 1, 'DOWN_recall')",True
+"fold metrics ('classification', 'LightGBM', 1, 'DOWN_f1')",True
+"fold metrics ('classification', 'LightGBM', 1, 'FLAT_precision')",True
+"fold metrics ('classification', 'LightGBM', 1, 'FLAT_recall')",True
+"fold metrics ('classification', 'LightGBM', 1, 'FLAT_f1')",True
+"fold metrics ('classification', 'LightGBM', 1, 'UP_precision')",True
+"fold metrics ('classification', 'LightGBM', 1, 'UP_recall')",True
+"fold metrics ('classification', 'LightGBM', 1, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'LightGBM', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'LightGBM', 1)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'LightGBM', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'LightGBM', 2, 'n')",True
+"fold metrics ('classification', 'LightGBM', 2, 'macro_f1')",True
+"fold metrics ('classification', 'LightGBM', 2, 'balanced_accuracy')",True
+"fold metrics ('classification', 'LightGBM', 2, 'accuracy')",True
+"fold metrics ('classification', 'LightGBM', 2, 'log_loss')",True
+"fold metrics ('classification', 'LightGBM', 2, 'DOWN_precision')",True
+"fold metrics ('classification', 'LightGBM', 2, 'DOWN_recall')",True
+"fold metrics ('classification', 'LightGBM', 2, 'DOWN_f1')",True
+"fold metrics ('classification', 'LightGBM', 2, 'FLAT_precision')",True
+"fold metrics ('classification', 'LightGBM', 2, 'FLAT_recall')",True
+"fold metrics ('classification', 'LightGBM', 2, 'FLAT_f1')",True
+"fold metrics ('classification', 'LightGBM', 2, 'UP_precision')",True
+"fold metrics ('classification', 'LightGBM', 2, 'UP_recall')",True
+"fold metrics ('classification', 'LightGBM', 2, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'LightGBM', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'LightGBM', 2)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'LightGBM', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'LightGBM', 3, 'n')",True
+"fold metrics ('classification', 'LightGBM', 3, 'macro_f1')",True
+"fold metrics ('classification', 'LightGBM', 3, 'balanced_accuracy')",True
+"fold metrics ('classification', 'LightGBM', 3, 'accuracy')",True
+"fold metrics ('classification', 'LightGBM', 3, 'log_loss')",True
+"fold metrics ('classification', 'LightGBM', 3, 'DOWN_precision')",True
+"fold metrics ('classification', 'LightGBM', 3, 'DOWN_recall')",True
+"fold metrics ('classification', 'LightGBM', 3, 'DOWN_f1')",True
+"fold metrics ('classification', 'LightGBM', 3, 'FLAT_precision')",True
+"fold metrics ('classification', 'LightGBM', 3, 'FLAT_recall')",True
+"fold metrics ('classification', 'LightGBM', 3, 'FLAT_f1')",True
+"fold metrics ('classification', 'LightGBM', 3, 'UP_precision')",True
+"fold metrics ('classification', 'LightGBM', 3, 'UP_recall')",True
+"fold metrics ('classification', 'LightGBM', 3, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'LightGBM', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'LightGBM', 3)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'LightGBM', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'LightGBM', 4, 'n')",True
+"fold metrics ('classification', 'LightGBM', 4, 'macro_f1')",True
+"fold metrics ('classification', 'LightGBM', 4, 'balanced_accuracy')",True
+"fold metrics ('classification', 'LightGBM', 4, 'accuracy')",True
+"fold metrics ('classification', 'LightGBM', 4, 'log_loss')",True
+"fold metrics ('classification', 'LightGBM', 4, 'DOWN_precision')",True
+"fold metrics ('classification', 'LightGBM', 4, 'DOWN_recall')",True
+"fold metrics ('classification', 'LightGBM', 4, 'DOWN_f1')",True
+"fold metrics ('classification', 'LightGBM', 4, 'FLAT_precision')",True
+"fold metrics ('classification', 'LightGBM', 4, 'FLAT_recall')",True
+"fold metrics ('classification', 'LightGBM', 4, 'FLAT_f1')",True
+"fold metrics ('classification', 'LightGBM', 4, 'UP_precision')",True
+"fold metrics ('classification', 'LightGBM', 4, 'UP_recall')",True
+"fold metrics ('classification', 'LightGBM', 4, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'LightGBM', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'LightGBM', 4)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'LightGBM', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'LightGBM', 5, 'n')",True
+"fold metrics ('classification', 'LightGBM', 5, 'macro_f1')",True
+"fold metrics ('classification', 'LightGBM', 5, 'balanced_accuracy')",True
+"fold metrics ('classification', 'LightGBM', 5, 'accuracy')",True
+"fold metrics ('classification', 'LightGBM', 5, 'log_loss')",True
+"fold metrics ('classification', 'LightGBM', 5, 'DOWN_precision')",True
+"fold metrics ('classification', 'LightGBM', 5, 'DOWN_recall')",True
+"fold metrics ('classification', 'LightGBM', 5, 'DOWN_f1')",True
+"fold metrics ('classification', 'LightGBM', 5, 'FLAT_precision')",True
+"fold metrics ('classification', 'LightGBM', 5, 'FLAT_recall')",True
+"fold metrics ('classification', 'LightGBM', 5, 'FLAT_f1')",True
+"fold metrics ('classification', 'LightGBM', 5, 'UP_precision')",True
+"fold metrics ('classification', 'LightGBM', 5, 'UP_recall')",True
+"fold metrics ('classification', 'LightGBM', 5, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'LightGBM', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'LightGBM', 5)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('classification', 'RF')",True
+"unique OOS ('classification', 'RF')",True
+"aggregate ('classification', 'RF', 'n')",True
+"aggregate ('classification', 'RF', 'macro_f1')",True
+"aggregate ('classification', 'RF', 'balanced_accuracy')",True
+"aggregate ('classification', 'RF', 'accuracy')",True
+"aggregate ('classification', 'RF', 'log_loss')",True
+"aggregate ('classification', 'RF', 'DOWN_precision')",True
+"aggregate ('classification', 'RF', 'DOWN_recall')",True
+"aggregate ('classification', 'RF', 'DOWN_f1')",True
+"aggregate ('classification', 'RF', 'FLAT_precision')",True
+"aggregate ('classification', 'RF', 'FLAT_recall')",True
+"aggregate ('classification', 'RF', 'FLAT_f1')",True
+"aggregate ('classification', 'RF', 'UP_precision')",True
+"aggregate ('classification', 'RF', 'UP_recall')",True
+"aggregate ('classification', 'RF', 'UP_f1')",True
+"test-only membership ('classification', 'RF', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'RF', 1, 'n')",True
+"fold metrics ('classification', 'RF', 1, 'macro_f1')",True
+"fold metrics ('classification', 'RF', 1, 'balanced_accuracy')",True
+"fold metrics ('classification', 'RF', 1, 'accuracy')",True
+"fold metrics ('classification', 'RF', 1, 'log_loss')",True
+"fold metrics ('classification', 'RF', 1, 'DOWN_precision')",True
+"fold metrics ('classification', 'RF', 1, 'DOWN_recall')",True
+"fold metrics ('classification', 'RF', 1, 'DOWN_f1')",True
+"fold metrics ('classification', 'RF', 1, 'FLAT_precision')",True
+"fold metrics ('classification', 'RF', 1, 'FLAT_recall')",True
+"fold metrics ('classification', 'RF', 1, 'FLAT_f1')",True
+"fold metrics ('classification', 'RF', 1, 'UP_precision')",True
+"fold metrics ('classification', 'RF', 1, 'UP_recall')",True
+"fold metrics ('classification', 'RF', 1, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'RF', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'RF', 1)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'RF', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'RF', 2, 'n')",True
+"fold metrics ('classification', 'RF', 2, 'macro_f1')",True
+"fold metrics ('classification', 'RF', 2, 'balanced_accuracy')",True
+"fold metrics ('classification', 'RF', 2, 'accuracy')",True
+"fold metrics ('classification', 'RF', 2, 'log_loss')",True
+"fold metrics ('classification', 'RF', 2, 'DOWN_precision')",True
+"fold metrics ('classification', 'RF', 2, 'DOWN_recall')",True
+"fold metrics ('classification', 'RF', 2, 'DOWN_f1')",True
+"fold metrics ('classification', 'RF', 2, 'FLAT_precision')",True
+"fold metrics ('classification', 'RF', 2, 'FLAT_recall')",True
+"fold metrics ('classification', 'RF', 2, 'FLAT_f1')",True
+"fold metrics ('classification', 'RF', 2, 'UP_precision')",True
+"fold metrics ('classification', 'RF', 2, 'UP_recall')",True
+"fold metrics ('classification', 'RF', 2, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'RF', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'RF', 2)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'RF', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'RF', 3, 'n')",True
+"fold metrics ('classification', 'RF', 3, 'macro_f1')",True
+"fold metrics ('classification', 'RF', 3, 'balanced_accuracy')",True
+"fold metrics ('classification', 'RF', 3, 'accuracy')",True
+"fold metrics ('classification', 'RF', 3, 'log_loss')",True
+"fold metrics ('classification', 'RF', 3, 'DOWN_precision')",True
+"fold metrics ('classification', 'RF', 3, 'DOWN_recall')",True
+"fold metrics ('classification', 'RF', 3, 'DOWN_f1')",True
+"fold metrics ('classification', 'RF', 3, 'FLAT_precision')",True
+"fold metrics ('classification', 'RF', 3, 'FLAT_recall')",True
+"fold metrics ('classification', 'RF', 3, 'FLAT_f1')",True
+"fold metrics ('classification', 'RF', 3, 'UP_precision')",True
+"fold metrics ('classification', 'RF', 3, 'UP_recall')",True
+"fold metrics ('classification', 'RF', 3, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'RF', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'RF', 3)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'RF', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'RF', 4, 'n')",True
+"fold metrics ('classification', 'RF', 4, 'macro_f1')",True
+"fold metrics ('classification', 'RF', 4, 'balanced_accuracy')",True
+"fold metrics ('classification', 'RF', 4, 'accuracy')",True
+"fold metrics ('classification', 'RF', 4, 'log_loss')",True
+"fold metrics ('classification', 'RF', 4, 'DOWN_precision')",True
+"fold metrics ('classification', 'RF', 4, 'DOWN_recall')",True
+"fold metrics ('classification', 'RF', 4, 'DOWN_f1')",True
+"fold metrics ('classification', 'RF', 4, 'FLAT_precision')",True
+"fold metrics ('classification', 'RF', 4, 'FLAT_recall')",True
+"fold metrics ('classification', 'RF', 4, 'FLAT_f1')",True
+"fold metrics ('classification', 'RF', 4, 'UP_precision')",True
+"fold metrics ('classification', 'RF', 4, 'UP_recall')",True
+"fold metrics ('classification', 'RF', 4, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'RF', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'RF', 4)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"test-only membership ('classification', 'RF', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'RF', 5, 'n')",True
+"fold metrics ('classification', 'RF', 5, 'macro_f1')",True
+"fold metrics ('classification', 'RF', 5, 'balanced_accuracy')",True
+"fold metrics ('classification', 'RF', 5, 'accuracy')",True
+"fold metrics ('classification', 'RF', 5, 'log_loss')",True
+"fold metrics ('classification', 'RF', 5, 'DOWN_precision')",True
+"fold metrics ('classification', 'RF', 5, 'DOWN_recall')",True
+"fold metrics ('classification', 'RF', 5, 'DOWN_f1')",True
+"fold metrics ('classification', 'RF', 5, 'FLAT_precision')",True
+"fold metrics ('classification', 'RF', 5, 'FLAT_recall')",True
+"fold metrics ('classification', 'RF', 5, 'FLAT_f1')",True
+"fold metrics ('classification', 'RF', 5, 'UP_precision')",True
+"fold metrics ('classification', 'RF', 5, 'UP_recall')",True
+"fold metrics ('classification', 'RF', 5, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'RF', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'RF', 5)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+"identical OOS ('classification', 'ValidationSelected')",True
+"unique OOS ('classification', 'ValidationSelected')",True
+"aggregate ('classification', 'ValidationSelected', 'n')",True
+"aggregate ('classification', 'ValidationSelected', 'macro_f1')",True
+"aggregate ('classification', 'ValidationSelected', 'balanced_accuracy')",True
+"aggregate ('classification', 'ValidationSelected', 'accuracy')",True
+"aggregate ('classification', 'ValidationSelected', 'log_loss')",True
+"aggregate ('classification', 'ValidationSelected', 'DOWN_precision')",True
+"aggregate ('classification', 'ValidationSelected', 'DOWN_recall')",True
+"aggregate ('classification', 'ValidationSelected', 'DOWN_f1')",True
+"aggregate ('classification', 'ValidationSelected', 'FLAT_precision')",True
+"aggregate ('classification', 'ValidationSelected', 'FLAT_recall')",True
+"aggregate ('classification', 'ValidationSelected', 'FLAT_f1')",True
+"aggregate ('classification', 'ValidationSelected', 'UP_precision')",True
+"aggregate ('classification', 'ValidationSelected', 'UP_recall')",True
+"aggregate ('classification', 'ValidationSelected', 'UP_f1')",True
+"test-only membership ('classification', 'ValidationSelected', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'ValidationSelected', 1, 'n')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'macro_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'balanced_accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'log_loss')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'DOWN_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'DOWN_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'DOWN_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'FLAT_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'FLAT_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'FLAT_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'UP_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'UP_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 1, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'ValidationSelected', 1)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'ValidationSelected', 1)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('classification', 'ValidationSelected', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'ValidationSelected', 2, 'n')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'macro_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'balanced_accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'log_loss')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'DOWN_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'DOWN_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'DOWN_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'FLAT_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'FLAT_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'FLAT_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'UP_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'UP_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 2, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'ValidationSelected', 2)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'ValidationSelected', 2)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('classification', 'ValidationSelected', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'ValidationSelected', 3, 'n')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'macro_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'balanced_accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'log_loss')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'DOWN_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'DOWN_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'DOWN_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'FLAT_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'FLAT_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'FLAT_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'UP_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'UP_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 3, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'ValidationSelected', 3)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'ValidationSelected', 3)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('classification', 'ValidationSelected', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'ValidationSelected', 4, 'n')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'macro_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'balanced_accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'log_loss')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'DOWN_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'DOWN_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'DOWN_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'FLAT_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'FLAT_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'FLAT_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'UP_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'UP_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 4, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'ValidationSelected', 4)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'ValidationSelected', 4)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"test-only membership ('classification', 'ValidationSelected', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'ValidationSelected', 5, 'n')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'macro_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'balanced_accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'accuracy')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'log_loss')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'DOWN_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'DOWN_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'DOWN_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'FLAT_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'FLAT_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'FLAT_f1')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'UP_precision')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'UP_recall')",True
+"fold metrics ('classification', 'ValidationSelected', 5, 'UP_f1')",True
+feature version,True
+"whitelist ('classification', 'ValidationSelected', 5)",True
+train validation target purge,True
+disjoint partitions,True
+training-only imputation,True
+serialized model hash,True
+serialized metadata,True
+"saved model predicts saved OOS ('classification', 'ValidationSelected', 5)",True
+probability ordering,True
+validation score,True
+train score,True
+validation-selected candidate,True
+candidate tags,True
+validation-only family selection,True
+selected family OOS equality,True
+"identical OOS ('classification', 'Logistic')",True
+"unique OOS ('classification', 'Logistic')",True
+"aggregate ('classification', 'Logistic', 'n')",True
+"aggregate ('classification', 'Logistic', 'macro_f1')",True
+"aggregate ('classification', 'Logistic', 'balanced_accuracy')",True
+"aggregate ('classification', 'Logistic', 'accuracy')",True
+"aggregate ('classification', 'Logistic', 'log_loss')",True
+"aggregate ('classification', 'Logistic', 'DOWN_precision')",True
+"aggregate ('classification', 'Logistic', 'DOWN_recall')",True
+"aggregate ('classification', 'Logistic', 'DOWN_f1')",True
+"aggregate ('classification', 'Logistic', 'FLAT_precision')",True
+"aggregate ('classification', 'Logistic', 'FLAT_recall')",True
+"aggregate ('classification', 'Logistic', 'FLAT_f1')",True
+"aggregate ('classification', 'Logistic', 'UP_precision')",True
+"aggregate ('classification', 'Logistic', 'UP_recall')",True
+"aggregate ('classification', 'Logistic', 'UP_f1')",True
+"test-only membership ('classification', 'Logistic', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'Logistic', 1, 'n')",True
+"fold metrics ('classification', 'Logistic', 1, 'macro_f1')",True
+"fold metrics ('classification', 'Logistic', 1, 'balanced_accuracy')",True
+"fold metrics ('classification', 'Logistic', 1, 'accuracy')",True
+"fold metrics ('classification', 'Logistic', 1, 'log_loss')",True
+"fold metrics ('classification', 'Logistic', 1, 'DOWN_precision')",True
+"fold metrics ('classification', 'Logistic', 1, 'DOWN_recall')",True
+"fold metrics ('classification', 'Logistic', 1, 'DOWN_f1')",True
+"fold metrics ('classification', 'Logistic', 1, 'FLAT_precision')",True
+"fold metrics ('classification', 'Logistic', 1, 'FLAT_recall')",True
+"fold metrics ('classification', 'Logistic', 1, 'FLAT_f1')",True
+"fold metrics ('classification', 'Logistic', 1, 'UP_precision')",True
+"fold metrics ('classification', 'Logistic', 1, 'UP_recall')",True
+"fold metrics ('classification', 'Logistic', 1, 'UP_f1')",True
+"test-only membership ('classification', 'Logistic', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'Logistic', 2, 'n')",True
+"fold metrics ('classification', 'Logistic', 2, 'macro_f1')",True
+"fold metrics ('classification', 'Logistic', 2, 'balanced_accuracy')",True
+"fold metrics ('classification', 'Logistic', 2, 'accuracy')",True
+"fold metrics ('classification', 'Logistic', 2, 'log_loss')",True
+"fold metrics ('classification', 'Logistic', 2, 'DOWN_precision')",True
+"fold metrics ('classification', 'Logistic', 2, 'DOWN_recall')",True
+"fold metrics ('classification', 'Logistic', 2, 'DOWN_f1')",True
+"fold metrics ('classification', 'Logistic', 2, 'FLAT_precision')",True
+"fold metrics ('classification', 'Logistic', 2, 'FLAT_recall')",True
+"fold metrics ('classification', 'Logistic', 2, 'FLAT_f1')",True
+"fold metrics ('classification', 'Logistic', 2, 'UP_precision')",True
+"fold metrics ('classification', 'Logistic', 2, 'UP_recall')",True
+"fold metrics ('classification', 'Logistic', 2, 'UP_f1')",True
+"test-only membership ('classification', 'Logistic', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'Logistic', 3, 'n')",True
+"fold metrics ('classification', 'Logistic', 3, 'macro_f1')",True
+"fold metrics ('classification', 'Logistic', 3, 'balanced_accuracy')",True
+"fold metrics ('classification', 'Logistic', 3, 'accuracy')",True
+"fold metrics ('classification', 'Logistic', 3, 'log_loss')",True
+"fold metrics ('classification', 'Logistic', 3, 'DOWN_precision')",True
+"fold metrics ('classification', 'Logistic', 3, 'DOWN_recall')",True
+"fold metrics ('classification', 'Logistic', 3, 'DOWN_f1')",True
+"fold metrics ('classification', 'Logistic', 3, 'FLAT_precision')",True
+"fold metrics ('classification', 'Logistic', 3, 'FLAT_recall')",True
+"fold metrics ('classification', 'Logistic', 3, 'FLAT_f1')",True
+"fold metrics ('classification', 'Logistic', 3, 'UP_precision')",True
+"fold metrics ('classification', 'Logistic', 3, 'UP_recall')",True
+"fold metrics ('classification', 'Logistic', 3, 'UP_f1')",True
+"test-only membership ('classification', 'Logistic', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'Logistic', 4, 'n')",True
+"fold metrics ('classification', 'Logistic', 4, 'macro_f1')",True
+"fold metrics ('classification', 'Logistic', 4, 'balanced_accuracy')",True
+"fold metrics ('classification', 'Logistic', 4, 'accuracy')",True
+"fold metrics ('classification', 'Logistic', 4, 'log_loss')",True
+"fold metrics ('classification', 'Logistic', 4, 'DOWN_precision')",True
+"fold metrics ('classification', 'Logistic', 4, 'DOWN_recall')",True
+"fold metrics ('classification', 'Logistic', 4, 'DOWN_f1')",True
+"fold metrics ('classification', 'Logistic', 4, 'FLAT_precision')",True
+"fold metrics ('classification', 'Logistic', 4, 'FLAT_recall')",True
+"fold metrics ('classification', 'Logistic', 4, 'FLAT_f1')",True
+"fold metrics ('classification', 'Logistic', 4, 'UP_precision')",True
+"fold metrics ('classification', 'Logistic', 4, 'UP_recall')",True
+"fold metrics ('classification', 'Logistic', 4, 'UP_f1')",True
+"test-only membership ('classification', 'Logistic', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'Logistic', 5, 'n')",True
+"fold metrics ('classification', 'Logistic', 5, 'macro_f1')",True
+"fold metrics ('classification', 'Logistic', 5, 'balanced_accuracy')",True
+"fold metrics ('classification', 'Logistic', 5, 'accuracy')",True
+"fold metrics ('classification', 'Logistic', 5, 'log_loss')",True
+"fold metrics ('classification', 'Logistic', 5, 'DOWN_precision')",True
+"fold metrics ('classification', 'Logistic', 5, 'DOWN_recall')",True
+"fold metrics ('classification', 'Logistic', 5, 'DOWN_f1')",True
+"fold metrics ('classification', 'Logistic', 5, 'FLAT_precision')",True
+"fold metrics ('classification', 'Logistic', 5, 'FLAT_recall')",True
+"fold metrics ('classification', 'Logistic', 5, 'FLAT_f1')",True
+"fold metrics ('classification', 'Logistic', 5, 'UP_precision')",True
+"fold metrics ('classification', 'Logistic', 5, 'UP_recall')",True
+"fold metrics ('classification', 'Logistic', 5, 'UP_f1')",True
+"identical OOS ('classification', 'AlwaysFLAT')",True
+"unique OOS ('classification', 'AlwaysFLAT')",True
+"aggregate ('classification', 'AlwaysFLAT', 'n')",True
+"aggregate ('classification', 'AlwaysFLAT', 'macro_f1')",True
+"aggregate ('classification', 'AlwaysFLAT', 'balanced_accuracy')",True
+"aggregate ('classification', 'AlwaysFLAT', 'accuracy')",True
+"aggregate ('classification', 'AlwaysFLAT', 'log_loss')",True
+"aggregate ('classification', 'AlwaysFLAT', 'DOWN_precision')",True
+"aggregate ('classification', 'AlwaysFLAT', 'DOWN_recall')",True
+"aggregate ('classification', 'AlwaysFLAT', 'DOWN_f1')",True
+"aggregate ('classification', 'AlwaysFLAT', 'FLAT_precision')",True
+"aggregate ('classification', 'AlwaysFLAT', 'FLAT_recall')",True
+"aggregate ('classification', 'AlwaysFLAT', 'FLAT_f1')",True
+"aggregate ('classification', 'AlwaysFLAT', 'UP_precision')",True
+"aggregate ('classification', 'AlwaysFLAT', 'UP_recall')",True
+"aggregate ('classification', 'AlwaysFLAT', 'UP_f1')",True
+"test-only membership ('classification', 'AlwaysFLAT', 1)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'n')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'macro_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'balanced_accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'log_loss')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'DOWN_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'DOWN_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'DOWN_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'FLAT_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'FLAT_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'FLAT_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'UP_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'UP_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 1, 'UP_f1')",True
+"test-only membership ('classification', 'AlwaysFLAT', 2)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'n')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'macro_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'balanced_accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'log_loss')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'DOWN_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'DOWN_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'DOWN_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'FLAT_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'FLAT_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'FLAT_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'UP_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'UP_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 2, 'UP_f1')",True
+"test-only membership ('classification', 'AlwaysFLAT', 3)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'n')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'macro_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'balanced_accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'log_loss')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'DOWN_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'DOWN_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'DOWN_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'FLAT_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'FLAT_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'FLAT_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'UP_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'UP_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 3, 'UP_f1')",True
+"test-only membership ('classification', 'AlwaysFLAT', 4)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'n')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'macro_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'balanced_accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'log_loss')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'DOWN_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'DOWN_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'DOWN_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'FLAT_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'FLAT_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'FLAT_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'UP_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'UP_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 4, 'UP_f1')",True
+"test-only membership ('classification', 'AlwaysFLAT', 5)",True
+metadata train_start,True
+metadata train_end,True
+metadata validation_start,True
+metadata validation_end,True
+metadata test_start,True
+metadata test_end,True
+labels,True
+target timestamp,True
+source state,True
+causal feature timestamp,True
+true classes,True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'n')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'macro_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'balanced_accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'accuracy')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'log_loss')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'DOWN_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'DOWN_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'DOWN_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'FLAT_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'FLAT_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'FLAT_f1')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'UP_precision')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'UP_recall')",True
+"fold metrics ('classification', 'AlwaysFLAT', 5, 'UP_f1')",True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+confusion cell,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+prediction rank correlation,True
+prediction Pearson,True
+paired delta observed,True
+paired delta mean,True
+paired interval,True
+paired delta observed,True
+paired delta mean,True
+paired interval,True
+paired delta observed,True
+paired delta mean,True
+paired interval,True
+paired delta observed,True
+paired delta mean,True
+paired interval,True
+paired delta observed,True
+paired delta mean,True
+paired interval,True
+paired delta observed,True
+paired delta mean,True
+paired interval,True
+"literal paired bootstrap (0, 'regression', 'Flow')",True
+"literal paired bootstrap (0, 'regression', 'LightGBM')",True
+"literal paired bootstrap (0, 'regression', 'RF')",True
+"literal paired bootstrap (0, 'regression', 'RandomFeature')",True
+"literal paired bootstrap (0, 'regression', 'RandomLabel')",True
+"literal paired bootstrap (0, 'regression', 'Static')",True
+"literal paired bootstrap (0, 'regression', 'TemporalPlacebo')",True
+"literal paired bootstrap (0, 'regression', 'ValidationSelected')",True
+"literal paired bootstrap (0, 'regression', 'Ridge')",True
+"literal paired bootstrap (0, 'regression', 'OBI_L1')",True
+"literal paired bootstrap (0, 'regression', 'MICROPRICE_MINUS_MID')",True
+"literal paired bootstrap (0, 'regression', 'OFI_1S')",True
+"literal paired bootstrap (0, 'classification', 'LightGBM')",True
+"literal paired bootstrap (0, 'classification', 'RF')",True
+"literal paired bootstrap (0, 'classification', 'ValidationSelected')",True
+"literal paired bootstrap (0, 'classification', 'Logistic')",True
+"literal paired bootstrap (0, 'classification', 'AlwaysFLAT')",True
+"literal paired bootstrap (1, 'regression', 'Flow')",True
+"literal paired bootstrap (1, 'regression', 'LightGBM')",True
+"literal paired bootstrap (1, 'regression', 'RF')",True
+"literal paired bootstrap (1, 'regression', 'RandomFeature')",True
+"literal paired bootstrap (1, 'regression', 'RandomLabel')",True
+"literal paired bootstrap (1, 'regression', 'Static')",True
+"literal paired bootstrap (1, 'regression', 'TemporalPlacebo')",True
+"literal paired bootstrap (1, 'regression', 'ValidationSelected')",True
+"literal paired bootstrap (1, 'regression', 'Ridge')",True
+"literal paired bootstrap (1, 'regression', 'OBI_L1')",True
+"literal paired bootstrap (1, 'regression', 'MICROPRICE_MINUS_MID')",True
+"literal paired bootstrap (1, 'regression', 'OFI_1S')",True
+"literal paired bootstrap (1, 'classification', 'LightGBM')",True
+"literal paired bootstrap (1, 'classification', 'RF')",True
+"literal paired bootstrap (1, 'classification', 'ValidationSelected')",True
+"literal paired bootstrap (1, 'classification', 'Logistic')",True
+"literal paired bootstrap (1, 'classification', 'AlwaysFLAT')",True
+"literal paired bootstrap (2, 'regression', 'Flow')",True
+"literal paired bootstrap (2, 'regression', 'LightGBM')",True
+"literal paired bootstrap (2, 'regression', 'RF')",True
+"literal paired bootstrap (2, 'regression', 'RandomFeature')",True
+"literal paired bootstrap (2, 'regression', 'RandomLabel')",True
+"literal paired bootstrap (2, 'regression', 'Static')",True
+"literal paired bootstrap (2, 'regression', 'TemporalPlacebo')",True
+"literal paired bootstrap (2, 'regression', 'ValidationSelected')",True
+"literal paired bootstrap (2, 'regression', 'Ridge')",True
+"literal paired bootstrap (2, 'regression', 'OBI_L1')",True
+"literal paired bootstrap (2, 'regression', 'MICROPRICE_MINUS_MID')",True
+"literal paired bootstrap (2, 'regression', 'OFI_1S')",True
+"literal paired bootstrap (2, 'classification', 'LightGBM')",True
+"literal paired bootstrap (2, 'classification', 'RF')",True
+"literal paired bootstrap (2, 'classification', 'ValidationSelected')",True
+"literal paired bootstrap (2, 'classification', 'Logistic')",True
+"literal paired bootstrap (2, 'classification', 'AlwaysFLAT')",True
+"visible report metrics ('regression', 'Ridge')",True
+"visible report metrics ('regression', 'RF')",True
+"visible report metrics ('regression', 'LightGBM')",True
+"visible report metrics ('regression', 'ValidationSelected')",True
+"visible report metrics ('classification', 'Logistic')",True
+"visible report metrics ('classification', 'RF')",True
+"visible report metrics ('classification', 'LightGBM')",True
+"visible report metrics ('classification', 'ValidationSelected')",True
+"visible report metrics ('classification', 'AlwaysFLAT')",True
+visible paired report nonlinear_vs_ridge_bootstrap RF,True
+visible paired report nonlinear_vs_ridge_bootstrap LightGBM,True
+visible paired report nonlinear_vs_ridge_bootstrap ValidationSelected,True
+visible paired report nonlinear_vs_logistic_bootstrap RF,True
+visible paired report nonlinear_vs_logistic_bootstrap LightGBM,True
+visible paired report nonlinear_vs_logistic_bootstrap ValidationSelected,True
+isolation_audit.json,True
+reproducibility_audit.json,True

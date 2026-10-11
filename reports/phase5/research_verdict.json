@@ -1,0 +1,22 @@
+{
+  "regression": "RELIABLE NONLINEAR IMPROVEMENT",
+  "classification": "RELIABLE NONLINEAR DIRECTIONAL IMPROVEMENT",
+  "phase_decision": "PASS",
+  "severe_gap": {
+    "regression": false,
+    "classification": false
+  },
+  "controls_sane": true,
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "126",
+    "time": "7.832",
+    "timestamp": "2026-10-11T20:11:45.174907+08:00",
+    "hostname": "\u7535\u8111\u800c\u5df2"
+  },
+  "primary_comparison": "ValidationSelected",
+  "independent_verification_required": true
+}

@@ -1,0 +1,17 @@
+{
+  "regression": "NO RELIABLE INCREMENTAL VALUE OVER SINGLE FEATURES",
+  "classification": "MODEST DIRECTIONAL IMPROVEMENT",
+  "methodology": "PASS",
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "114",
+    "time": "3.272",
+    "timestamp": "2026-10-11T19:30:57.155435+08:00",
+    "hostname": "\u7535\u8111\u800c\u5df2"
+  },
+  "controls_sane": true,
+  "independent_verification_required": true
+}

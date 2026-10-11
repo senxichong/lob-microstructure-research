@@ -1,0 +1,28 @@
+{
+  "reason": "Independent verifier found floating-point centering residual on constant within-fold TrainingMean Pearson. Correlation is undefined. Phase 4 metric wrapper now checks exact range before calling unchanged upstream helper.",
+  "original_code_sha256": "6d25f39bdcffa77677e47646ed3130ed4f163168deded2f4479a0492789bcd04",
+  "archived_original": "reports/phase4/core_at_execution.py",
+  "before_hashes": {
+    "reports/phase4/regression_metrics.csv": "89ccec6bcba2dd1be09cfc0e980e53e94ec4d29dcc4c52430b878d92e3a46e69",
+    "reports/phase4/regression_fold_metrics.csv": "cf0b482c47acd471f1e7f0ca8c57eb2b967e51ecb8ff2a783a841abe812f09ab",
+    "reports/phase4/time_of_day_model_stability.csv": "c03be31a7c28acd56dd0ad55210610b5df69a553d32643b2e31796f21081cbd0",
+    "reports/phase4/regression_oos_predictions.parquet": "b9c6de7cdc7c78d4962e18e8efac41b446c21259b3c6d8ce833c345767ccae67",
+    "reports/phase4/classification_oos_predictions.parquet": "8ac02d6eb135627b5e9a108f076e163277e16f564f472a0cbb35f9c1bebd7060",
+    "reports/phase4/fitted_models.json": "2301ab33bc8306889a378fe1e8e8d3058cf7f24543b48f93c701f485677454ab"
+  },
+  "upstream_modified": false,
+  "fit_or_prediction_changes": false,
+  "current_code_sha256": "f002165f505f33f14c6a7abf86bc90286a239a95be5c0769447ab0df6ec217b9",
+  "after_hashes": {
+    "reports/phase4/regression_metrics.csv": "89ccec6bcba2dd1be09cfc0e980e53e94ec4d29dcc4c52430b878d92e3a46e69",
+    "reports/phase4/regression_fold_metrics.csv": "2466a14e9f1ff0a36bb2165a040086dd284386f9a05fb868bd5ef0d794cb7dcd",
+    "reports/phase4/time_of_day_model_stability.csv": "0064d82a15d06e6f8448f3a7f6c112868c14c355635da97a92b2aa278a5502bf",
+    "reports/phase4/regression_oos_predictions.parquet": "b9c6de7cdc7c78d4962e18e8efac41b446c21259b3c6d8ce833c345767ccae67",
+    "reports/phase4/classification_oos_predictions.parquet": "8ac02d6eb135627b5e9a108f076e163277e16f564f472a0cbb35f9c1bebd7060",
+    "reports/phase4/fitted_models.json": "2301ab33bc8306889a378fe1e8e8d3058cf7f24543b48f93c701f485677454ab"
+  },
+  "changed_metric_files": [
+    "reports/phase4/regression_fold_metrics.csv",
+    "reports/phase4/time_of_day_model_stability.csv"
+  ]
+}

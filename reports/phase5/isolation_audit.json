@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checks": 33,
+  "future_rows_mutated": 64191,
+  "payload_columns_mutated": [
+    "book_valid",
+    "mid_sum_price_units",
+    "midprice",
+    "best_bid_price",
+    "best_ask_price",
+    "best_bid_size",
+    "best_ask_size",
+    "spread",
+    "FWD_MID_RET_1S",
+    "OBI_L1",
+    "OBI_L5",
+    "OBI_L10",
+    "WOBI_L10",
+    "MICROPRICE_MINUS_MID",
+    "OFI_100MS",
+    "OFI_1S",
+    "RELATIVE_SPREAD",
+    "EVENT_RATE_1S",
+    "TIME_SINCE_PREVIOUS_TRADE"
+  ],
+  "preserved_keys": [
+    "timestamp",
+    "source_order",
+    "event_index"
+  ],
+  "future_mutation": "PASS",
+  "test_label_isolation": "PASS",
+  "evaluation_changed": true,
+  "row_order_invariance": "PASS",
+  "future_feature_rejected": true
+}

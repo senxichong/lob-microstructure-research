@@ -1,0 +1,10 @@
+{
+  "reason": "Pre-result code review found duplicate task keyword in metadata serializer. Stopped fitting process before serialization, corrected dictionary merge, and added prediction round-trip test.",
+  "initial_manifest": "reports/phase5/aborted_execution_manifest.json",
+  "test_scores_inspected_before_restart": false,
+  "protocol_changed": false,
+  "features_changed": false,
+  "candidate_grid_changed": false,
+  "seed_changed": false,
+  "predictions_existed_before_restart": false
+}

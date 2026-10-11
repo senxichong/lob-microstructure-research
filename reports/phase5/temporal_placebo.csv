@@ -1,0 +1,2 @@
+model_name,spearman,ci_lower,ci_upper,real_lightgbm,delta,delta_ci_lower,delta_ci_upper,investigation_required
+TemporalPlacebo,-0.00909464453519576,-0.027387787785184664,0.0070809089860913435,0.09863658973565101,-0.10773123427084677,-0.13327983054374098,-0.08315471444975966,False

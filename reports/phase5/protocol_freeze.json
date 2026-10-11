@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-11T11:52:51.415588+00:00",
+  "documents": {
+    "PHASE5_PROTOCOL.md": "13125db8bbf2f6b1d6edfdaa48da8269d892a765a930131b97366af1742f9fdd",
+    "PHASE5_FEATURE_SET.md": "8943a5434f122f2baa87284a4f68eb1cf79dff5b8847ee7063bef9a0d1614dce",
+    "requirements.phase5.txt": "95f7026418ba43c9402de045883510d6b146dea0329d59e2e8d8718e19ee1edf",
+    "reports/phase4/fold_manifest.csv": "0630e22474e3438f80a5b6eece0e2307b46decfb708e5bb5f3f4da2276a3d756"
+  },
+  "log_bytes": 6227,
+  "log_hash": "638ecb20ea6da5af0f8f4bea7eef4f6db3b8fdb71afc5cc5d4728e01c4af53e0"
+}

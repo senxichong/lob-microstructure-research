@@ -1,0 +1,387 @@
+[
+  {
+    "task": "regression",
+    "model_name": "RF",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_RF_fold1.joblib",
+    "sha256": "23b7850eb85c5a43b10b23f23e9cc0c30958136d3137f4db6202bfee44096a8d"
+  },
+  {
+    "task": "regression",
+    "model_name": "LightGBM",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_LightGBM_fold1.joblib",
+    "sha256": "29d3147df3637035280fce814df2e7ab2098dd878d1597d510f7aadcf993da85"
+  },
+  {
+    "task": "regression",
+    "model_name": "ValidationSelected",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_ValidationSelected_fold1.joblib",
+    "sha256": "643c3c1d544435fb956a0d20945b8ca22031c622d3c3638a8db336966f05d458"
+  },
+  {
+    "task": "regression",
+    "model_name": "Static",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_Static_fold1.joblib",
+    "sha256": "d63a7d76c3e93dd9a720fd7ac8b36fac922390a3fad312738a5cc32e1b748a6c"
+  },
+  {
+    "task": "regression",
+    "model_name": "Flow",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_Flow_fold1.joblib",
+    "sha256": "5f107b5cac543701b7cb16c536a1769d1748feedb7d5d6f7798dc7e7be306077"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomLabel",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_RandomLabel_fold1.joblib",
+    "sha256": "f83d27310c3670760f3c9d00712aa66936ca36d4357365cb6da56f092ef0ba82"
+  },
+  {
+    "task": "regression",
+    "model_name": "TemporalPlacebo",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib",
+    "sha256": "9f85c39e6f97e89eb3e1e5e874f70aa86bee6fd2ba825e44a0e4a7ee217f5936"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomFeature",
+    "fold_id": 1,
+    "path": "artifacts/phase5/regression_RandomFeature_fold1.joblib",
+    "sha256": "880c866c2020b3685f4fbe4bf0182c2ff32aff015d31f8b842fd82f993d3c41c"
+  },
+  {
+    "task": "classification",
+    "model_name": "RF",
+    "fold_id": 1,
+    "path": "artifacts/phase5/classification_RF_fold1.joblib",
+    "sha256": "b68b8a468cfb11260b2cce16de86d693cf1163cded25124a6d5d34bb9bc60329"
+  },
+  {
+    "task": "classification",
+    "model_name": "LightGBM",
+    "fold_id": 1,
+    "path": "artifacts/phase5/classification_LightGBM_fold1.joblib",
+    "sha256": "f90e3b434155e9e4571dd8c44ab4da2e445144d9d7f08521656abca056a349d2"
+  },
+  {
+    "task": "classification",
+    "model_name": "ValidationSelected",
+    "fold_id": 1,
+    "path": "artifacts/phase5/classification_ValidationSelected_fold1.joblib",
+    "sha256": "3c9fa3ab55d68e14e2db097b88636634d052a30bd3dbb8d8ddd9edca8693a5cc"
+  },
+  {
+    "task": "regression",
+    "model_name": "RF",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_RF_fold2.joblib",
+    "sha256": "06ab2c73027d13ee1cae2f6236a466b3e5ccfa214aaacdf9c694a143cee000cf"
+  },
+  {
+    "task": "regression",
+    "model_name": "LightGBM",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_LightGBM_fold2.joblib",
+    "sha256": "42bda08299ca15cad43b9a0c9b0a5b0211a2b1221db990aa17c1babffc1aedf4"
+  },
+  {
+    "task": "regression",
+    "model_name": "ValidationSelected",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_ValidationSelected_fold2.joblib",
+    "sha256": "f365fcd39d47a5074db8c9f26c117858a2d4c2f8ac210b476ef34947005d151a"
+  },
+  {
+    "task": "regression",
+    "model_name": "Static",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_Static_fold2.joblib",
+    "sha256": "348f4bf4fe8d42990aa919e6e9e5c428f8ce340c8946c63c45d4d42fd6b99b26"
+  },
+  {
+    "task": "regression",
+    "model_name": "Flow",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_Flow_fold2.joblib",
+    "sha256": "590af178ba18a21bca5b7b993a1718f3f65c40f1a511d9def67db0753b9d38ca"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomLabel",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_RandomLabel_fold2.joblib",
+    "sha256": "73129c2968931d734b3cda5ae5ca76b7bc1e350e143ec0d43705aa4e9498b01a"
+  },
+  {
+    "task": "regression",
+    "model_name": "TemporalPlacebo",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib",
+    "sha256": "06ccf2b538e050a9098e2b20ad4d872188a180e6090afbeeaba7b9db2899037c"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomFeature",
+    "fold_id": 2,
+    "path": "artifacts/phase5/regression_RandomFeature_fold2.joblib",
+    "sha256": "b65abb43d0a345c29000bd7dd67dc8bda4647461701b052c6c9006f96e81cbec"
+  },
+  {
+    "task": "classification",
+    "model_name": "RF",
+    "fold_id": 2,
+    "path": "artifacts/phase5/classification_RF_fold2.joblib",
+    "sha256": "812090bf239f0076645f4127641325d0c96bca0e048f81ca9f923e06644ac798"
+  },
+  {
+    "task": "classification",
+    "model_name": "LightGBM",
+    "fold_id": 2,
+    "path": "artifacts/phase5/classification_LightGBM_fold2.joblib",
+    "sha256": "cb3054ecc260cca38929d2bd017d01c71c4e98f19ffb062e12c0ba5b29e1ac35"
+  },
+  {
+    "task": "classification",
+    "model_name": "ValidationSelected",
+    "fold_id": 2,
+    "path": "artifacts/phase5/classification_ValidationSelected_fold2.joblib",
+    "sha256": "5b5e75c54f1f67599ebda77c991fb3e47d7e0b4d05dd67992b794afb90463584"
+  },
+  {
+    "task": "regression",
+    "model_name": "RF",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_RF_fold3.joblib",
+    "sha256": "9b50e665ce865cbddfc2f4c4baa9a971b34ea77079d116b85ef93c2eff1da860"
+  },
+  {
+    "task": "regression",
+    "model_name": "LightGBM",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_LightGBM_fold3.joblib",
+    "sha256": "18840835b978d789d6dfcffcb8ac331e4c9f73d44b50c4a8471f52e9591fa5e2"
+  },
+  {
+    "task": "regression",
+    "model_name": "ValidationSelected",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_ValidationSelected_fold3.joblib",
+    "sha256": "b1c426a2a6b070e80038deee6026825f43ac13e83c02aa69ecbd9cb607653f79"
+  },
+  {
+    "task": "regression",
+    "model_name": "Static",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_Static_fold3.joblib",
+    "sha256": "ff767cd2bb98c766db2d4054df72a29d18c5e6b524a0df5298e37bace728dbf4"
+  },
+  {
+    "task": "regression",
+    "model_name": "Flow",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_Flow_fold3.joblib",
+    "sha256": "54f6973614931fcf9cbebc1a33a51b9e49b31b56d22ddf8ad55a8d7940e88755"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomLabel",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_RandomLabel_fold3.joblib",
+    "sha256": "949b5706571e0f5fe51e8c883193f505e115989411f619121132871d1ba14b2e"
+  },
+  {
+    "task": "regression",
+    "model_name": "TemporalPlacebo",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib",
+    "sha256": "92e2736d4ebcf37473b0ba1c752daf8d72cfed93d0ae3a6c922cb2cdd7946561"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomFeature",
+    "fold_id": 3,
+    "path": "artifacts/phase5/regression_RandomFeature_fold3.joblib",
+    "sha256": "3a11260d6cd4855231bdc145cb241a78b73cf54fc26ce8afacd8ea303aa5b797"
+  },
+  {
+    "task": "classification",
+    "model_name": "RF",
+    "fold_id": 3,
+    "path": "artifacts/phase5/classification_RF_fold3.joblib",
+    "sha256": "792acf0de930cb57aa3d3017e2b91ce786618e5bc730c5bbf65c6eb7550036bb"
+  },
+  {
+    "task": "classification",
+    "model_name": "LightGBM",
+    "fold_id": 3,
+    "path": "artifacts/phase5/classification_LightGBM_fold3.joblib",
+    "sha256": "041ad72bbb8a317ad11a73ad8d8d0c2494d098f7cf1065eb53ad191056118581"
+  },
+  {
+    "task": "classification",
+    "model_name": "ValidationSelected",
+    "fold_id": 3,
+    "path": "artifacts/phase5/classification_ValidationSelected_fold3.joblib",
+    "sha256": "a23478afb6e5a56e4861523d9a054254949a12dca95f2b3726ed4995f01fb509"
+  },
+  {
+    "task": "regression",
+    "model_name": "RF",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_RF_fold4.joblib",
+    "sha256": "da7a05d98b9e53cb0e92d63711f82d169c194b697e121608d810e98d1d76ad2e"
+  },
+  {
+    "task": "regression",
+    "model_name": "LightGBM",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_LightGBM_fold4.joblib",
+    "sha256": "cf5cc2f7f42eb37b349c1df18cb90f89c1b8761d6af23e67d05d21679072e335"
+  },
+  {
+    "task": "regression",
+    "model_name": "ValidationSelected",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_ValidationSelected_fold4.joblib",
+    "sha256": "f29164203c098fea6ff029ea8f7cac64ba8b2d9f45e4ec024b5f825a2ac68de5"
+  },
+  {
+    "task": "regression",
+    "model_name": "Static",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_Static_fold4.joblib",
+    "sha256": "ffa38864b358c3c5c080ba8e304480d51ecc534f4594c7d3abe553e64d9d8810"
+  },
+  {
+    "task": "regression",
+    "model_name": "Flow",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_Flow_fold4.joblib",
+    "sha256": "41541dad8b2ad474cae0021dd335751e3cc8f57138b8bef9dcc4a0475bafe969"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomLabel",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_RandomLabel_fold4.joblib",
+    "sha256": "32c71ca20db0facac6a6c5686c98644fbd4d6accbd0f1d7fd1f389aa8d233862"
+  },
+  {
+    "task": "regression",
+    "model_name": "TemporalPlacebo",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib",
+    "sha256": "d0cda5cd190324ea4ae6a98e35ff8082ac798b077041d9f22e9a16fd33fd1cfa"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomFeature",
+    "fold_id": 4,
+    "path": "artifacts/phase5/regression_RandomFeature_fold4.joblib",
+    "sha256": "4013fb542bf5bd208adbbd5f655c82ca6e1f7d034d23e69f13302c3a8b0c3205"
+  },
+  {
+    "task": "classification",
+    "model_name": "RF",
+    "fold_id": 4,
+    "path": "artifacts/phase5/classification_RF_fold4.joblib",
+    "sha256": "73195823052e522d24f2d87275aba264f5e89250049e5eeda150fc459f7610c1"
+  },
+  {
+    "task": "classification",
+    "model_name": "LightGBM",
+    "fold_id": 4,
+    "path": "artifacts/phase5/classification_LightGBM_fold4.joblib",
+    "sha256": "a9a9ef8255e5f7f71d040b2dbb069d163befbbb153305ccd914ecb77416c6537"
+  },
+  {
+    "task": "classification",
+    "model_name": "ValidationSelected",
+    "fold_id": 4,
+    "path": "artifacts/phase5/classification_ValidationSelected_fold4.joblib",
+    "sha256": "c33ae9fcf4bbcd15249575988618faa3d1a986a71974aae5a984644f86f10d13"
+  },
+  {
+    "task": "regression",
+    "model_name": "RF",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_RF_fold5.joblib",
+    "sha256": "26aff43f0cc0d52a4ade967bfd8c9027613b5eefe377db9f196a44014059f54b"
+  },
+  {
+    "task": "regression",
+    "model_name": "LightGBM",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_LightGBM_fold5.joblib",
+    "sha256": "f3d4f762edb165680998f880359d5c2b7e16032c0644f5a2d1c8714500a6b8d4"
+  },
+  {
+    "task": "regression",
+    "model_name": "ValidationSelected",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_ValidationSelected_fold5.joblib",
+    "sha256": "7d68ab8093da8c03a6043383bfaa2dc67fc96718fa60d16af659e54933eeae16"
+  },
+  {
+    "task": "regression",
+    "model_name": "Static",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_Static_fold5.joblib",
+    "sha256": "8df67c832d7c082f4e78e7cba519dbd779f680e44e650538e26fa6b17a60776b"
+  },
+  {
+    "task": "regression",
+    "model_name": "Flow",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_Flow_fold5.joblib",
+    "sha256": "0fe2a957d35e88d15d51d1add6442f191ff79b1119a72f55df95ae4b6d4dae57"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomLabel",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_RandomLabel_fold5.joblib",
+    "sha256": "0ea14770fadb3bb46f607365cbfc23ec61d6cb80443413d76d821d0d8780fd2d"
+  },
+  {
+    "task": "regression",
+    "model_name": "TemporalPlacebo",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib",
+    "sha256": "f09bee8bba394d9fe71d1a62f03d52647af4669197634973d6451368f66fe4d6"
+  },
+  {
+    "task": "regression",
+    "model_name": "RandomFeature",
+    "fold_id": 5,
+    "path": "artifacts/phase5/regression_RandomFeature_fold5.joblib",
+    "sha256": "049deb8f9d2dddd091dbfb3b3fb8d7660c272bf969063e6c9a1102e84cd489be"
+  },
+  {
+    "task": "classification",
+    "model_name": "RF",
+    "fold_id": 5,
+    "path": "artifacts/phase5/classification_RF_fold5.joblib",
+    "sha256": "4295ef22a21cce672a02d4b5019ff1d55b8d776395305c3bb15c42b912e91a7b"
+  },
+  {
+    "task": "classification",
+    "model_name": "LightGBM",
+    "fold_id": 5,
+    "path": "artifacts/phase5/classification_LightGBM_fold5.joblib",
+    "sha256": "bc3a8ddc5e5a971d0b55b6a11fea6878d72d30a2f0294f7849090bc7385fe944"
+  },
+  {
+    "task": "classification",
+    "model_name": "ValidationSelected",
+    "fold_id": 5,
+    "path": "artifacts/phase5/classification_ValidationSelected_fold5.joblib",
+    "sha256": "0f13a3249fc4eab9794663967fb480a8971aa5dd62af59a9380682360abea58d"
+  }
+]

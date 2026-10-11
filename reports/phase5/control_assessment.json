@@ -1,0 +1,7 @@
+{
+  "sane": true,
+  "random_feature_top_importance_folds": 0,
+  "random_feature_validation_gain_at_least_001_folds": 0,
+  "random_label_investigation": "False",
+  "temporal_placebo_investigation": "False"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": 6127,
+  "critical_failures": 0,
+  "report_verified": true,
+  "report_sha256": "8626279a925b600eb72230b0cd1510d1d89f54739cb439456065eec393e3346b",
+  "verifier_sha256": "e126763d8ac5a36f4797518e33d93d45bfcd53cf99c04b6e6fc7a1c495e11bad",
+  "prediction_hashes": {
+    "classification_oos_predictions.parquet": "8ac02d6eb135627b5e9a108f076e163277e16f564f472a0cbb35f9c1bebd7060",
+    "regression_oos_predictions.parquet": "b9c6de7cdc7c78d4962e18e8efac41b446c21259b3c6d8ce833c345767ccae67"
+  }
+}

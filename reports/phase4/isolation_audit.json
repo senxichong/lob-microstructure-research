@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "numerical_checks": 96,
+  "future_mutated_rows": 64191,
+  "future_mutated_columns": 217,
+  "preserved_keys": [
+    "timestamp",
+    "source_order",
+    "event_index"
+  ],
+  "future_mutation": "PASS",
+  "test_target_mutation": "PASS",
+  "test_metrics_changed": true,
+  "row_order_invariance": "PASS",
+  "shuffle_seed": 404035,
+  "tolerance": 1e-12
+}
