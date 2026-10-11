@@ -1,0 +1,1935 @@
+{
+  "MIDPRICE": {
+    "name": "MIDPRICE",
+    "formula": "(bid+ask)/2",
+    "required_fields": [
+      "BBO prices and sizes"
+    ],
+    "lookback_ms": 0,
+    "unit": "USD",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "invalid BBO -> null"
+  },
+  "SPREAD": {
+    "name": "SPREAD",
+    "formula": "ask-bid",
+    "required_fields": [
+      "BBO prices and sizes"
+    ],
+    "lookback_ms": 0,
+    "unit": "USD",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "invalid BBO -> null"
+  },
+  "RELATIVE_SPREAD": {
+    "name": "RELATIVE_SPREAD",
+    "formula": "spread/mid",
+    "required_fields": [
+      "BBO prices and sizes"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "invalid BBO -> null"
+  },
+  "MICROPRICE": {
+    "name": "MICROPRICE",
+    "formula": "(ask*bid_size+bid*ask_size)/(bid_size+ask_size)",
+    "required_fields": [
+      "BBO prices and sizes"
+    ],
+    "lookback_ms": 0,
+    "unit": "USD",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "invalid BBO -> null"
+  },
+  "MICROPRICE_MINUS_MID": {
+    "name": "MICROPRICE_MINUS_MID",
+    "formula": "microprice-mid",
+    "required_fields": [
+      "BBO prices and sizes"
+    ],
+    "lookback_ms": 0,
+    "unit": "USD",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "invalid BBO -> null"
+  },
+  "MICROPRICE_DEVIATION_TICKS": {
+    "name": "MICROPRICE_DEVIATION_TICKS",
+    "formula": "(microprice-mid)/verified_tick",
+    "required_fields": [
+      "BBO",
+      "verified tick"
+    ],
+    "lookback_ms": 0,
+    "unit": "ticks",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "unknown tick or invalid BBO -> null"
+  },
+  "BID_DEPTH_L1": {
+    "name": "BID_DEPTH_L1",
+    "formula": "sum bid_size[1:1]",
+    "required_fields": [
+      "prices/sizes levels 1..1"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "ASK_DEPTH_L1": {
+    "name": "ASK_DEPTH_L1",
+    "formula": "sum ask_size[1:1]",
+    "required_fields": [
+      "prices/sizes levels 1..1"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "TOTAL_DEPTH_L1": {
+    "name": "TOTAL_DEPTH_L1",
+    "formula": "bid_depth+ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..1"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "DEPTH_RATIO_L1": {
+    "name": "DEPTH_RATIO_L1",
+    "formula": "bid_depth/ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..1"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "OBI_L1": {
+    "name": "OBI_L1",
+    "formula": "(bid_depth-ask_depth)/(bid_depth+ask_depth)",
+    "required_fields": [
+      "prices/sizes levels 1..1"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "BID_DEPTH_L3": {
+    "name": "BID_DEPTH_L3",
+    "formula": "sum bid_size[1:3]",
+    "required_fields": [
+      "prices/sizes levels 1..3"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "ASK_DEPTH_L3": {
+    "name": "ASK_DEPTH_L3",
+    "formula": "sum ask_size[1:3]",
+    "required_fields": [
+      "prices/sizes levels 1..3"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "TOTAL_DEPTH_L3": {
+    "name": "TOTAL_DEPTH_L3",
+    "formula": "bid_depth+ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..3"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "DEPTH_RATIO_L3": {
+    "name": "DEPTH_RATIO_L3",
+    "formula": "bid_depth/ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..3"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "OBI_L3": {
+    "name": "OBI_L3",
+    "formula": "(bid_depth-ask_depth)/(bid_depth+ask_depth)",
+    "required_fields": [
+      "prices/sizes levels 1..3"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "BID_DEPTH_L5": {
+    "name": "BID_DEPTH_L5",
+    "formula": "sum bid_size[1:5]",
+    "required_fields": [
+      "prices/sizes levels 1..5"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "ASK_DEPTH_L5": {
+    "name": "ASK_DEPTH_L5",
+    "formula": "sum ask_size[1:5]",
+    "required_fields": [
+      "prices/sizes levels 1..5"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "TOTAL_DEPTH_L5": {
+    "name": "TOTAL_DEPTH_L5",
+    "formula": "bid_depth+ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..5"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "DEPTH_RATIO_L5": {
+    "name": "DEPTH_RATIO_L5",
+    "formula": "bid_depth/ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..5"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "OBI_L5": {
+    "name": "OBI_L5",
+    "formula": "(bid_depth-ask_depth)/(bid_depth+ask_depth)",
+    "required_fields": [
+      "prices/sizes levels 1..5"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "BID_DEPTH_L10": {
+    "name": "BID_DEPTH_L10",
+    "formula": "sum bid_size[1:10]",
+    "required_fields": [
+      "prices/sizes levels 1..10"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "ASK_DEPTH_L10": {
+    "name": "ASK_DEPTH_L10",
+    "formula": "sum ask_size[1:10]",
+    "required_fields": [
+      "prices/sizes levels 1..10"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "TOTAL_DEPTH_L10": {
+    "name": "TOTAL_DEPTH_L10",
+    "formula": "bid_depth+ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..10"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "DEPTH_RATIO_L10": {
+    "name": "DEPTH_RATIO_L10",
+    "formula": "bid_depth/ask_depth",
+    "required_fields": [
+      "prices/sizes levels 1..10"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "OBI_L10": {
+    "name": "OBI_L10",
+    "formula": "(bid_depth-ask_depth)/(bid_depth+ask_depth)",
+    "required_fields": [
+      "prices/sizes levels 1..10"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "missing/invalid requested levels or zero denominator -> null"
+  },
+  "WOBI_L10": {
+    "name": "WOBI_L10",
+    "formula": "sum((bid_size-ask_size)/rank)/sum((bid_size+ask_size)/rank)",
+    "required_fields": [
+      "levels 1..10"
+    ],
+    "lookback_ms": 0,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "require ten valid levels; zero denominator -> null"
+  },
+  "OFI_EVENT": {
+    "name": "OFI_EVENT",
+    "formula": "Cont-style consecutive BBO increment; see FEATURE_DEFINITIONS.md",
+    "required_fields": [
+      "current and immediately preceding BBO"
+    ],
+    "lookback_ms": 0,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "first row or invalid transition -> null"
+  },
+  "OFI_100MS": {
+    "name": "OFI_100MS",
+    "formula": "sum OFI_EVENT in (t-w,t], source-row capped",
+    "required_fields": [
+      "OFI_EVENT",
+      "timestamp",
+      "source_order"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_COUNT_100MS": {
+    "name": "EVENT_COUNT_100MS",
+    "formula": "sum EVENT_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_COUNT_100MS": {
+    "name": "ADD_COUNT_100MS",
+    "formula": "sum ADD_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_SIZE_100MS": {
+    "name": "ADD_SIZE_100MS",
+    "formula": "sum ADD_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_COUNT_100MS": {
+    "name": "ADD_BID_SIDE_COUNT_100MS",
+    "formula": "sum ADD_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_SIZE_100MS": {
+    "name": "ADD_BID_SIDE_SIZE_100MS",
+    "formula": "sum ADD_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_COUNT_100MS": {
+    "name": "ADD_ASK_SIDE_COUNT_100MS",
+    "formula": "sum ADD_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_SIZE_100MS": {
+    "name": "ADD_ASK_SIDE_SIZE_100MS",
+    "formula": "sum ADD_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_COUNT_100MS": {
+    "name": "CANCEL_COUNT_100MS",
+    "formula": "sum CANCEL_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_SIZE_100MS": {
+    "name": "CANCEL_SIZE_100MS",
+    "formula": "sum CANCEL_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_COUNT_100MS": {
+    "name": "CANCEL_BID_SIDE_COUNT_100MS",
+    "formula": "sum CANCEL_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_SIZE_100MS": {
+    "name": "CANCEL_BID_SIDE_SIZE_100MS",
+    "formula": "sum CANCEL_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_COUNT_100MS": {
+    "name": "CANCEL_ASK_SIDE_COUNT_100MS",
+    "formula": "sum CANCEL_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_SIZE_100MS": {
+    "name": "CANCEL_ASK_SIDE_SIZE_100MS",
+    "formula": "sum CANCEL_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_COUNT_100MS": {
+    "name": "EXECUTE_COUNT_100MS",
+    "formula": "sum EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_SIZE_100MS": {
+    "name": "EXECUTE_SIZE_100MS",
+    "formula": "sum EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_COUNT_100MS": {
+    "name": "EXECUTE_BID_SIDE_COUNT_100MS",
+    "formula": "sum EXECUTE_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_SIZE_100MS": {
+    "name": "EXECUTE_BID_SIDE_SIZE_100MS",
+    "formula": "sum EXECUTE_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_COUNT_100MS": {
+    "name": "EXECUTE_ASK_SIDE_COUNT_100MS",
+    "formula": "sum EXECUTE_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_SIZE_100MS": {
+    "name": "EXECUTE_ASK_SIDE_SIZE_100MS",
+    "formula": "sum EXECUTE_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_COUNT_100MS": {
+    "name": "VISIBLE_EXECUTE_COUNT_100MS",
+    "formula": "sum VISIBLE_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_SIZE_100MS": {
+    "name": "VISIBLE_EXECUTE_SIZE_100MS",
+    "formula": "sum VISIBLE_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_COUNT_100MS": {
+    "name": "HIDDEN_EXECUTE_COUNT_100MS",
+    "formula": "sum HIDDEN_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_SIZE_100MS": {
+    "name": "HIDDEN_EXECUTE_SIZE_100MS",
+    "formula": "sum HIDDEN_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 100,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_RATE_100MS": {
+    "name": "EVENT_RATE_100MS",
+    "formula": "EVENT_COUNT_100MS/window_seconds",
+    "required_fields": [
+      "EVENT_COUNT_100MS"
+    ],
+    "lookback_ms": 100,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_RATE_100MS": {
+    "name": "ADD_RATE_100MS",
+    "formula": "ADD_COUNT_100MS/window_seconds",
+    "required_fields": [
+      "ADD_COUNT_100MS"
+    ],
+    "lookback_ms": 100,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_RATE_100MS": {
+    "name": "CANCEL_RATE_100MS",
+    "formula": "CANCEL_COUNT_100MS/window_seconds",
+    "required_fields": [
+      "CANCEL_COUNT_100MS"
+    ],
+    "lookback_ms": 100,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTION_RATE_100MS": {
+    "name": "EXECUTION_RATE_100MS",
+    "formula": "EXECUTE_COUNT_100MS/window_seconds",
+    "required_fields": [
+      "EXECUTE_COUNT_100MS"
+    ],
+    "lookback_ms": 100,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "MID_RETURN_100MS": {
+    "name": "MID_RETURN_100MS",
+    "formula": "current_mid / mid_asof(t-w) - 1",
+    "required_fields": [
+      "current mid",
+      "as-of historical mid"
+    ],
+    "lookback_ms": 100,
+    "unit": "return",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "OFI_1S": {
+    "name": "OFI_1S",
+    "formula": "sum OFI_EVENT in (t-w,t], source-row capped",
+    "required_fields": [
+      "OFI_EVENT",
+      "timestamp",
+      "source_order"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_COUNT_1S": {
+    "name": "EVENT_COUNT_1S",
+    "formula": "sum EVENT_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_COUNT_1S": {
+    "name": "ADD_COUNT_1S",
+    "formula": "sum ADD_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_SIZE_1S": {
+    "name": "ADD_SIZE_1S",
+    "formula": "sum ADD_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_COUNT_1S": {
+    "name": "ADD_BID_SIDE_COUNT_1S",
+    "formula": "sum ADD_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_SIZE_1S": {
+    "name": "ADD_BID_SIDE_SIZE_1S",
+    "formula": "sum ADD_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_COUNT_1S": {
+    "name": "ADD_ASK_SIDE_COUNT_1S",
+    "formula": "sum ADD_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_SIZE_1S": {
+    "name": "ADD_ASK_SIDE_SIZE_1S",
+    "formula": "sum ADD_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_COUNT_1S": {
+    "name": "CANCEL_COUNT_1S",
+    "formula": "sum CANCEL_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_SIZE_1S": {
+    "name": "CANCEL_SIZE_1S",
+    "formula": "sum CANCEL_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_COUNT_1S": {
+    "name": "CANCEL_BID_SIDE_COUNT_1S",
+    "formula": "sum CANCEL_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_SIZE_1S": {
+    "name": "CANCEL_BID_SIDE_SIZE_1S",
+    "formula": "sum CANCEL_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_COUNT_1S": {
+    "name": "CANCEL_ASK_SIDE_COUNT_1S",
+    "formula": "sum CANCEL_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_SIZE_1S": {
+    "name": "CANCEL_ASK_SIDE_SIZE_1S",
+    "formula": "sum CANCEL_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_COUNT_1S": {
+    "name": "EXECUTE_COUNT_1S",
+    "formula": "sum EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_SIZE_1S": {
+    "name": "EXECUTE_SIZE_1S",
+    "formula": "sum EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_COUNT_1S": {
+    "name": "EXECUTE_BID_SIDE_COUNT_1S",
+    "formula": "sum EXECUTE_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_SIZE_1S": {
+    "name": "EXECUTE_BID_SIDE_SIZE_1S",
+    "formula": "sum EXECUTE_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_COUNT_1S": {
+    "name": "EXECUTE_ASK_SIDE_COUNT_1S",
+    "formula": "sum EXECUTE_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_SIZE_1S": {
+    "name": "EXECUTE_ASK_SIDE_SIZE_1S",
+    "formula": "sum EXECUTE_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_COUNT_1S": {
+    "name": "VISIBLE_EXECUTE_COUNT_1S",
+    "formula": "sum VISIBLE_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_SIZE_1S": {
+    "name": "VISIBLE_EXECUTE_SIZE_1S",
+    "formula": "sum VISIBLE_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_COUNT_1S": {
+    "name": "HIDDEN_EXECUTE_COUNT_1S",
+    "formula": "sum HIDDEN_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_SIZE_1S": {
+    "name": "HIDDEN_EXECUTE_SIZE_1S",
+    "formula": "sum HIDDEN_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_RATE_1S": {
+    "name": "EVENT_RATE_1S",
+    "formula": "EVENT_COUNT_1S/window_seconds",
+    "required_fields": [
+      "EVENT_COUNT_1S"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_RATE_1S": {
+    "name": "ADD_RATE_1S",
+    "formula": "ADD_COUNT_1S/window_seconds",
+    "required_fields": [
+      "ADD_COUNT_1S"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_RATE_1S": {
+    "name": "CANCEL_RATE_1S",
+    "formula": "CANCEL_COUNT_1S/window_seconds",
+    "required_fields": [
+      "CANCEL_COUNT_1S"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTION_RATE_1S": {
+    "name": "EXECUTION_RATE_1S",
+    "formula": "EXECUTE_COUNT_1S/window_seconds",
+    "required_fields": [
+      "EXECUTE_COUNT_1S"
+    ],
+    "lookback_ms": 1000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "MID_RETURN_1S": {
+    "name": "MID_RETURN_1S",
+    "formula": "current_mid / mid_asof(t-w) - 1",
+    "required_fields": [
+      "current mid",
+      "as-of historical mid"
+    ],
+    "lookback_ms": 1000,
+    "unit": "return",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "SPREAD_CHANGE_1S": {
+    "name": "SPREAD_CHANGE_1S",
+    "formula": "current SPREAD - SPREAD asof(t-1s)",
+    "required_fields": [
+      "SPREAD",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "USD",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "OBI_CHANGE_1S": {
+    "name": "OBI_CHANGE_1S",
+    "formula": "current OBI_L1 - OBI_L1 asof(t-1s)",
+    "required_fields": [
+      "OBI_L1",
+      "causal key"
+    ],
+    "lookback_ms": 1000,
+    "unit": "ratio",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "OFI_5S": {
+    "name": "OFI_5S",
+    "formula": "sum OFI_EVENT in (t-w,t], source-row capped",
+    "required_fields": [
+      "OFI_EVENT",
+      "timestamp",
+      "source_order"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_COUNT_5S": {
+    "name": "EVENT_COUNT_5S",
+    "formula": "sum EVENT_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_COUNT_5S": {
+    "name": "ADD_COUNT_5S",
+    "formula": "sum ADD_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_SIZE_5S": {
+    "name": "ADD_SIZE_5S",
+    "formula": "sum ADD_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_COUNT_5S": {
+    "name": "ADD_BID_SIDE_COUNT_5S",
+    "formula": "sum ADD_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_SIZE_5S": {
+    "name": "ADD_BID_SIDE_SIZE_5S",
+    "formula": "sum ADD_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_COUNT_5S": {
+    "name": "ADD_ASK_SIDE_COUNT_5S",
+    "formula": "sum ADD_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_SIZE_5S": {
+    "name": "ADD_ASK_SIDE_SIZE_5S",
+    "formula": "sum ADD_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_COUNT_5S": {
+    "name": "CANCEL_COUNT_5S",
+    "formula": "sum CANCEL_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_SIZE_5S": {
+    "name": "CANCEL_SIZE_5S",
+    "formula": "sum CANCEL_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_COUNT_5S": {
+    "name": "CANCEL_BID_SIDE_COUNT_5S",
+    "formula": "sum CANCEL_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_SIZE_5S": {
+    "name": "CANCEL_BID_SIDE_SIZE_5S",
+    "formula": "sum CANCEL_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_COUNT_5S": {
+    "name": "CANCEL_ASK_SIDE_COUNT_5S",
+    "formula": "sum CANCEL_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_SIZE_5S": {
+    "name": "CANCEL_ASK_SIDE_SIZE_5S",
+    "formula": "sum CANCEL_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_COUNT_5S": {
+    "name": "EXECUTE_COUNT_5S",
+    "formula": "sum EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_SIZE_5S": {
+    "name": "EXECUTE_SIZE_5S",
+    "formula": "sum EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_COUNT_5S": {
+    "name": "EXECUTE_BID_SIDE_COUNT_5S",
+    "formula": "sum EXECUTE_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_SIZE_5S": {
+    "name": "EXECUTE_BID_SIDE_SIZE_5S",
+    "formula": "sum EXECUTE_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_COUNT_5S": {
+    "name": "EXECUTE_ASK_SIDE_COUNT_5S",
+    "formula": "sum EXECUTE_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_SIZE_5S": {
+    "name": "EXECUTE_ASK_SIDE_SIZE_5S",
+    "formula": "sum EXECUTE_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_COUNT_5S": {
+    "name": "VISIBLE_EXECUTE_COUNT_5S",
+    "formula": "sum VISIBLE_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_SIZE_5S": {
+    "name": "VISIBLE_EXECUTE_SIZE_5S",
+    "formula": "sum VISIBLE_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_COUNT_5S": {
+    "name": "HIDDEN_EXECUTE_COUNT_5S",
+    "formula": "sum HIDDEN_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_SIZE_5S": {
+    "name": "HIDDEN_EXECUTE_SIZE_5S",
+    "formula": "sum HIDDEN_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 5000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_RATE_5S": {
+    "name": "EVENT_RATE_5S",
+    "formula": "EVENT_COUNT_5S/window_seconds",
+    "required_fields": [
+      "EVENT_COUNT_5S"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_RATE_5S": {
+    "name": "ADD_RATE_5S",
+    "formula": "ADD_COUNT_5S/window_seconds",
+    "required_fields": [
+      "ADD_COUNT_5S"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_RATE_5S": {
+    "name": "CANCEL_RATE_5S",
+    "formula": "CANCEL_COUNT_5S/window_seconds",
+    "required_fields": [
+      "CANCEL_COUNT_5S"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTION_RATE_5S": {
+    "name": "EXECUTION_RATE_5S",
+    "formula": "EXECUTE_COUNT_5S/window_seconds",
+    "required_fields": [
+      "EXECUTE_COUNT_5S"
+    ],
+    "lookback_ms": 5000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "MID_RETURN_5S": {
+    "name": "MID_RETURN_5S",
+    "formula": "current_mid / mid_asof(t-w) - 1",
+    "required_fields": [
+      "current mid",
+      "as-of historical mid"
+    ],
+    "lookback_ms": 5000,
+    "unit": "return",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "OFI_10S": {
+    "name": "OFI_10S",
+    "formula": "sum OFI_EVENT in (t-w,t], source-row capped",
+    "required_fields": [
+      "OFI_EVENT",
+      "timestamp",
+      "source_order"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_COUNT_10S": {
+    "name": "EVENT_COUNT_10S",
+    "formula": "sum EVENT_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_COUNT_10S": {
+    "name": "ADD_COUNT_10S",
+    "formula": "sum ADD_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_SIZE_10S": {
+    "name": "ADD_SIZE_10S",
+    "formula": "sum ADD_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_COUNT_10S": {
+    "name": "ADD_BID_SIDE_COUNT_10S",
+    "formula": "sum ADD_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_BID_SIDE_SIZE_10S": {
+    "name": "ADD_BID_SIDE_SIZE_10S",
+    "formula": "sum ADD_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_COUNT_10S": {
+    "name": "ADD_ASK_SIDE_COUNT_10S",
+    "formula": "sum ADD_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_ASK_SIDE_SIZE_10S": {
+    "name": "ADD_ASK_SIDE_SIZE_10S",
+    "formula": "sum ADD_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_COUNT_10S": {
+    "name": "CANCEL_COUNT_10S",
+    "formula": "sum CANCEL_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_SIZE_10S": {
+    "name": "CANCEL_SIZE_10S",
+    "formula": "sum CANCEL_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_COUNT_10S": {
+    "name": "CANCEL_BID_SIDE_COUNT_10S",
+    "formula": "sum CANCEL_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_BID_SIDE_SIZE_10S": {
+    "name": "CANCEL_BID_SIDE_SIZE_10S",
+    "formula": "sum CANCEL_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_COUNT_10S": {
+    "name": "CANCEL_ASK_SIDE_COUNT_10S",
+    "formula": "sum CANCEL_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_ASK_SIDE_SIZE_10S": {
+    "name": "CANCEL_ASK_SIDE_SIZE_10S",
+    "formula": "sum CANCEL_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_COUNT_10S": {
+    "name": "EXECUTE_COUNT_10S",
+    "formula": "sum EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_SIZE_10S": {
+    "name": "EXECUTE_SIZE_10S",
+    "formula": "sum EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_COUNT_10S": {
+    "name": "EXECUTE_BID_SIDE_COUNT_10S",
+    "formula": "sum EXECUTE_BID_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_BID_SIDE_SIZE_10S": {
+    "name": "EXECUTE_BID_SIDE_SIZE_10S",
+    "formula": "sum EXECUTE_BID_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_COUNT_10S": {
+    "name": "EXECUTE_ASK_SIDE_COUNT_10S",
+    "formula": "sum EXECUTE_ASK_SIDE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTE_ASK_SIDE_SIZE_10S": {
+    "name": "EXECUTE_ASK_SIDE_SIZE_10S",
+    "formula": "sum EXECUTE_ASK_SIDE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_COUNT_10S": {
+    "name": "VISIBLE_EXECUTE_COUNT_10S",
+    "formula": "sum VISIBLE_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "VISIBLE_EXECUTE_SIZE_10S": {
+    "name": "VISIBLE_EXECUTE_SIZE_10S",
+    "formula": "sum VISIBLE_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_COUNT_10S": {
+    "name": "HIDDEN_EXECUTE_COUNT_10S",
+    "formula": "sum HIDDEN_EXECUTE_COUNT indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "HIDDEN_EXECUTE_SIZE_10S": {
+    "name": "HIDDEN_EXECUTE_SIZE_10S",
+    "formula": "sum HIDDEN_EXECUTE_SIZE indicators/quantities in (t-w,t]",
+    "required_fields": [
+      "event_type",
+      "resting side",
+      "size",
+      "causal key"
+    ],
+    "lookback_ms": 10000,
+    "unit": "shares",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EVENT_RATE_10S": {
+    "name": "EVENT_RATE_10S",
+    "formula": "EVENT_COUNT_10S/window_seconds",
+    "required_fields": [
+      "EVENT_COUNT_10S"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "ADD_RATE_10S": {
+    "name": "ADD_RATE_10S",
+    "formula": "ADD_COUNT_10S/window_seconds",
+    "required_fields": [
+      "ADD_COUNT_10S"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "CANCEL_RATE_10S": {
+    "name": "CANCEL_RATE_10S",
+    "formula": "CANCEL_COUNT_10S/window_seconds",
+    "required_fields": [
+      "CANCEL_COUNT_10S"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "EXECUTION_RATE_10S": {
+    "name": "EXECUTION_RATE_10S",
+    "formula": "EXECUTE_COUNT_10S/window_seconds",
+    "required_fields": [
+      "EXECUTE_COUNT_10S"
+    ],
+    "lookback_ms": 10000,
+    "unit": "events/second",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "MID_RETURN_10S": {
+    "name": "MID_RETURN_10S",
+    "formula": "current_mid / mid_asof(t-w) - 1",
+    "required_fields": [
+      "current mid",
+      "as-of historical mid"
+    ],
+    "lookback_ms": 10000,
+    "unit": "return",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "full observed window and uninterrupted valid book required; else null"
+  },
+  "TIME_SINCE_PREVIOUS_EVENT": {
+    "name": "TIME_SINCE_PREVIOUS_EVENT",
+    "formula": "t - strictly prior EVENT timestamp",
+    "required_fields": [
+      "causal key",
+      "event type or BBO prices"
+    ],
+    "lookback_ms": null,
+    "unit": "milliseconds",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "no prior qualifying event in current valid segment -> null"
+  },
+  "TIME_SINCE_PREVIOUS_TRADE": {
+    "name": "TIME_SINCE_PREVIOUS_TRADE",
+    "formula": "t - strictly prior TRADE timestamp",
+    "required_fields": [
+      "causal key",
+      "event type or BBO prices"
+    ],
+    "lookback_ms": null,
+    "unit": "milliseconds",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "no prior qualifying event in current valid segment -> null"
+  },
+  "TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE": {
+    "name": "TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE",
+    "formula": "t - strictly prior BOOK_PRICE_CHANGE timestamp",
+    "required_fields": [
+      "causal key",
+      "event type or BBO prices"
+    ],
+    "lookback_ms": null,
+    "unit": "milliseconds",
+    "timestamp_semantics": "post-event (timestamp, source_order); prefix only",
+    "missing_rule": "no prior qualifying event in current valid segment -> null"
+  }
+}

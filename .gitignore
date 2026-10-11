@@ -15,3 +15,6 @@ reports/ingestion.log
 reports/environment_packages.json
 tmp/
 *.part
+reports/phase2_alignment_traces.md
+reports/phase2/manual_verification.csv
+reports/phase2/trace_indices.json

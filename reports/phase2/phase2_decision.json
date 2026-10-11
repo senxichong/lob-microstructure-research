@@ -1,0 +1,45 @@
+{
+  "phase": 2,
+  "decision": "PASS",
+  "tests": {
+    "passed": 81,
+    "failed_errors": 0,
+    "skipped": 0,
+    "warnings": 0,
+    "junit_runtime_seconds": 2.219
+  },
+  "test_gates": {
+    "Future mutation, every feature and settled label": true,
+    "Same-timestamp causal prefix and future mutation": true,
+    "Historical and future as-of lookup": true,
+    "Session-end equality, beyond-close and cross-session rejection": true,
+    "No-event available FLAT target": true,
+    "Invalid book interval and recovery": true,
+    "Unordered/duplicate source rows rejected": true,
+    "Hand-calculated OBI (all four depths)": true,
+    "Hand-calculated microprice and synthetic tick conversion": true,
+    "Hand-calculated OFI, eight price/size cases": true,
+    "Hand-calculated labels and exact half-unit direction": true,
+    "Left-exclusive, current-source-inclusive rolling interval": true,
+    "Neutral execution sides, previous-only timing and no NEXT features": true,
+    "Feature availability independent of future targets": true
+  },
+  "independent_checks": 1079,
+  "independent_failed_checks": 0,
+  "evidence_sha256": {
+    "PHASE2_MANIFEST.json": "9022dfede85f56d2c1a6eb82aa1df69d126b220232cecc3a1260dcdafde2082d",
+    "PHASE2_REPORT.md": "a2d55f004bda23770bea7a866a59f4ab07a7cb9d7c4de461d6775f4373159bdf",
+    "scripts/build_phase2_report.py": "d9feeaaf808207a53550ecf3bb3b7896fd2afffac25d4d46ac4fe6705763f35b",
+    "reports\\phase2\\test_results.xml": "bf27e44d6d2b6277c60151bab70a400c985e6cf0cd1b3499172f2d0f0fb42615",
+    "reports\\phase2\\pytest_output.txt": "266a6089746267802eb4aa166661b337f7a0896b7b07751159db98a66ccefa99",
+    "reports\\phase2\\independent_verification.json": "0709435ddcd52fcf68ec9036c27380614c3e5c5b23ce0d6f70a307a1933d11aa",
+    "reports\\phase2\\feature_metadata.json": "50b2ca3d20af4911504e2c154981fdb4565bf5732fec914d62155f03b6d52e2f",
+    "reports\\phase2\\feature_summary.csv": "0627c3e94f6cfe67a031c4285547da4a3b1096503f42d094857d7ca6b84f7996",
+    "reports\\phase2\\feature_availability.csv": "242e0b7b09d15243c806e193e59b16b9ff33a9333bb3fb14fc68dbc9925f9971",
+    "reports\\phase2\\label_summary.csv": "a88f577398535aeac239ee8f9fe2622edd7bc1b3d9a0c556d8102985a1bc3b3a",
+    "reports\\phase2\\target_age_summary.csv": "0dd7af7ca811a9cf8af835536f1595bb43d2e43a8c002b69f71dedec8b1e3ceb",
+    "reports\\phase2\\event_type_summary.csv": "b39a30db5d59ab2ad35138faa760388300576b055cf249c45ec5b3cea600d823",
+    "reports\\phase2\\manual_verification.csv": "12983a84938282140e07d5cc1ed21aeb44c487fccc8ed28eb70b8ed56e76a5be",
+    "reports\\phase2\\invariant_checks.csv": "a698b971c614e561dec94902b83c2da94ccd49e81e4ccc0253d0a5a01462bb57"
+  }
+}

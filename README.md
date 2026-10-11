@@ -51,3 +51,21 @@ Review [MARKET_DATA_SCHEMA.md](MARKET_DATA_SCHEMA.md), [TIMESTAMP_CONVENTION.md]
 Public download does not establish redistribution rights. Raw records, normalized Parquet, row-level logs and real event traces are excluded from Git. No data or code have been published by this workflow. The repository intentionally contains no empty ML/backtest placeholder modules.
 
 **Stop after Phase 1.** Any later feature or prediction work requires a new instruction.
+
+## Phase 2 — completed under a separate instruction
+
+The Phase-1 stop above records the original milestone. The subsequent Phase-2 instruction authorized causal features and wall-clock labels only. See [PHASE2_REPORT.md](PHASE2_REPORT.md) for the measured decision and [PHASE2_PROTOCOL.md](PHASE2_PROTOCOL.md) for preregistered definitions. No statistical prediction experiment or model is included. **The current stop is after Phase 2.**
+
+Phase-1 artifacts, reports, source and tests remain frozen. `config.phase1.yaml` preserves the original configuration; `config.yaml` adds a separate `phase2` mapping. Do not rerun the Phase-1 pipeline/report commands above against this frozen working tree. Phase-2 validation checks the original upstream file hashes directly.
+
+The matrix is `data/processed/phase2/msft_20030103_phase2_v2.0.0.parquet`, with lineage in [PHASE2_MANIFEST.json](PHASE2_MANIFEST.json). The file and local real-row audit traces remain excluded from Git under the inherited data policy. Source code and aggregate diagnostics are in `src/lob_research/phase2/` and `reports/phase2/`.
+
+To audit the existing frozen Phase-2 output:
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest -q --junitxml=reports/phase2/test_results.xml 2>&1 | Tee-Object -FilePath reports/phase2/pytest_output.txt
+.\.venv\Scripts\python.exe scripts/verify_phase2.py
+.\.venv\Scripts\python.exe scripts/build_phase2_report.py
+```
+
+On a fresh local copy containing the verified Phase-1 input files, run `scripts/build_phase2.py` once before those audit commands. It creates the protocol freeze, versioned matrix, metadata and descriptive summaries and refuses to overwrite an existing matrix/manifest. Existing saved outputs should be verified, not rebuilt. The same fixed definitions are documented in [CAUSAL_ORDERING.md](CAUSAL_ORDERING.md), [FEATURE_DEFINITIONS.md](FEATURE_DEFINITIONS.md), [LABEL_DEFINITIONS.md](LABEL_DEFINITIONS.md), and [DEPENDENCE_NOTES.md](DEPENDENCE_NOTES.md). Production uses no network and no predictive evaluation.

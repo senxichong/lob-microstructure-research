@@ -1,0 +1,8 @@
+flag,available,unavailable,availability_rate
+book_valid,162879,0,1.0
+feature_static_available,162879,0,1.0
+tick_size_available,0,162879,0.0
+feature_100ms_available,162878,1,0.9999938604731119
+feature_1s_available,162877,2,0.9999877209462239
+feature_5s_available,162833,46,0.9997175817631493
+feature_10s_available,162791,88,0.9994597216338509

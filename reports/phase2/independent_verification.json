@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "check_count": 1079,
+  "failed_checks": [],
+  "violation_count": 0,
+  "manual_trace_rows": 25,
+  "manual_comparisons": 324,
+  "manual_failed_comparisons": 0,
+  "mutations": {
+    "future_mutation": {
+      "cut_event_index": 81439,
+      "cut_timestamp": "2003-01-03T17:19:28.960000000Z",
+      "cut_source_order": 2917878,
+      "mutated_rows": 81439,
+      "unchanged_prefix_rows": 81440,
+      "feature_and_flag_columns": 156,
+      "settled_label_counts": {
+        "100ms": 81439,
+        "1s": 81423,
+        "5s": 81373,
+        "10s": 81325
+      },
+      "passed": true
+    },
+    "same_timestamp_mutation": {
+      "cut_event_index": 78809,
+      "cut_timestamp": "2003-01-03T17:13:05.355000000Z",
+      "cut_source_order": 2836205,
+      "mutated_rows": 84069,
+      "unchanged_prefix_rows": 78810,
+      "feature_and_flag_columns": 156,
+      "settled_label_counts": {
+        "100ms": 78809,
+        "1s": 78808,
+        "5s": 78789,
+        "10s": 78761
+      },
+      "passed": true
+    }
+  },
+  "output_sha256": "a5a493636d9f6d592e2d229921533940ec7cfffcdc5da8f1c9fb636445d34e96",
+  "verifier_sha256": "77666eb4d3dfe046d1b845cfe162bf9d5dfb171e34b4fa5d845fb44ff049b007",
+  "runtime_seconds": 13.579034300000103
+}

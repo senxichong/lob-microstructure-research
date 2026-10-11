@@ -13,3 +13,21 @@ output_dir: data/processed
 reports_dir: reports
 # Encoding grid, NOT a claim of the venue's legal minimum tick.
 price_grid_units: 1
+
+# Phase 1 settings above are unchanged; exact original bytes: config.phase1.yaml.
+phase2:
+  protocol_version: '2.0.0'
+  feature_version: '2.0.0'
+  label_version: '2.0.0'
+  primary_horizon_ms: 1000
+  secondary_horizons_ms: [100, 5000, 10000]
+  history_windows_ms: [100, 1000, 5000, 10000]
+  book_depths: [1, 3, 5, 10]
+  weighting: reciprocal_rank
+  tick_size_usd: null
+  session_rule: '[09:30:00,16:00:00) America/New_York; Phase 1 time-of-day proxy'
+  input_books: data/processed/books.parquet
+  input_events: data/processed/events.parquet
+  output_dir: data/processed/phase2
+  reports_dir: reports/phase2
+  row_group_size: 10000

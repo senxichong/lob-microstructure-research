@@ -1,0 +1,15 @@
+source_url: https://emi.nasdaq.com/ITCH/Nasdaq%20ITCH/S010303-v2.zip
+raw_path: data/raw/S010303-v2.zip
+member: S010303-v2.txt
+date: '2003-01-03'
+symbol: MSFT
+timezone: America/New_York
+session_start: '09:30:00'
+session_end: '16:00:00'
+# Window is half-open. Replay ALL events; filter only output.
+depth: 10
+batch_rows: 10000
+output_dir: data/processed
+reports_dir: reports
+# Encoding grid, NOT a claim of the venue's legal minimum tick.
+price_grid_units: 1

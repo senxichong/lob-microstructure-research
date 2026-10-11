@@ -1,0 +1,1080 @@
+check,passed,violations,detail
+upstream_freeze,True,0,47 baseline files; only recorded config/README/gitignore edits allowed
+preregistered_PHASE2_PROTOCOL.md,True,0,
+preregistered_CAUSAL_ORDERING.md,True,0,
+preregistered_FEATURE_DEFINITIONS.md,True,0,
+preregistered_LABEL_DEFINITIONS.md,True,0,
+preregistered_DEPENDENCE_NOTES.md,True,0,
+configuration_hash,True,0,
+production_code_hash,True,0,
+output_sha256,True,0,
+complete_build,True,0,
+input_hash_input_books,True,0,
+input_hash_input_events,True,0,
+row_count,True,0,
+column_count,True,0,
+column_names,True,0,
+source_orders_match_phase1,True,0,
+timestamps_match_phase1,True,0,
+event_index,True,0,
+event_types_match_phase1,True,0,
+event_sides_match_phase1,True,0,
+event_sizes_match_phase1,True,0,
+strict_source_order,True,0,
+nondecreasing_timestamps,True,0,
+unique_causal_keys,True,0,
+session_containment,True,0,
+one_symbol_and_session,True,0,
+embedded_lineage,True,0,
+row_lineage_source_raw_hash,True,0,
+row_lineage_source_books_hash,True,0,
+row_lineage_source_events_hash,True,0,
+row_lineage_feature_version,True,0,
+row_lineage_label_version,True,0,
+bbo_bid_price,True,0,
+bbo_bid_size,True,0,
+bbo_ask_price,True,0,
+bbo_ask_size,True,0,
+book_valid_independent,True,0,
+static_available_independent,True,0,
+mid_integer_encoding,True,0,
+midprice,True,0,
+midprice_alias,True,0,
+spread_alias,True,0,
+feature_metadata_names,True,0,
+metadata_MIDPRICE,True,0,
+finite_MIDPRICE,True,0,
+metadata_SPREAD,True,0,
+finite_SPREAD,True,0,
+nonnegative_SPREAD,True,0,
+metadata_RELATIVE_SPREAD,True,0,
+finite_RELATIVE_SPREAD,True,0,
+nonnegative_RELATIVE_SPREAD,True,0,
+metadata_MICROPRICE,True,0,
+finite_MICROPRICE,True,0,
+metadata_MICROPRICE_MINUS_MID,True,0,
+finite_MICROPRICE_MINUS_MID,True,0,
+metadata_MICROPRICE_DEVIATION_TICKS,True,0,
+finite_MICROPRICE_DEVIATION_TICKS,True,0,
+metadata_BID_DEPTH_L1,True,0,
+finite_BID_DEPTH_L1,True,0,
+nonnegative_BID_DEPTH_L1,True,0,
+metadata_ASK_DEPTH_L1,True,0,
+finite_ASK_DEPTH_L1,True,0,
+nonnegative_ASK_DEPTH_L1,True,0,
+metadata_TOTAL_DEPTH_L1,True,0,
+finite_TOTAL_DEPTH_L1,True,0,
+nonnegative_TOTAL_DEPTH_L1,True,0,
+metadata_DEPTH_RATIO_L1,True,0,
+finite_DEPTH_RATIO_L1,True,0,
+nonnegative_DEPTH_RATIO_L1,True,0,
+metadata_OBI_L1,True,0,
+finite_OBI_L1,True,0,
+bounds_OBI_L1,True,0,
+metadata_BID_DEPTH_L3,True,0,
+finite_BID_DEPTH_L3,True,0,
+nonnegative_BID_DEPTH_L3,True,0,
+metadata_ASK_DEPTH_L3,True,0,
+finite_ASK_DEPTH_L3,True,0,
+nonnegative_ASK_DEPTH_L3,True,0,
+metadata_TOTAL_DEPTH_L3,True,0,
+finite_TOTAL_DEPTH_L3,True,0,
+nonnegative_TOTAL_DEPTH_L3,True,0,
+metadata_DEPTH_RATIO_L3,True,0,
+finite_DEPTH_RATIO_L3,True,0,
+nonnegative_DEPTH_RATIO_L3,True,0,
+metadata_OBI_L3,True,0,
+finite_OBI_L3,True,0,
+bounds_OBI_L3,True,0,
+metadata_BID_DEPTH_L5,True,0,
+finite_BID_DEPTH_L5,True,0,
+nonnegative_BID_DEPTH_L5,True,0,
+metadata_ASK_DEPTH_L5,True,0,
+finite_ASK_DEPTH_L5,True,0,
+nonnegative_ASK_DEPTH_L5,True,0,
+metadata_TOTAL_DEPTH_L5,True,0,
+finite_TOTAL_DEPTH_L5,True,0,
+nonnegative_TOTAL_DEPTH_L5,True,0,
+metadata_DEPTH_RATIO_L5,True,0,
+finite_DEPTH_RATIO_L5,True,0,
+nonnegative_DEPTH_RATIO_L5,True,0,
+metadata_OBI_L5,True,0,
+finite_OBI_L5,True,0,
+bounds_OBI_L5,True,0,
+metadata_BID_DEPTH_L10,True,0,
+finite_BID_DEPTH_L10,True,0,
+nonnegative_BID_DEPTH_L10,True,0,
+metadata_ASK_DEPTH_L10,True,0,
+finite_ASK_DEPTH_L10,True,0,
+nonnegative_ASK_DEPTH_L10,True,0,
+metadata_TOTAL_DEPTH_L10,True,0,
+finite_TOTAL_DEPTH_L10,True,0,
+nonnegative_TOTAL_DEPTH_L10,True,0,
+metadata_DEPTH_RATIO_L10,True,0,
+finite_DEPTH_RATIO_L10,True,0,
+nonnegative_DEPTH_RATIO_L10,True,0,
+metadata_OBI_L10,True,0,
+finite_OBI_L10,True,0,
+bounds_OBI_L10,True,0,
+metadata_WOBI_L10,True,0,
+finite_WOBI_L10,True,0,
+bounds_WOBI_L10,True,0,
+metadata_OFI_EVENT,True,0,
+finite_OFI_EVENT,True,0,
+metadata_OFI_100MS,True,0,
+finite_OFI_100MS,True,0,
+availability_OFI_100MS,True,0,
+metadata_EVENT_COUNT_100MS,True,0,
+finite_EVENT_COUNT_100MS,True,0,
+nonnegative_EVENT_COUNT_100MS,True,0,
+availability_EVENT_COUNT_100MS,True,0,
+metadata_ADD_COUNT_100MS,True,0,
+finite_ADD_COUNT_100MS,True,0,
+nonnegative_ADD_COUNT_100MS,True,0,
+availability_ADD_COUNT_100MS,True,0,
+metadata_ADD_SIZE_100MS,True,0,
+finite_ADD_SIZE_100MS,True,0,
+nonnegative_ADD_SIZE_100MS,True,0,
+availability_ADD_SIZE_100MS,True,0,
+metadata_ADD_BID_SIDE_COUNT_100MS,True,0,
+finite_ADD_BID_SIDE_COUNT_100MS,True,0,
+nonnegative_ADD_BID_SIDE_COUNT_100MS,True,0,
+availability_ADD_BID_SIDE_COUNT_100MS,True,0,
+metadata_ADD_BID_SIDE_SIZE_100MS,True,0,
+finite_ADD_BID_SIDE_SIZE_100MS,True,0,
+nonnegative_ADD_BID_SIDE_SIZE_100MS,True,0,
+availability_ADD_BID_SIDE_SIZE_100MS,True,0,
+metadata_ADD_ASK_SIDE_COUNT_100MS,True,0,
+finite_ADD_ASK_SIDE_COUNT_100MS,True,0,
+nonnegative_ADD_ASK_SIDE_COUNT_100MS,True,0,
+availability_ADD_ASK_SIDE_COUNT_100MS,True,0,
+metadata_ADD_ASK_SIDE_SIZE_100MS,True,0,
+finite_ADD_ASK_SIDE_SIZE_100MS,True,0,
+nonnegative_ADD_ASK_SIDE_SIZE_100MS,True,0,
+availability_ADD_ASK_SIDE_SIZE_100MS,True,0,
+metadata_CANCEL_COUNT_100MS,True,0,
+finite_CANCEL_COUNT_100MS,True,0,
+nonnegative_CANCEL_COUNT_100MS,True,0,
+availability_CANCEL_COUNT_100MS,True,0,
+metadata_CANCEL_SIZE_100MS,True,0,
+finite_CANCEL_SIZE_100MS,True,0,
+nonnegative_CANCEL_SIZE_100MS,True,0,
+availability_CANCEL_SIZE_100MS,True,0,
+metadata_CANCEL_BID_SIDE_COUNT_100MS,True,0,
+finite_CANCEL_BID_SIDE_COUNT_100MS,True,0,
+nonnegative_CANCEL_BID_SIDE_COUNT_100MS,True,0,
+availability_CANCEL_BID_SIDE_COUNT_100MS,True,0,
+metadata_CANCEL_BID_SIDE_SIZE_100MS,True,0,
+finite_CANCEL_BID_SIDE_SIZE_100MS,True,0,
+nonnegative_CANCEL_BID_SIDE_SIZE_100MS,True,0,
+availability_CANCEL_BID_SIDE_SIZE_100MS,True,0,
+metadata_CANCEL_ASK_SIDE_COUNT_100MS,True,0,
+finite_CANCEL_ASK_SIDE_COUNT_100MS,True,0,
+nonnegative_CANCEL_ASK_SIDE_COUNT_100MS,True,0,
+availability_CANCEL_ASK_SIDE_COUNT_100MS,True,0,
+metadata_CANCEL_ASK_SIDE_SIZE_100MS,True,0,
+finite_CANCEL_ASK_SIDE_SIZE_100MS,True,0,
+nonnegative_CANCEL_ASK_SIDE_SIZE_100MS,True,0,
+availability_CANCEL_ASK_SIDE_SIZE_100MS,True,0,
+metadata_EXECUTE_COUNT_100MS,True,0,
+finite_EXECUTE_COUNT_100MS,True,0,
+nonnegative_EXECUTE_COUNT_100MS,True,0,
+availability_EXECUTE_COUNT_100MS,True,0,
+metadata_EXECUTE_SIZE_100MS,True,0,
+finite_EXECUTE_SIZE_100MS,True,0,
+nonnegative_EXECUTE_SIZE_100MS,True,0,
+availability_EXECUTE_SIZE_100MS,True,0,
+metadata_EXECUTE_BID_SIDE_COUNT_100MS,True,0,
+finite_EXECUTE_BID_SIDE_COUNT_100MS,True,0,
+nonnegative_EXECUTE_BID_SIDE_COUNT_100MS,True,0,
+availability_EXECUTE_BID_SIDE_COUNT_100MS,True,0,
+metadata_EXECUTE_BID_SIDE_SIZE_100MS,True,0,
+finite_EXECUTE_BID_SIDE_SIZE_100MS,True,0,
+nonnegative_EXECUTE_BID_SIDE_SIZE_100MS,True,0,
+availability_EXECUTE_BID_SIDE_SIZE_100MS,True,0,
+metadata_EXECUTE_ASK_SIDE_COUNT_100MS,True,0,
+finite_EXECUTE_ASK_SIDE_COUNT_100MS,True,0,
+nonnegative_EXECUTE_ASK_SIDE_COUNT_100MS,True,0,
+availability_EXECUTE_ASK_SIDE_COUNT_100MS,True,0,
+metadata_EXECUTE_ASK_SIDE_SIZE_100MS,True,0,
+finite_EXECUTE_ASK_SIDE_SIZE_100MS,True,0,
+nonnegative_EXECUTE_ASK_SIDE_SIZE_100MS,True,0,
+availability_EXECUTE_ASK_SIDE_SIZE_100MS,True,0,
+metadata_VISIBLE_EXECUTE_COUNT_100MS,True,0,
+finite_VISIBLE_EXECUTE_COUNT_100MS,True,0,
+nonnegative_VISIBLE_EXECUTE_COUNT_100MS,True,0,
+availability_VISIBLE_EXECUTE_COUNT_100MS,True,0,
+metadata_VISIBLE_EXECUTE_SIZE_100MS,True,0,
+finite_VISIBLE_EXECUTE_SIZE_100MS,True,0,
+nonnegative_VISIBLE_EXECUTE_SIZE_100MS,True,0,
+availability_VISIBLE_EXECUTE_SIZE_100MS,True,0,
+metadata_HIDDEN_EXECUTE_COUNT_100MS,True,0,
+finite_HIDDEN_EXECUTE_COUNT_100MS,True,0,
+nonnegative_HIDDEN_EXECUTE_COUNT_100MS,True,0,
+availability_HIDDEN_EXECUTE_COUNT_100MS,True,0,
+metadata_HIDDEN_EXECUTE_SIZE_100MS,True,0,
+finite_HIDDEN_EXECUTE_SIZE_100MS,True,0,
+nonnegative_HIDDEN_EXECUTE_SIZE_100MS,True,0,
+availability_HIDDEN_EXECUTE_SIZE_100MS,True,0,
+metadata_EVENT_RATE_100MS,True,0,
+finite_EVENT_RATE_100MS,True,0,
+nonnegative_EVENT_RATE_100MS,True,0,
+availability_EVENT_RATE_100MS,True,0,
+metadata_ADD_RATE_100MS,True,0,
+finite_ADD_RATE_100MS,True,0,
+nonnegative_ADD_RATE_100MS,True,0,
+availability_ADD_RATE_100MS,True,0,
+metadata_CANCEL_RATE_100MS,True,0,
+finite_CANCEL_RATE_100MS,True,0,
+nonnegative_CANCEL_RATE_100MS,True,0,
+availability_CANCEL_RATE_100MS,True,0,
+metadata_EXECUTION_RATE_100MS,True,0,
+finite_EXECUTION_RATE_100MS,True,0,
+nonnegative_EXECUTION_RATE_100MS,True,0,
+availability_EXECUTION_RATE_100MS,True,0,
+metadata_MID_RETURN_100MS,True,0,
+finite_MID_RETURN_100MS,True,0,
+availability_MID_RETURN_100MS,True,0,
+metadata_OFI_1S,True,0,
+finite_OFI_1S,True,0,
+availability_OFI_1S,True,0,
+metadata_EVENT_COUNT_1S,True,0,
+finite_EVENT_COUNT_1S,True,0,
+nonnegative_EVENT_COUNT_1S,True,0,
+availability_EVENT_COUNT_1S,True,0,
+metadata_ADD_COUNT_1S,True,0,
+finite_ADD_COUNT_1S,True,0,
+nonnegative_ADD_COUNT_1S,True,0,
+availability_ADD_COUNT_1S,True,0,
+metadata_ADD_SIZE_1S,True,0,
+finite_ADD_SIZE_1S,True,0,
+nonnegative_ADD_SIZE_1S,True,0,
+availability_ADD_SIZE_1S,True,0,
+metadata_ADD_BID_SIDE_COUNT_1S,True,0,
+finite_ADD_BID_SIDE_COUNT_1S,True,0,
+nonnegative_ADD_BID_SIDE_COUNT_1S,True,0,
+availability_ADD_BID_SIDE_COUNT_1S,True,0,
+metadata_ADD_BID_SIDE_SIZE_1S,True,0,
+finite_ADD_BID_SIDE_SIZE_1S,True,0,
+nonnegative_ADD_BID_SIDE_SIZE_1S,True,0,
+availability_ADD_BID_SIDE_SIZE_1S,True,0,
+metadata_ADD_ASK_SIDE_COUNT_1S,True,0,
+finite_ADD_ASK_SIDE_COUNT_1S,True,0,
+nonnegative_ADD_ASK_SIDE_COUNT_1S,True,0,
+availability_ADD_ASK_SIDE_COUNT_1S,True,0,
+metadata_ADD_ASK_SIDE_SIZE_1S,True,0,
+finite_ADD_ASK_SIDE_SIZE_1S,True,0,
+nonnegative_ADD_ASK_SIDE_SIZE_1S,True,0,
+availability_ADD_ASK_SIDE_SIZE_1S,True,0,
+metadata_CANCEL_COUNT_1S,True,0,
+finite_CANCEL_COUNT_1S,True,0,
+nonnegative_CANCEL_COUNT_1S,True,0,
+availability_CANCEL_COUNT_1S,True,0,
+metadata_CANCEL_SIZE_1S,True,0,
+finite_CANCEL_SIZE_1S,True,0,
+nonnegative_CANCEL_SIZE_1S,True,0,
+availability_CANCEL_SIZE_1S,True,0,
+metadata_CANCEL_BID_SIDE_COUNT_1S,True,0,
+finite_CANCEL_BID_SIDE_COUNT_1S,True,0,
+nonnegative_CANCEL_BID_SIDE_COUNT_1S,True,0,
+availability_CANCEL_BID_SIDE_COUNT_1S,True,0,
+metadata_CANCEL_BID_SIDE_SIZE_1S,True,0,
+finite_CANCEL_BID_SIDE_SIZE_1S,True,0,
+nonnegative_CANCEL_BID_SIDE_SIZE_1S,True,0,
+availability_CANCEL_BID_SIDE_SIZE_1S,True,0,
+metadata_CANCEL_ASK_SIDE_COUNT_1S,True,0,
+finite_CANCEL_ASK_SIDE_COUNT_1S,True,0,
+nonnegative_CANCEL_ASK_SIDE_COUNT_1S,True,0,
+availability_CANCEL_ASK_SIDE_COUNT_1S,True,0,
+metadata_CANCEL_ASK_SIDE_SIZE_1S,True,0,
+finite_CANCEL_ASK_SIDE_SIZE_1S,True,0,
+nonnegative_CANCEL_ASK_SIDE_SIZE_1S,True,0,
+availability_CANCEL_ASK_SIDE_SIZE_1S,True,0,
+metadata_EXECUTE_COUNT_1S,True,0,
+finite_EXECUTE_COUNT_1S,True,0,
+nonnegative_EXECUTE_COUNT_1S,True,0,
+availability_EXECUTE_COUNT_1S,True,0,
+metadata_EXECUTE_SIZE_1S,True,0,
+finite_EXECUTE_SIZE_1S,True,0,
+nonnegative_EXECUTE_SIZE_1S,True,0,
+availability_EXECUTE_SIZE_1S,True,0,
+metadata_EXECUTE_BID_SIDE_COUNT_1S,True,0,
+finite_EXECUTE_BID_SIDE_COUNT_1S,True,0,
+nonnegative_EXECUTE_BID_SIDE_COUNT_1S,True,0,
+availability_EXECUTE_BID_SIDE_COUNT_1S,True,0,
+metadata_EXECUTE_BID_SIDE_SIZE_1S,True,0,
+finite_EXECUTE_BID_SIDE_SIZE_1S,True,0,
+nonnegative_EXECUTE_BID_SIDE_SIZE_1S,True,0,
+availability_EXECUTE_BID_SIDE_SIZE_1S,True,0,
+metadata_EXECUTE_ASK_SIDE_COUNT_1S,True,0,
+finite_EXECUTE_ASK_SIDE_COUNT_1S,True,0,
+nonnegative_EXECUTE_ASK_SIDE_COUNT_1S,True,0,
+availability_EXECUTE_ASK_SIDE_COUNT_1S,True,0,
+metadata_EXECUTE_ASK_SIDE_SIZE_1S,True,0,
+finite_EXECUTE_ASK_SIDE_SIZE_1S,True,0,
+nonnegative_EXECUTE_ASK_SIDE_SIZE_1S,True,0,
+availability_EXECUTE_ASK_SIDE_SIZE_1S,True,0,
+metadata_VISIBLE_EXECUTE_COUNT_1S,True,0,
+finite_VISIBLE_EXECUTE_COUNT_1S,True,0,
+nonnegative_VISIBLE_EXECUTE_COUNT_1S,True,0,
+availability_VISIBLE_EXECUTE_COUNT_1S,True,0,
+metadata_VISIBLE_EXECUTE_SIZE_1S,True,0,
+finite_VISIBLE_EXECUTE_SIZE_1S,True,0,
+nonnegative_VISIBLE_EXECUTE_SIZE_1S,True,0,
+availability_VISIBLE_EXECUTE_SIZE_1S,True,0,
+metadata_HIDDEN_EXECUTE_COUNT_1S,True,0,
+finite_HIDDEN_EXECUTE_COUNT_1S,True,0,
+nonnegative_HIDDEN_EXECUTE_COUNT_1S,True,0,
+availability_HIDDEN_EXECUTE_COUNT_1S,True,0,
+metadata_HIDDEN_EXECUTE_SIZE_1S,True,0,
+finite_HIDDEN_EXECUTE_SIZE_1S,True,0,
+nonnegative_HIDDEN_EXECUTE_SIZE_1S,True,0,
+availability_HIDDEN_EXECUTE_SIZE_1S,True,0,
+metadata_EVENT_RATE_1S,True,0,
+finite_EVENT_RATE_1S,True,0,
+nonnegative_EVENT_RATE_1S,True,0,
+availability_EVENT_RATE_1S,True,0,
+metadata_ADD_RATE_1S,True,0,
+finite_ADD_RATE_1S,True,0,
+nonnegative_ADD_RATE_1S,True,0,
+availability_ADD_RATE_1S,True,0,
+metadata_CANCEL_RATE_1S,True,0,
+finite_CANCEL_RATE_1S,True,0,
+nonnegative_CANCEL_RATE_1S,True,0,
+availability_CANCEL_RATE_1S,True,0,
+metadata_EXECUTION_RATE_1S,True,0,
+finite_EXECUTION_RATE_1S,True,0,
+nonnegative_EXECUTION_RATE_1S,True,0,
+availability_EXECUTION_RATE_1S,True,0,
+metadata_MID_RETURN_1S,True,0,
+finite_MID_RETURN_1S,True,0,
+availability_MID_RETURN_1S,True,0,
+metadata_SPREAD_CHANGE_1S,True,0,
+finite_SPREAD_CHANGE_1S,True,0,
+availability_SPREAD_CHANGE_1S,True,0,
+metadata_OBI_CHANGE_1S,True,0,
+finite_OBI_CHANGE_1S,True,0,
+availability_OBI_CHANGE_1S,True,0,
+metadata_OFI_5S,True,0,
+finite_OFI_5S,True,0,
+availability_OFI_5S,True,0,
+metadata_EVENT_COUNT_5S,True,0,
+finite_EVENT_COUNT_5S,True,0,
+nonnegative_EVENT_COUNT_5S,True,0,
+availability_EVENT_COUNT_5S,True,0,
+metadata_ADD_COUNT_5S,True,0,
+finite_ADD_COUNT_5S,True,0,
+nonnegative_ADD_COUNT_5S,True,0,
+availability_ADD_COUNT_5S,True,0,
+metadata_ADD_SIZE_5S,True,0,
+finite_ADD_SIZE_5S,True,0,
+nonnegative_ADD_SIZE_5S,True,0,
+availability_ADD_SIZE_5S,True,0,
+metadata_ADD_BID_SIDE_COUNT_5S,True,0,
+finite_ADD_BID_SIDE_COUNT_5S,True,0,
+nonnegative_ADD_BID_SIDE_COUNT_5S,True,0,
+availability_ADD_BID_SIDE_COUNT_5S,True,0,
+metadata_ADD_BID_SIDE_SIZE_5S,True,0,
+finite_ADD_BID_SIDE_SIZE_5S,True,0,
+nonnegative_ADD_BID_SIDE_SIZE_5S,True,0,
+availability_ADD_BID_SIDE_SIZE_5S,True,0,
+metadata_ADD_ASK_SIDE_COUNT_5S,True,0,
+finite_ADD_ASK_SIDE_COUNT_5S,True,0,
+nonnegative_ADD_ASK_SIDE_COUNT_5S,True,0,
+availability_ADD_ASK_SIDE_COUNT_5S,True,0,
+metadata_ADD_ASK_SIDE_SIZE_5S,True,0,
+finite_ADD_ASK_SIDE_SIZE_5S,True,0,
+nonnegative_ADD_ASK_SIDE_SIZE_5S,True,0,
+availability_ADD_ASK_SIDE_SIZE_5S,True,0,
+metadata_CANCEL_COUNT_5S,True,0,
+finite_CANCEL_COUNT_5S,True,0,
+nonnegative_CANCEL_COUNT_5S,True,0,
+availability_CANCEL_COUNT_5S,True,0,
+metadata_CANCEL_SIZE_5S,True,0,
+finite_CANCEL_SIZE_5S,True,0,
+nonnegative_CANCEL_SIZE_5S,True,0,
+availability_CANCEL_SIZE_5S,True,0,
+metadata_CANCEL_BID_SIDE_COUNT_5S,True,0,
+finite_CANCEL_BID_SIDE_COUNT_5S,True,0,
+nonnegative_CANCEL_BID_SIDE_COUNT_5S,True,0,
+availability_CANCEL_BID_SIDE_COUNT_5S,True,0,
+metadata_CANCEL_BID_SIDE_SIZE_5S,True,0,
+finite_CANCEL_BID_SIDE_SIZE_5S,True,0,
+nonnegative_CANCEL_BID_SIDE_SIZE_5S,True,0,
+availability_CANCEL_BID_SIDE_SIZE_5S,True,0,
+metadata_CANCEL_ASK_SIDE_COUNT_5S,True,0,
+finite_CANCEL_ASK_SIDE_COUNT_5S,True,0,
+nonnegative_CANCEL_ASK_SIDE_COUNT_5S,True,0,
+availability_CANCEL_ASK_SIDE_COUNT_5S,True,0,
+metadata_CANCEL_ASK_SIDE_SIZE_5S,True,0,
+finite_CANCEL_ASK_SIDE_SIZE_5S,True,0,
+nonnegative_CANCEL_ASK_SIDE_SIZE_5S,True,0,
+availability_CANCEL_ASK_SIDE_SIZE_5S,True,0,
+metadata_EXECUTE_COUNT_5S,True,0,
+finite_EXECUTE_COUNT_5S,True,0,
+nonnegative_EXECUTE_COUNT_5S,True,0,
+availability_EXECUTE_COUNT_5S,True,0,
+metadata_EXECUTE_SIZE_5S,True,0,
+finite_EXECUTE_SIZE_5S,True,0,
+nonnegative_EXECUTE_SIZE_5S,True,0,
+availability_EXECUTE_SIZE_5S,True,0,
+metadata_EXECUTE_BID_SIDE_COUNT_5S,True,0,
+finite_EXECUTE_BID_SIDE_COUNT_5S,True,0,
+nonnegative_EXECUTE_BID_SIDE_COUNT_5S,True,0,
+availability_EXECUTE_BID_SIDE_COUNT_5S,True,0,
+metadata_EXECUTE_BID_SIDE_SIZE_5S,True,0,
+finite_EXECUTE_BID_SIDE_SIZE_5S,True,0,
+nonnegative_EXECUTE_BID_SIDE_SIZE_5S,True,0,
+availability_EXECUTE_BID_SIDE_SIZE_5S,True,0,
+metadata_EXECUTE_ASK_SIDE_COUNT_5S,True,0,
+finite_EXECUTE_ASK_SIDE_COUNT_5S,True,0,
+nonnegative_EXECUTE_ASK_SIDE_COUNT_5S,True,0,
+availability_EXECUTE_ASK_SIDE_COUNT_5S,True,0,
+metadata_EXECUTE_ASK_SIDE_SIZE_5S,True,0,
+finite_EXECUTE_ASK_SIDE_SIZE_5S,True,0,
+nonnegative_EXECUTE_ASK_SIDE_SIZE_5S,True,0,
+availability_EXECUTE_ASK_SIDE_SIZE_5S,True,0,
+metadata_VISIBLE_EXECUTE_COUNT_5S,True,0,
+finite_VISIBLE_EXECUTE_COUNT_5S,True,0,
+nonnegative_VISIBLE_EXECUTE_COUNT_5S,True,0,
+availability_VISIBLE_EXECUTE_COUNT_5S,True,0,
+metadata_VISIBLE_EXECUTE_SIZE_5S,True,0,
+finite_VISIBLE_EXECUTE_SIZE_5S,True,0,
+nonnegative_VISIBLE_EXECUTE_SIZE_5S,True,0,
+availability_VISIBLE_EXECUTE_SIZE_5S,True,0,
+metadata_HIDDEN_EXECUTE_COUNT_5S,True,0,
+finite_HIDDEN_EXECUTE_COUNT_5S,True,0,
+nonnegative_HIDDEN_EXECUTE_COUNT_5S,True,0,
+availability_HIDDEN_EXECUTE_COUNT_5S,True,0,
+metadata_HIDDEN_EXECUTE_SIZE_5S,True,0,
+finite_HIDDEN_EXECUTE_SIZE_5S,True,0,
+nonnegative_HIDDEN_EXECUTE_SIZE_5S,True,0,
+availability_HIDDEN_EXECUTE_SIZE_5S,True,0,
+metadata_EVENT_RATE_5S,True,0,
+finite_EVENT_RATE_5S,True,0,
+nonnegative_EVENT_RATE_5S,True,0,
+availability_EVENT_RATE_5S,True,0,
+metadata_ADD_RATE_5S,True,0,
+finite_ADD_RATE_5S,True,0,
+nonnegative_ADD_RATE_5S,True,0,
+availability_ADD_RATE_5S,True,0,
+metadata_CANCEL_RATE_5S,True,0,
+finite_CANCEL_RATE_5S,True,0,
+nonnegative_CANCEL_RATE_5S,True,0,
+availability_CANCEL_RATE_5S,True,0,
+metadata_EXECUTION_RATE_5S,True,0,
+finite_EXECUTION_RATE_5S,True,0,
+nonnegative_EXECUTION_RATE_5S,True,0,
+availability_EXECUTION_RATE_5S,True,0,
+metadata_MID_RETURN_5S,True,0,
+finite_MID_RETURN_5S,True,0,
+availability_MID_RETURN_5S,True,0,
+metadata_OFI_10S,True,0,
+finite_OFI_10S,True,0,
+availability_OFI_10S,True,0,
+metadata_EVENT_COUNT_10S,True,0,
+finite_EVENT_COUNT_10S,True,0,
+nonnegative_EVENT_COUNT_10S,True,0,
+availability_EVENT_COUNT_10S,True,0,
+metadata_ADD_COUNT_10S,True,0,
+finite_ADD_COUNT_10S,True,0,
+nonnegative_ADD_COUNT_10S,True,0,
+availability_ADD_COUNT_10S,True,0,
+metadata_ADD_SIZE_10S,True,0,
+finite_ADD_SIZE_10S,True,0,
+nonnegative_ADD_SIZE_10S,True,0,
+availability_ADD_SIZE_10S,True,0,
+metadata_ADD_BID_SIDE_COUNT_10S,True,0,
+finite_ADD_BID_SIDE_COUNT_10S,True,0,
+nonnegative_ADD_BID_SIDE_COUNT_10S,True,0,
+availability_ADD_BID_SIDE_COUNT_10S,True,0,
+metadata_ADD_BID_SIDE_SIZE_10S,True,0,
+finite_ADD_BID_SIDE_SIZE_10S,True,0,
+nonnegative_ADD_BID_SIDE_SIZE_10S,True,0,
+availability_ADD_BID_SIDE_SIZE_10S,True,0,
+metadata_ADD_ASK_SIDE_COUNT_10S,True,0,
+finite_ADD_ASK_SIDE_COUNT_10S,True,0,
+nonnegative_ADD_ASK_SIDE_COUNT_10S,True,0,
+availability_ADD_ASK_SIDE_COUNT_10S,True,0,
+metadata_ADD_ASK_SIDE_SIZE_10S,True,0,
+finite_ADD_ASK_SIDE_SIZE_10S,True,0,
+nonnegative_ADD_ASK_SIDE_SIZE_10S,True,0,
+availability_ADD_ASK_SIDE_SIZE_10S,True,0,
+metadata_CANCEL_COUNT_10S,True,0,
+finite_CANCEL_COUNT_10S,True,0,
+nonnegative_CANCEL_COUNT_10S,True,0,
+availability_CANCEL_COUNT_10S,True,0,
+metadata_CANCEL_SIZE_10S,True,0,
+finite_CANCEL_SIZE_10S,True,0,
+nonnegative_CANCEL_SIZE_10S,True,0,
+availability_CANCEL_SIZE_10S,True,0,
+metadata_CANCEL_BID_SIDE_COUNT_10S,True,0,
+finite_CANCEL_BID_SIDE_COUNT_10S,True,0,
+nonnegative_CANCEL_BID_SIDE_COUNT_10S,True,0,
+availability_CANCEL_BID_SIDE_COUNT_10S,True,0,
+metadata_CANCEL_BID_SIDE_SIZE_10S,True,0,
+finite_CANCEL_BID_SIDE_SIZE_10S,True,0,
+nonnegative_CANCEL_BID_SIDE_SIZE_10S,True,0,
+availability_CANCEL_BID_SIDE_SIZE_10S,True,0,
+metadata_CANCEL_ASK_SIDE_COUNT_10S,True,0,
+finite_CANCEL_ASK_SIDE_COUNT_10S,True,0,
+nonnegative_CANCEL_ASK_SIDE_COUNT_10S,True,0,
+availability_CANCEL_ASK_SIDE_COUNT_10S,True,0,
+metadata_CANCEL_ASK_SIDE_SIZE_10S,True,0,
+finite_CANCEL_ASK_SIDE_SIZE_10S,True,0,
+nonnegative_CANCEL_ASK_SIDE_SIZE_10S,True,0,
+availability_CANCEL_ASK_SIDE_SIZE_10S,True,0,
+metadata_EXECUTE_COUNT_10S,True,0,
+finite_EXECUTE_COUNT_10S,True,0,
+nonnegative_EXECUTE_COUNT_10S,True,0,
+availability_EXECUTE_COUNT_10S,True,0,
+metadata_EXECUTE_SIZE_10S,True,0,
+finite_EXECUTE_SIZE_10S,True,0,
+nonnegative_EXECUTE_SIZE_10S,True,0,
+availability_EXECUTE_SIZE_10S,True,0,
+metadata_EXECUTE_BID_SIDE_COUNT_10S,True,0,
+finite_EXECUTE_BID_SIDE_COUNT_10S,True,0,
+nonnegative_EXECUTE_BID_SIDE_COUNT_10S,True,0,
+availability_EXECUTE_BID_SIDE_COUNT_10S,True,0,
+metadata_EXECUTE_BID_SIDE_SIZE_10S,True,0,
+finite_EXECUTE_BID_SIDE_SIZE_10S,True,0,
+nonnegative_EXECUTE_BID_SIDE_SIZE_10S,True,0,
+availability_EXECUTE_BID_SIDE_SIZE_10S,True,0,
+metadata_EXECUTE_ASK_SIDE_COUNT_10S,True,0,
+finite_EXECUTE_ASK_SIDE_COUNT_10S,True,0,
+nonnegative_EXECUTE_ASK_SIDE_COUNT_10S,True,0,
+availability_EXECUTE_ASK_SIDE_COUNT_10S,True,0,
+metadata_EXECUTE_ASK_SIDE_SIZE_10S,True,0,
+finite_EXECUTE_ASK_SIDE_SIZE_10S,True,0,
+nonnegative_EXECUTE_ASK_SIDE_SIZE_10S,True,0,
+availability_EXECUTE_ASK_SIDE_SIZE_10S,True,0,
+metadata_VISIBLE_EXECUTE_COUNT_10S,True,0,
+finite_VISIBLE_EXECUTE_COUNT_10S,True,0,
+nonnegative_VISIBLE_EXECUTE_COUNT_10S,True,0,
+availability_VISIBLE_EXECUTE_COUNT_10S,True,0,
+metadata_VISIBLE_EXECUTE_SIZE_10S,True,0,
+finite_VISIBLE_EXECUTE_SIZE_10S,True,0,
+nonnegative_VISIBLE_EXECUTE_SIZE_10S,True,0,
+availability_VISIBLE_EXECUTE_SIZE_10S,True,0,
+metadata_HIDDEN_EXECUTE_COUNT_10S,True,0,
+finite_HIDDEN_EXECUTE_COUNT_10S,True,0,
+nonnegative_HIDDEN_EXECUTE_COUNT_10S,True,0,
+availability_HIDDEN_EXECUTE_COUNT_10S,True,0,
+metadata_HIDDEN_EXECUTE_SIZE_10S,True,0,
+finite_HIDDEN_EXECUTE_SIZE_10S,True,0,
+nonnegative_HIDDEN_EXECUTE_SIZE_10S,True,0,
+availability_HIDDEN_EXECUTE_SIZE_10S,True,0,
+metadata_EVENT_RATE_10S,True,0,
+finite_EVENT_RATE_10S,True,0,
+nonnegative_EVENT_RATE_10S,True,0,
+availability_EVENT_RATE_10S,True,0,
+metadata_ADD_RATE_10S,True,0,
+finite_ADD_RATE_10S,True,0,
+nonnegative_ADD_RATE_10S,True,0,
+availability_ADD_RATE_10S,True,0,
+metadata_CANCEL_RATE_10S,True,0,
+finite_CANCEL_RATE_10S,True,0,
+nonnegative_CANCEL_RATE_10S,True,0,
+availability_CANCEL_RATE_10S,True,0,
+metadata_EXECUTION_RATE_10S,True,0,
+finite_EXECUTION_RATE_10S,True,0,
+nonnegative_EXECUTION_RATE_10S,True,0,
+availability_EXECUTION_RATE_10S,True,0,
+metadata_MID_RETURN_10S,True,0,
+finite_MID_RETURN_10S,True,0,
+availability_MID_RETURN_10S,True,0,
+metadata_TIME_SINCE_PREVIOUS_EVENT,True,0,
+finite_TIME_SINCE_PREVIOUS_EVENT,True,0,
+nonnegative_TIME_SINCE_PREVIOUS_EVENT,True,0,
+metadata_TIME_SINCE_PREVIOUS_TRADE,True,0,
+finite_TIME_SINCE_PREVIOUS_TRADE,True,0,
+nonnegative_TIME_SINCE_PREVIOUS_TRADE,True,0,
+metadata_TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE,True,0,
+finite_TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE,True,0,
+nonnegative_TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE,True,0,
+microprice_inside_bbo,True,0,
+no_next_feature,True,0,
+unknown_tick_flag,True,0,
+unknown_tick_microprice,True,0,
+history_asof_availability_100,True,0,
+history_asof_return_100,True,0,
+history_asof_availability_1000,True,0,
+history_asof_return_1000,True,0,
+history_asof_availability_5000,True,0,
+history_asof_return_5000,True,0,
+history_asof_availability_10000,True,0,
+history_asof_return_10000,True,0,
+target_availability_100ms,True,0,
+requested_time_100ms,True,0,
+target_nullmask_target_state_timestamp_100ms,True,0,
+target_resolution_target_state_timestamp_100ms,True,0,
+target_nullmask_target_state_source_order_100ms,True,0,
+target_resolution_target_state_source_order_100ms,True,0,
+direction_exact_100ms,True,0,
+label_arithmetic_target_midprice_100ms,True,0,
+label_arithmetic_FWD_MID_RET_100MS,True,0,
+label_arithmetic_MID_MOVE_100MS,True,0,
+label_arithmetic_target_age_ms_100ms,True,0,
+nonnegative_target_age_100ms,True,0,
+unknown_tick_label_100ms,True,0,
+target_reason_100ms,True,0,
+target_availability_1s,True,0,
+requested_time_1s,True,0,
+target_nullmask_target_state_timestamp_1s,True,0,
+target_resolution_target_state_timestamp_1s,True,0,
+target_nullmask_target_state_source_order_1s,True,0,
+target_resolution_target_state_source_order_1s,True,0,
+direction_exact_1s,True,0,
+label_arithmetic_target_midprice_1s,True,0,
+label_arithmetic_FWD_MID_RET_1S,True,0,
+label_arithmetic_MID_MOVE_1S,True,0,
+label_arithmetic_target_age_ms_1s,True,0,
+nonnegative_target_age_1s,True,0,
+unknown_tick_label_1s,True,0,
+target_reason_1s,True,0,
+target_availability_5s,True,0,
+requested_time_5s,True,0,
+target_nullmask_target_state_timestamp_5s,True,0,
+target_resolution_target_state_timestamp_5s,True,0,
+target_nullmask_target_state_source_order_5s,True,0,
+target_resolution_target_state_source_order_5s,True,0,
+direction_exact_5s,True,0,
+label_arithmetic_target_midprice_5s,True,0,
+label_arithmetic_FWD_MID_RET_5S,True,0,
+label_arithmetic_MID_MOVE_5S,True,0,
+label_arithmetic_target_age_ms_5s,True,0,
+nonnegative_target_age_5s,True,0,
+unknown_tick_label_5s,True,0,
+target_reason_5s,True,0,
+target_availability_10s,True,0,
+requested_time_10s,True,0,
+target_nullmask_target_state_timestamp_10s,True,0,
+target_resolution_target_state_timestamp_10s,True,0,
+target_nullmask_target_state_source_order_10s,True,0,
+target_resolution_target_state_source_order_10s,True,0,
+direction_exact_10s,True,0,
+label_arithmetic_target_midprice_10s,True,0,
+label_arithmetic_FWD_MID_RET_10S,True,0,
+label_arithmetic_MID_MOVE_10S,True,0,
+label_arithmetic_target_age_ms_10s,True,0,
+nonnegative_target_age_10s,True,0,
+unknown_tick_label_10s,True,0,
+target_reason_10s,True,0,
+real_trace_count,True,0,25
+independent_manual_comparisons,True,0,324 comparisons across 25 real rows
+future_mutation_MIDPRICE,True,0,"exact prefix equality, NaN masks included"
+future_mutation_SPREAD,True,0,"exact prefix equality, NaN masks included"
+future_mutation_RELATIVE_SPREAD,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MICROPRICE,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MICROPRICE_MINUS_MID,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MICROPRICE_DEVIATION_TICKS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_BID_DEPTH_L1,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ASK_DEPTH_L1,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TOTAL_DEPTH_L1,True,0,"exact prefix equality, NaN masks included"
+future_mutation_DEPTH_RATIO_L1,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OBI_L1,True,0,"exact prefix equality, NaN masks included"
+future_mutation_BID_DEPTH_L3,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ASK_DEPTH_L3,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TOTAL_DEPTH_L3,True,0,"exact prefix equality, NaN masks included"
+future_mutation_DEPTH_RATIO_L3,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OBI_L3,True,0,"exact prefix equality, NaN masks included"
+future_mutation_BID_DEPTH_L5,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ASK_DEPTH_L5,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TOTAL_DEPTH_L5,True,0,"exact prefix equality, NaN masks included"
+future_mutation_DEPTH_RATIO_L5,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OBI_L5,True,0,"exact prefix equality, NaN masks included"
+future_mutation_BID_DEPTH_L10,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ASK_DEPTH_L10,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TOTAL_DEPTH_L10,True,0,"exact prefix equality, NaN masks included"
+future_mutation_DEPTH_RATIO_L10,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OBI_L10,True,0,"exact prefix equality, NaN masks included"
+future_mutation_WOBI_L10,True,0,"exact prefix equality, NaN masks included"
+future_mutation_book_valid,True,0,"exact prefix equality, NaN masks included"
+future_mutation_feature_static_available,True,0,"exact prefix equality, NaN masks included"
+future_mutation_tick_size_available,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OFI_EVENT,True,0,"exact prefix equality, NaN masks included"
+future_mutation_feature_100ms_available,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OFI_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTION_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MID_RETURN_100MS,True,0,"exact prefix equality, NaN masks included"
+future_mutation_feature_1s_available,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OFI_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTION_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MID_RETURN_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_SPREAD_CHANGE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OBI_CHANGE_1S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_feature_5s_available,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OFI_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTION_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MID_RETURN_5S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_feature_10s_available,True,0,"exact prefix equality, NaN masks included"
+future_mutation_OFI_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_BID_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_ASK_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_BID_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_ASK_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_BID_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTE_ASK_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_VISIBLE_EXECUTE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_HIDDEN_EXECUTE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EVENT_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_ADD_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_CANCEL_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_EXECUTION_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_MID_RETURN_10S,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TIME_SINCE_PREVIOUS_EVENT,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TIME_SINCE_PREVIOUS_TRADE,True,0,"exact prefix equality, NaN masks included"
+future_mutation_TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE,True,0,"exact prefix equality, NaN masks included"
+future_mutation_settled_target_available_100ms,True,0,
+future_mutation_settled_target_time_requested_100ms,True,0,
+future_mutation_settled_target_state_timestamp_100ms_0,True,0,
+future_mutation_settled_target_state_timestamp_100ms_1,True,0,
+future_mutation_settled_target_state_source_order_100ms_0,True,0,
+future_mutation_settled_target_state_source_order_100ms_1,True,0,
+future_mutation_settled_target_age_ms_100ms,True,0,
+future_mutation_settled_target_midprice_100ms,True,0,
+future_mutation_settled_target_unavailable_reason_100ms,True,0,
+future_mutation_settled_FWD_MID_RET_100MS,True,0,
+future_mutation_settled_MID_MOVE_100MS,True,0,
+future_mutation_settled_MID_MOVE_TICKS_100MS,True,0,
+future_mutation_settled_DIRECTION_100MS,True,0,
+future_mutation_settled_target_available_1s,True,0,
+future_mutation_settled_target_time_requested_1s,True,0,
+future_mutation_settled_target_state_timestamp_1s_0,True,0,
+future_mutation_settled_target_state_timestamp_1s_1,True,0,
+future_mutation_settled_target_state_source_order_1s_0,True,0,
+future_mutation_settled_target_state_source_order_1s_1,True,0,
+future_mutation_settled_target_age_ms_1s,True,0,
+future_mutation_settled_target_midprice_1s,True,0,
+future_mutation_settled_target_unavailable_reason_1s,True,0,
+future_mutation_settled_FWD_MID_RET_1S,True,0,
+future_mutation_settled_MID_MOVE_1S,True,0,
+future_mutation_settled_MID_MOVE_TICKS_1S,True,0,
+future_mutation_settled_DIRECTION_1S,True,0,
+future_mutation_settled_target_available_5s,True,0,
+future_mutation_settled_target_time_requested_5s,True,0,
+future_mutation_settled_target_state_timestamp_5s_0,True,0,
+future_mutation_settled_target_state_timestamp_5s_1,True,0,
+future_mutation_settled_target_state_source_order_5s_0,True,0,
+future_mutation_settled_target_state_source_order_5s_1,True,0,
+future_mutation_settled_target_age_ms_5s,True,0,
+future_mutation_settled_target_midprice_5s,True,0,
+future_mutation_settled_target_unavailable_reason_5s,True,0,
+future_mutation_settled_FWD_MID_RET_5S,True,0,
+future_mutation_settled_MID_MOVE_5S,True,0,
+future_mutation_settled_MID_MOVE_TICKS_5S,True,0,
+future_mutation_settled_DIRECTION_5S,True,0,
+future_mutation_settled_target_available_10s,True,0,
+future_mutation_settled_target_time_requested_10s,True,0,
+future_mutation_settled_target_state_timestamp_10s_0,True,0,
+future_mutation_settled_target_state_timestamp_10s_1,True,0,
+future_mutation_settled_target_state_source_order_10s_0,True,0,
+future_mutation_settled_target_state_source_order_10s_1,True,0,
+future_mutation_settled_target_age_ms_10s,True,0,
+future_mutation_settled_target_midprice_10s,True,0,
+future_mutation_settled_target_unavailable_reason_10s,True,0,
+future_mutation_settled_FWD_MID_RET_10S,True,0,
+future_mutation_settled_MID_MOVE_10S,True,0,
+future_mutation_settled_MID_MOVE_TICKS_10S,True,0,
+future_mutation_settled_DIRECTION_10S,True,0,
+same_timestamp_mutation_MIDPRICE,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_SPREAD,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_RELATIVE_SPREAD,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MICROPRICE,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MICROPRICE_MINUS_MID,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MICROPRICE_DEVIATION_TICKS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_BID_DEPTH_L1,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ASK_DEPTH_L1,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TOTAL_DEPTH_L1,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_DEPTH_RATIO_L1,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OBI_L1,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_BID_DEPTH_L3,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ASK_DEPTH_L3,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TOTAL_DEPTH_L3,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_DEPTH_RATIO_L3,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OBI_L3,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_BID_DEPTH_L5,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ASK_DEPTH_L5,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TOTAL_DEPTH_L5,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_DEPTH_RATIO_L5,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OBI_L5,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_BID_DEPTH_L10,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ASK_DEPTH_L10,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TOTAL_DEPTH_L10,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_DEPTH_RATIO_L10,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OBI_L10,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_WOBI_L10,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_book_valid,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_feature_static_available,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_tick_size_available,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OFI_EVENT,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_feature_100ms_available,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OFI_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_COUNT_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_SIZE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTION_RATE_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MID_RETURN_100MS,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_feature_1s_available,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OFI_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_COUNT_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_SIZE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTION_RATE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MID_RETURN_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_SPREAD_CHANGE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OBI_CHANGE_1S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_feature_5s_available,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OFI_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_COUNT_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_SIZE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTION_RATE_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MID_RETURN_5S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_feature_10s_available,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_OFI_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_BID_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_ASK_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_BID_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_ASK_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_BID_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTE_ASK_SIDE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_VISIBLE_EXECUTE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_COUNT_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_HIDDEN_EXECUTE_SIZE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EVENT_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_ADD_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_CANCEL_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_EXECUTION_RATE_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_MID_RETURN_10S,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TIME_SINCE_PREVIOUS_EVENT,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TIME_SINCE_PREVIOUS_TRADE,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_TIME_SINCE_PREVIOUS_BOOK_PRICE_CHANGE,True,0,"exact prefix equality, NaN masks included"
+same_timestamp_mutation_settled_target_available_100ms,True,0,
+same_timestamp_mutation_settled_target_time_requested_100ms,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_100ms_0,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_100ms_1,True,0,
+same_timestamp_mutation_settled_target_state_source_order_100ms_0,True,0,
+same_timestamp_mutation_settled_target_state_source_order_100ms_1,True,0,
+same_timestamp_mutation_settled_target_age_ms_100ms,True,0,
+same_timestamp_mutation_settled_target_midprice_100ms,True,0,
+same_timestamp_mutation_settled_target_unavailable_reason_100ms,True,0,
+same_timestamp_mutation_settled_FWD_MID_RET_100MS,True,0,
+same_timestamp_mutation_settled_MID_MOVE_100MS,True,0,
+same_timestamp_mutation_settled_MID_MOVE_TICKS_100MS,True,0,
+same_timestamp_mutation_settled_DIRECTION_100MS,True,0,
+same_timestamp_mutation_settled_target_available_1s,True,0,
+same_timestamp_mutation_settled_target_time_requested_1s,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_1s_0,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_1s_1,True,0,
+same_timestamp_mutation_settled_target_state_source_order_1s_0,True,0,
+same_timestamp_mutation_settled_target_state_source_order_1s_1,True,0,
+same_timestamp_mutation_settled_target_age_ms_1s,True,0,
+same_timestamp_mutation_settled_target_midprice_1s,True,0,
+same_timestamp_mutation_settled_target_unavailable_reason_1s,True,0,
+same_timestamp_mutation_settled_FWD_MID_RET_1S,True,0,
+same_timestamp_mutation_settled_MID_MOVE_1S,True,0,
+same_timestamp_mutation_settled_MID_MOVE_TICKS_1S,True,0,
+same_timestamp_mutation_settled_DIRECTION_1S,True,0,
+same_timestamp_mutation_settled_target_available_5s,True,0,
+same_timestamp_mutation_settled_target_time_requested_5s,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_5s_0,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_5s_1,True,0,
+same_timestamp_mutation_settled_target_state_source_order_5s_0,True,0,
+same_timestamp_mutation_settled_target_state_source_order_5s_1,True,0,
+same_timestamp_mutation_settled_target_age_ms_5s,True,0,
+same_timestamp_mutation_settled_target_midprice_5s,True,0,
+same_timestamp_mutation_settled_target_unavailable_reason_5s,True,0,
+same_timestamp_mutation_settled_FWD_MID_RET_5S,True,0,
+same_timestamp_mutation_settled_MID_MOVE_5S,True,0,
+same_timestamp_mutation_settled_MID_MOVE_TICKS_5S,True,0,
+same_timestamp_mutation_settled_DIRECTION_5S,True,0,
+same_timestamp_mutation_settled_target_available_10s,True,0,
+same_timestamp_mutation_settled_target_time_requested_10s,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_10s_0,True,0,
+same_timestamp_mutation_settled_target_state_timestamp_10s_1,True,0,
+same_timestamp_mutation_settled_target_state_source_order_10s_0,True,0,
+same_timestamp_mutation_settled_target_state_source_order_10s_1,True,0,
+same_timestamp_mutation_settled_target_age_ms_10s,True,0,
+same_timestamp_mutation_settled_target_midprice_10s,True,0,
+same_timestamp_mutation_settled_target_unavailable_reason_10s,True,0,
+same_timestamp_mutation_settled_FWD_MID_RET_10S,True,0,
+same_timestamp_mutation_settled_MID_MOVE_10S,True,0,
+same_timestamp_mutation_settled_MID_MOVE_TICKS_10S,True,0,
+same_timestamp_mutation_settled_DIRECTION_10S,True,0,
