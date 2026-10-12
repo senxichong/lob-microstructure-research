@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "phase2_sha256": "a5a493636d9f6d592e2d229921533940ec7cfffcdc5da8f1c9fb636445d34e96",
+  "evidence_files_checked": 146,
+  "models_checked": 55,
+  "metrics_verified": true,
+  "identical_oos": 11695,
+  "paired_comparison": [
+    {
+      "model_name": "RF",
+      "benchmark": "Ridge",
+      "metric": "0.09753996824991085",
+      "benchmark_metric": "0.050746888793196276",
+      "observed_delta": "0.04679307945671457",
+      "bootstrap_mean_delta": "0.04733090052121622",
+      "ci_lower": "0.029392062996336323",
+      "ci_upper": "0.06569801902108774",
+      "model_ci_lower": "0.07814211130570461",
+      "model_ci_upper": "0.11535632219119774",
+      "fold_wins": "5",
+      "block_seconds": "60",
+      "replicates": "1000"
+    },
+    {
+      "model_name": "LightGBM",
+      "benchmark": "Ridge",
+      "metric": "0.09863658973565101",
+      "benchmark_metric": "0.050746888793196276",
+      "observed_delta": "0.04788970094245473",
+      "bootstrap_mean_delta": "0.04820017312460878",
+      "ci_lower": "0.03039251252001645",
+      "ci_upper": "0.06831771724750857",
+      "model_ci_lower": "0.08007079152584692",
+      "model_ci_upper": "0.11558739369850557",
+      "fold_wins": "5",
+      "block_seconds": "60",
+      "replicates": "1000"
+    },
+    {
+      "model_name": "ValidationSelected",
+      "benchmark": "Ridge",
+      "metric": "0.09811277015143123",
+      "benchmark_metric": "0.050746888793196276",
+      "observed_delta": "0.047365881358234954",
+      "bootstrap_mean_delta": "0.047704076933301795",
+      "ci_lower": "0.030307866598605803",
+      "ci_upper": "0.06716454134155508",
+      "model_ci_lower": "0.07869848716833144",
+      "model_ci_upper": "0.11543243856268125",
+      "fold_wins": "5",
+      "block_seconds": "60",
+      "replicates": "1000"
+    }
+  ]
+}

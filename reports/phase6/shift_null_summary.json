@@ -1,0 +1,13 @@
+{
+  "replicates": 500,
+  "seed": 606042,
+  "observed_quote_pnl": -45.646000000000164,
+  "quote_pnl_pvalue": 0.7784431137724551,
+  "quote_pnl_percentile": 0.222,
+  "notional_pvalue": 0.7744510978043913,
+  "null_mean_pnl": -45.213957999999934,
+  "null_ci": [
+    -46.30997499999995,
+    -44.063749999999956
+  ]
+}

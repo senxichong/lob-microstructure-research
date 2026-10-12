@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 13993,
+  "critical_failures": 0,
+  "maximum_cash_discrepancy": 3.268496584496461e-13,
+  "maximum_observed_inventory": 1,
+  "manual_paths": 16,
+  "trace_rows": 87,
+  "trace_coverage": {
+    "long_entry": 2151,
+    "long_exit": 2166,
+    "short_entry": 2043,
+    "short_exit": 2028,
+    "flip": 579,
+    "unchanged": 26133,
+    "same_timestamp": 511,
+    "quote_change": 1028,
+    "positive_episode": 1,
+    "negative_episode": 1
+  },
+  "primary_reconstructed_pnl": -45.646,
+  "verifier_sha256": "111146b338f524a3142510e853278047c0cfdb6bb783c1276211c3f49b3be79a",
+  "failures": [],
+  "report_sha256": "0392c8b6ce1062f92d0ea5cca3ba26c708a70700ff3d552fdfbbd3cf1db00aec"
+}

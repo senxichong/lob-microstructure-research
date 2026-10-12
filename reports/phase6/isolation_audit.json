@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "repeat_max_cash_discrepancy": 0.0,
+  "mutated_future_rows": 64191,
+  "future_quote_independence": true,
+  "row_order_invariance": true,
+  "terminal_inventory_zero": true,
+  "max_reconciliation_error": 3.126388037344441e-13,
+  "missed_executions": 47,
+  "depth_violations": 47
+}

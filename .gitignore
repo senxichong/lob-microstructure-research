@@ -27,3 +27,9 @@ reports/phase4/*.parquet
 # Phase 5 local-only row predictions and fitted tree artifacts
 reports/phase5/*.parquet
 artifacts/phase5/
+
+# Phase 6 local-only row-level market/signal/execution artifacts
+reports/phase6/*.parquet
+reports/phase6/episode_ledger.csv
+reports/phase6/manual_pnl_verification.csv
+reports/phase6_execution_traces.md

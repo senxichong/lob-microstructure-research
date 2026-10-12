@@ -89,3 +89,27 @@ Random training-block labels rho 0.009221409, CI [-0.010675057, 0.030125291]; se
 OFI_100MS response remains broadly decreasing end-to-end in all five folds, with one near-zero local bump and only 3–4 quantile points per curve; OFI_1S is broadly positive but locally nonlinear. Definitions unchanged. No causality inferred.
 
 Full suite: 126 passed, zero failures/errors/skips. Independent verification: 3,120 checks, zero critical failures. Regression verdict RELIABLE NONLINEAR IMPROVEMENT; classification verdict RELIABLE NONLINEAR DIRECTIONAL IMPROVEMENT, both limited to this already-examined stock/day. PHASE 5: PASS. No execution, PnL, alternate-horizon tuning or Phase 6. STOP.
+
+## Phase 6 preregistration — before execution PnL
+
+H1: The LightGBM mid-price predictive improvement may be substantially reduced after aggressive bid/ask execution.
+
+H2: Higher prediction strength should be associated with better economic outcomes, but spread may dominate weaker signals.
+
+H3: Latency should degrade the short-horizon signal.
+
+H4: LightGBM should economically outperform Ridge if its predictive improvement is genuinely useful.
+
+H5: The signal may remain statistically predictive while failing to be executable after spread and costs.
+
+Protocol 6.0.0 fixes validation-only 10% tails, stateful one share, 10ms aggressive BBO execution and all robustness/control assumptions. No real PnL viewed.
+
+## Phase 6 outcome — frozen execution assumptions retained
+
+Primary LightGBM 10% validation tails, 10ms, one share: gross mid $2.4475, spread $48.0935, quote PnL $-45.6460, no extra fees. 2,989 fills, 193 flips, 0/5 positive folds. No primary depth/missing failures.
+
+H1/H5 supported: spread consumes edge. H2 gross-strength association supported descriptively, every bin loses after crossing. H3 not supported monotonically: 10ms latency effect -$0.0710 versus 0ms. H4 not supported for aggregate dollars: Ridge -$41.3840, RF -$43.5250, LightGBM -$45.6460; turnover differs.
+
+60s/1,000 bootstrap normalized PnL CI [-0.922629664, -0.786712920]. 500-shift one-sided PnL p=0.778443114. Random/inversion/600s controls sane; delayed mid gross loses alignment. All predefined thresholds/latencies lose; no result-driven changes.
+
+PREDICTIVE SIGNAL DOES NOT SURVIVE PRIMARY EXECUTION ASSUMPTIONS. PHASE 6: PASS. Full pytest 139 passed, zero failures/errors. Independent replay PASS; discrepancy 3.27e-13 USD. Single examined 2003 stock/day only. STOP; wait for Phase 7 authorization.

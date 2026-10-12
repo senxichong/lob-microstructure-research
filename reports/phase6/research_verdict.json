@@ -1,0 +1,11 @@
+{
+  "verdict": "PREDICTIVE SIGNAL DOES NOT SURVIVE PRIMARY EXECUTION ASSUMPTIONS",
+  "phase_decision": "PASS",
+  "controls_sane": true,
+  "positive_folds": 0,
+  "tests_passed": 139,
+  "tests_failed": 0,
+  "test_errors": 0,
+  "independent_checks": 13993,
+  "primary_unchanged": true
+}

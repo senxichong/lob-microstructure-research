@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "report_sha256": "0392c8b6ce1062f92d0ea5cca3ba26c708a70700ff3d552fdfbbd3cf1db00aec",
+  "independent_replay_receipt_sha256": "9162985e97860ad105b76fd384422635e4d4fb3a58c56104ebd9e660dbcb6bf0",
+  "tables": 13,
+  "cells_checked": 392,
+  "required_machine_outputs": 19,
+  "figure_pairs": 11,
+  "figures_visually_reviewed": true,
+  "tests_passed": 139,
+  "upstream_frozen": true
+}

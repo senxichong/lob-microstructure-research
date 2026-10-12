@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-12T02:07:56.197597+00:00",
+  "files": {
+    "reports/phase6/validation_predictions.parquet": "5c50e735ac1e3d21982d42555d9e635ee16aa3bdbf8d1024a360c06361569449",
+    "reports/phase6/thresholds.csv": "0bb3e1c00e89813a0273cc39b3096fae48330b094b74eb9e8af9c31e2ae7c087",
+    "reports/phase6/prediction_provenance.csv": "2a402749da86eb00f3b96a3bad291cdae90476f34816d8f45c24cb2693704a69"
+  },
+  "no_model_refitting": true,
+  "no_real_pnl_calculated": true
+}
