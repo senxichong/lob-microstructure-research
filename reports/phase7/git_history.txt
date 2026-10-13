@@ -1,0 +1,5 @@
+7842672 2026-10-12T10:49:50+08:00 Complete Phase 6 execution-aware economic validation
+55d166a 2026-10-11T20:26:03+08:00 Complete Phase 5 nonlinear microstructure modeling
+d940911 2026-10-11T14:46:33+08:00 Complete Phase 3 univariate microstructure signal research
+21f7155 2026-10-11T11:33:13+08:00 Complete Phase 2 causal feature and label matrix
+f4f606c 2026-10-10T18:39:08+08:00 Complete Phase 1 ITCH order book reconstruction

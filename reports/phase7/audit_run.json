@@ -1,0 +1,12 @@
+{
+  "stage_seconds": {
+    "data": 36.78570000000036,
+    "statistics": 234.78452649999963,
+    "execution": 41.43466029999945,
+    "redteam": 51.98298059999979,
+    "tests": 25.770619999999326,
+    "summarize": 4.908753499999875
+  },
+  "total_seconds": 395.6840162999997,
+  "protocol_sha256": "0d350dea3738bbe00c0e492df0f6554fb29538f45bfcf3327e3aa6c6c6026738"
+}

@@ -1,0 +1,7506 @@
+[
+  {
+    "section": "phase3",
+    "check": "OBI_L1 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID spearman_rho",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD spearman_rho",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S spearman_rho",
+    "passed": true,
+    "max_discrepancy": 4.336808689942018e-19,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "shifts exclude nearby alignment",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": "Full-session circular wrap is artificial null seam, not information fed to fitting."
+  },
+  {
+    "section": "folds",
+    "check": "fold1 gap0 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold1 gap0 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold1 gap0 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "Ridge validation reconstruction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold1 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold1 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold1 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold1 gap10 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold1 gap10 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold1 gap10 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold1 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold1 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold1 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold1 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold1 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold1 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold1 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold1 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold1 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold2 gap0 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold2 gap0 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold2 gap0 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "Ridge validation reconstruction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold2 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold2 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold2 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold2 gap10 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold2 gap10 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold2 gap10 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold2 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold2 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold2 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold2 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold2 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold2 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold2 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold2 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold2 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold3 gap0 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold3 gap0 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold3 gap0 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "Ridge validation reconstruction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static selected validation score",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI selected validation score",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold3 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold3 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold3 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold3 gap10 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold3 gap10 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold3 gap10 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold3 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold3 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold3 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold3 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold3 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold3 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold3 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold3 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold3 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold4 gap0 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold4 gap0 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold4 gap0 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "Ridge validation reconstruction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static selected validation score",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI selected validation score",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel selected validation score",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold4 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold4 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold4 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold4 gap10 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold4 gap10 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold4 gap10 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold4 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold4 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold4 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold4 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold4 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold4 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold4 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold4 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold4 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold5 gap0 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold5 gap0 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold5 gap0 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "Ridge validation reconstruction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Static saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Flow saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutImbalance saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutMicroprice saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutOFI saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "WithoutContext saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomFeature saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "RandomLabel saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold5 gap0 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold5 gap0 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold5 gap0 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold5 gap10 train purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold5 gap10 validation purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "folds",
+    "check": "fold5 gap10 test purge",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold5 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold5 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS fold5 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "OLS saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold5 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold5 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge fold5 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge selected validation score",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Ridge saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold5 gap10 median",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold5 gap10 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic fold5 gap10 scale",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic validation selection",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic selected validation score",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance4",
+    "check": "Logistic saved OOS prediction",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold1.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold2.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold3.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 2.7755575615628914e-17,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 2.7755575615628914e-17,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 5.421010862427522e-20,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold4.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RF_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "thresholds",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib validation predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_LightGBM_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_ValidationSelected_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Static_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_Flow_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomLabel_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_TemporalPlacebo_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/regression_RandomFeature_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_RF_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_LightGBM_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib feature whitelist",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib train medians",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib fit sizes and seed",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib selected candidate",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib validation metric",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib OOS clock",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib OOS predictions",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "provenance5",
+    "check": "artifacts/phase5/classification_ValidationSelected_fold5.joblib no early stop",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  }
+]

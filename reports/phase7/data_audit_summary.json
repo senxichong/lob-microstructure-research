@@ -1,0 +1,10 @@
+{
+  "phase2_features_compared": 50,
+  "feature_rows": 162879,
+  "grid_rows": 23400,
+  "valid_targets": 23398,
+  "timestamp_ties": 3976,
+  "tie_corruptions_changing_obi": 5,
+  "future_cutoffs": 5,
+  "tick_fields_unused": true
+}

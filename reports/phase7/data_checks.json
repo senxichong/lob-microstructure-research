@@ -1,0 +1,3957 @@
+[
+  {
+    "section": "integrity",
+    "check": "all authoritative file hashes",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": "696 checks"
+  },
+  {
+    "section": "raw",
+    "check": "retained states",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "member hash",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "selected final orders exhausted",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_2",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_2",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_4",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_4",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_6",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_6",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_7",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_7",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_8",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_8",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_9",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_9",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_price_units_10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "bid_size_10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_2",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_2",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_4",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_4",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_6",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_6",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_7",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_7",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_8",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_8",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_9",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_9",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_price_units_10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "raw",
+    "check": "ask_size_10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "invariants",
+    "check": "strict uncrossed BBO",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "invariants",
+    "check": "positive prices/queues",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "invariants",
+    "check": "sorted unique levels",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 3.3306690738754696e-16,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "FWD_MID_RET_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "target_state_timestamp_100ms",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "FWD_MID_RET_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "target_state_timestamp_1s",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "FWD_MID_RET_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "target_state_timestamp_5s",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "FWD_MID_RET_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "target_state_timestamp_10s",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "features",
+    "check": "TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "causality",
+    "check": "same-timestamp corruption observable",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": "5/8 altered first-row OBI values"
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 drop_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 corrupt_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 settled 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 settled 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 settled 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut52337 settled 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 drop_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 corrupt_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 settled 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 settled 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 settled 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut68632 settled 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 drop_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 corrupt_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 settled 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 settled 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 settled 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut108688 settled 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 drop_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 corrupt_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 settled 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 settled 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 settled 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut120471 settled 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 drop_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MIDPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MICROPRICE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OBI_L3",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OFI_EVENT",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_RATE_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future ADD_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future CANCEL_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EXECUTE_COUNT_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MID_RETURN_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future ADD_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future CANCEL_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EXECUTE_COUNT_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MID_RETURN_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future SPREAD_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OBI_CHANGE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OFI_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_RATE_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future ADD_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future CANCEL_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EXECUTE_COUNT_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MID_RETURN_5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future OFI_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EVENT_RATE_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future ADD_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future CANCEL_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future EXECUTE_COUNT_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future MID_RETURN_10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 corrupt_future TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 settled 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 settled 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 settled 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "mutation",
+    "check": "cut138306 settled 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "23400 grid rows",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "source timestamp",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "source order",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "state age",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "OBI_L1",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "OBI_L5",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "OBI_L10",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "WOBI_L10",
+    "passed": true,
+    "max_discrepancy": 3.3306690738754696e-16,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "MICROPRICE_MINUS_MID",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "OFI_100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "OFI_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "RELATIVE_SPREAD",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "EVENT_RATE_1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "TIME_SINCE_PREVIOUS_TRADE",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "return 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "available 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "target timestamp 100MS",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "return 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "available 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "target timestamp 1S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "return 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "available 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "target timestamp 5S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "return 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "available 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "target timestamp 10S",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "grid",
+    "check": "23398 valid primary labels",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  }
+]

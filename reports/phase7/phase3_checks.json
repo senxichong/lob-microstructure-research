@@ -1,0 +1,1171 @@
+[
+  {
+    "section": "phase3",
+    "check": "OBI_L1 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L1 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L5 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OBI_L10 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 1.3877787807814457e-17,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "WOBI_L10 quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID spearman_rho",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "MICROPRICE_MINUS_MID quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 6.938893903907228e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_100MS quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "OFI_1S quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD spearman_rho",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 8.673617379884035e-19,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "RELATIVE_SPREAD quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S spearman_rho",
+    "passed": true,
+    "max_discrepancy": 4.336808689942018e-19,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 3.469446951953614e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 1.734723475976807e-18,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "EVENT_RATE_1S quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE spearman_rho",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE bootstrap_ci_low",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE bootstrap_ci_high",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE permutation_p",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE fdr_bh_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE fdr_by_q",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q1 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q1 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q2 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q2 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q3 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q3 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q4 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q4 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q5 count",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE q5 mean",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "TIME_SINCE_PREVIOUS_TRADE quintile difference CI",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": ""
+  },
+  {
+    "section": "phase3",
+    "check": "shifts exclude nearby alignment",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": "Full-session circular wrap is artificial null seam, not information fed to fitting."
+  }
+]

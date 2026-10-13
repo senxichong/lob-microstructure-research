@@ -1,0 +1,27 @@
+{
+  "states": 162879,
+  "raw_messages": 6115981,
+  "raw_types": {
+    "S": 2,
+    "A": 2921796,
+    "X": 2762898,
+    "E": 257338,
+    "P": 173947
+  },
+  "selected_counts": {
+    "full_removal": 78602,
+    "partial_reduction": 2817,
+    "E": 6665,
+    "P": 6754,
+    "A": 76722,
+    "X": 72738
+  },
+  "raw_window_rows": 72,
+  "deterministic_windows": 6,
+  "price_scale": 10000,
+  "size_unit": "share",
+  "member_hash": "cbc44c65887e4507bd1d36ea5c561f95030494164d3027eb1b35b74eb099b5c3",
+  "max_depth_error": 0.0,
+  "unsupported_semantics": "No standalone DELETE or REPLACE in ITCH 2.0; full X removes orders; P hidden print leaves book unchanged; no B messages observed",
+  "transport_completeness_proven": false
+}

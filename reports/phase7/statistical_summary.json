@@ -1,0 +1,197 @@
+{
+  "metrics": {
+    "phase4_regression_OBI_L1": {
+      "spearman": 0.03600579405198653
+    },
+    "phase4_regression_OLS": {
+      "spearman": 0.050758146662477015
+    },
+    "phase4_regression_Ridge": {
+      "spearman": 0.05074688879319627
+    },
+    "phase4_classification_Logistic": {
+      "macro_f1": 0.3021830438654219,
+      "balanced_accuracy": 0.35230384791283265,
+      "accuracy": 0.624711415134673
+    },
+    "phase5_regression_Ridge": {
+      "spearman": 0.05074688879319627
+    },
+    "phase5_regression_RF": {
+      "spearman": 0.09753996824991085
+    },
+    "phase5_regression_LightGBM": {
+      "spearman": 0.09863658973565101
+    },
+    "phase5_classification_Logistic": {
+      "macro_f1": 0.3021830438654219,
+      "balanced_accuracy": 0.35230384791283265,
+      "accuracy": 0.624711415134673
+    },
+    "phase5_classification_RF": {
+      "macro_f1": 0.34504328004826706,
+      "balanced_accuracy": 0.3726207564256337,
+      "accuracy": 0.6267635741769987
+    },
+    "phase5_classification_LightGBM": {
+      "macro_f1": 0.38445502298835676,
+      "balanced_accuracy": 0.394480350992944,
+      "accuracy": 0.6275331338178709
+    },
+    "ess_prediction": {
+      "observations": 11695,
+      "integrated_time": 9.764985738000206,
+      "approximate_ess": 1197.6463984467678,
+      "truncation_lag": 69,
+      "meaning": "mean-process diagnostic, not Spearman or model-comparison degrees of freedom"
+    },
+    "ess_target": {
+      "observations": 11695,
+      "integrated_time": 1,
+      "approximate_ess": 11695.0,
+      "truncation_lag": 0,
+      "meaning": "mean-process diagnostic, not Spearman or model-comparison degrees of freedom"
+    },
+    "ess_residual": {
+      "observations": 11695,
+      "integrated_time": 1,
+      "approximate_ess": 11695.0,
+      "truncation_lag": 0,
+      "meaning": "mean-process diagnostic, not Spearman or model-comparison degrees of freedom"
+    }
+  },
+  "stress": [
+    {
+      "task": "regression",
+      "model": "RF",
+      "benchmark": "Ridge",
+      "block_seconds": 30,
+      "seed": 707030,
+      "replicates": 1000,
+      "ci_lower": 0.02951059050979325,
+      "ci_upper": 0.0639710880773076,
+      "fold_wins": 5
+    },
+    {
+      "task": "regression",
+      "model": "LightGBM",
+      "benchmark": "Ridge",
+      "block_seconds": 30,
+      "seed": 707030,
+      "replicates": 1000,
+      "ci_lower": 0.03067774652444307,
+      "ci_upper": 0.06662279663558399,
+      "fold_wins": 5
+    },
+    {
+      "task": "classification",
+      "model": "RF",
+      "benchmark": "Logistic",
+      "block_seconds": 30,
+      "seed": 707030,
+      "replicates": 1000,
+      "ci_lower": 0.03388544547582341,
+      "ci_upper": 0.05238541629444848,
+      "fold_wins": 5
+    },
+    {
+      "task": "classification",
+      "model": "LightGBM",
+      "benchmark": "Logistic",
+      "block_seconds": 30,
+      "seed": 707030,
+      "replicates": 1000,
+      "ci_lower": 0.07135936557521633,
+      "ci_upper": 0.09473919120109374,
+      "fold_wins": 5
+    },
+    {
+      "task": "regression",
+      "model": "RF",
+      "benchmark": "Ridge",
+      "block_seconds": 60,
+      "seed": 505060,
+      "replicates": 1000,
+      "ci_lower": 0.02939206299633631,
+      "ci_upper": 0.06569801902108775,
+      "fold_wins": 5
+    },
+    {
+      "task": "regression",
+      "model": "LightGBM",
+      "benchmark": "Ridge",
+      "block_seconds": 60,
+      "seed": 505060,
+      "replicates": 1000,
+      "ci_lower": 0.030392512520016436,
+      "ci_upper": 0.06831771724750857,
+      "fold_wins": 5
+    },
+    {
+      "task": "classification",
+      "model": "RF",
+      "benchmark": "Logistic",
+      "block_seconds": 60,
+      "seed": 505060,
+      "replicates": 1000,
+      "ci_lower": 0.032731542407031584,
+      "ci_upper": 0.05312348328655966,
+      "fold_wins": 5
+    },
+    {
+      "task": "classification",
+      "model": "LightGBM",
+      "benchmark": "Logistic",
+      "block_seconds": 60,
+      "seed": 505060,
+      "replicates": 1000,
+      "ci_lower": 0.06976572154344189,
+      "ci_upper": 0.09424986667216506,
+      "fold_wins": 5
+    },
+    {
+      "task": "regression",
+      "model": "RF",
+      "benchmark": "Ridge",
+      "block_seconds": 300,
+      "seed": 707300,
+      "replicates": 1000,
+      "ci_lower": 0.026164620234774987,
+      "ci_upper": 0.0695688964912168,
+      "fold_wins": 5
+    },
+    {
+      "task": "regression",
+      "model": "LightGBM",
+      "benchmark": "Ridge",
+      "block_seconds": 300,
+      "seed": 707300,
+      "replicates": 1000,
+      "ci_lower": 0.02641430449696273,
+      "ci_upper": 0.07007380863037095,
+      "fold_wins": 5
+    },
+    {
+      "task": "classification",
+      "model": "RF",
+      "benchmark": "Logistic",
+      "block_seconds": 300,
+      "seed": 707300,
+      "replicates": 1000,
+      "ci_lower": 0.03079172260880498,
+      "ci_upper": 0.055951379396657924,
+      "fold_wins": 5
+    },
+    {
+      "task": "classification",
+      "model": "LightGBM",
+      "benchmark": "Logistic",
+      "block_seconds": 300,
+      "seed": 707300,
+      "replicates": 1000,
+      "ci_lower": 0.06612112499613701,
+      "ci_upper": 0.10001315710113005,
+      "fold_wins": 5
+    }
+  ]
+}

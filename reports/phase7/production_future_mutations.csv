@@ -1,0 +1,16 @@
+cutoff_index,variant,past_feature_columns,settled_labels_compared
+52337,payload,156,True
+52337,drop,156,True
+52337,reorder_future_payload,156,True
+68632,payload,156,True
+68632,drop,156,True
+68632,reorder_future_payload,156,True
+108688,payload,156,True
+108688,drop,156,True
+108688,reorder_future_payload,156,True
+120471,payload,156,True
+120471,drop,156,True
+120471,reorder_future_payload,156,True
+138306,payload,156,True
+138306,drop,156,True
+138306,reorder_future_payload,156,True

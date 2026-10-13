@@ -1,0 +1,9 @@
+[
+  {
+    "section": "integrity",
+    "check": "all authoritative file hashes",
+    "passed": true,
+    "max_discrepancy": 0.0,
+    "detail": "696 checks"
+  }
+]
